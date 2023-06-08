@@ -5,6 +5,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown'
 import "./header.css"
 import {NavLink} from "react-router-dom"
+import HeroButton from "../heroButton/HeroButton";
 
 export default function Header() {
   return (
@@ -57,7 +58,7 @@ export default function Header() {
           </Nav>
           <Nav className="donate">
             <Nav.Link eventKey={2} href="#memes">
-              Donate
+              <HeroButton title="Contact Us" />
             </Nav.Link>
           </Nav>
         

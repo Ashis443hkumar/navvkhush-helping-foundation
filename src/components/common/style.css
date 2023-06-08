@@ -1,0 +1,12 @@
+.heroHeading h1{
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  font-size: 28px;
+  font-weight: 600;
+}
+.heroHeading p{
+  width: 80%;
+  margin: 0px auto;
+}

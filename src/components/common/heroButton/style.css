@@ -1,0 +1,13 @@
+.heroButton button{
+  padding: 10px 30px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  background-color: crimson;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+}
+.heroButton button:hover{
+  background-color: coral;
+}

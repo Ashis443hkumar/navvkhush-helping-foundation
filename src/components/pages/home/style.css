@@ -1,0 +1,63 @@
+.home_program{
+  background-color: #eeee
+}
+.home_program_left{
+  border-right: 1px solid  #000;
+}
+.rounded{
+  background-color: #ffff;
+  text-align: center;
+  padding: 20px 0%;
+}
+
+/* impact section */
+.our_reach{
+  border-left: 2px solid red;
+  padding-left: 10px;
+}
+.our_reach h3{
+  color: red;
+
+}
+.our_reach span{
+  font-size: 28px;
+  font-weight: 700;
+}
+.our_reach strong{
+  color: red;
+}
+/* our achiment  */
+.d_flex_centert{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.achive_content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+.achive_content h4{
+  font-size: 32px;
+  color: red;
+  font-weight: 800;
+}
+.since_date{
+  margin-right: 40px;
+}
+.since_desc{
+  border-left: 2px solid red;
+  padding-left: 15px;
+}
+.sine_right{
+  border-left: 2px solid red;
+  padding-left: 10px;
+}
+.sine_right h4{
+  font-size: 32px;
+  color: red;
+  font-weight: 800;
+}
+.icons img{
+}

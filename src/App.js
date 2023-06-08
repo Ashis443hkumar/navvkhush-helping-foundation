@@ -4,6 +4,8 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import Head from "./components/common/head/Head"
 import Header from "./components/common/header/Header"
 
+import Footer from "./components/common/footer/Footer"
+
 // pages section 
 import Home from "./components/pages/home/Home"
 import Introduction from "./components/pages/abouts/instroduction/Introduction"
@@ -23,10 +25,8 @@ export default function App() {
         <Route path="/introduction" element={<Abouts/>} />
         <Route path="/introduction" element={<Introduction/>} />
 
-        Abouts
-
       </Routes>
-      
+      <Footer/>
     </>
   );
 }
