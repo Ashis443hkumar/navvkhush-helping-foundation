@@ -1,0 +1,13 @@
+
+.social_icons ul{
+  display: flex;
+}
+.social_icons ul li{
+  margin-left: 15px;
+  list-style: none;
+}
+.social_icons ul li img{
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+}
