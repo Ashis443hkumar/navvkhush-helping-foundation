@@ -145,11 +145,11 @@ export default function Home() {
                  </Row>
                  <Row className="mt-3">
                    <Col lg={6} className="d_flex">
-                     <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/our-impact-5.png" className="w-100" alt=""/>
+                     <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/our-impact-7.png" className="w-100" alt=""/>
                        <p className="">58,000 children from 75 Govt. schools benefitted</p>
                    </Col>
                      <Col lg={6} className="d_flex">
-                     <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/our-impact-6.png" className="w-100" alt=""/>
+                     <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/our-impact-7.png" className="w-100" alt=""/>
                        <p className="">58,000 children from 75 Govt. schools benefitted</p>
                    </Col>
                  </Row>
