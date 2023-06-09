@@ -48,11 +48,11 @@
   margin-right: 40px;
 }
 .since_desc{
-  border-left: 2px solid red;
+  border-left: 1px solid #000;
   padding-left: 15px;
 }
 .sine_right{
-  border-left: 2px solid red;
+  border-left: 1px solid  #000;
   padding-left: 10px;
 }
 .sine_right h4{
@@ -61,4 +61,9 @@
   font-weight: 800;
 }
 .icons img{
+}
+.khefhfhj img{
+  width: 10px;
+  height: 50px;
+  object-fit: cover;
 }

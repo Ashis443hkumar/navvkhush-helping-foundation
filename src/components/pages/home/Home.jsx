@@ -11,8 +11,7 @@ import "./style.css"
 export default function Home() {
   return (
     <>
-   
-        <section className="">
+      <section className="">
         <Container className="">
         <Heading title="about Us" />
         <Row>
@@ -21,14 +20,14 @@ export default function Home() {
                 Lakshyam was founded in the year 2012 by a young social entrepreneur named Rashi Anand with a mission to enhance the lives of disadvantaged children and women, and to offer a positive direction and a healthier approach towards life. Our logo (a hand colored in 6 colors) & tagline ‘hands to heart’ symobolize with our thought that every helping hand can touch the heart and life of others. And this is what we are doing at Lakshyam, impacting the lives of the people who belong to the marginalized communities.</p>
           </Col>
         </Row>
-      </Container>
+       </Container>
       </section>
 
 
      <section className="home_program">
-        <Container className="mt-5">
+        <Container className="mt-3">
         <Heading title="OUR PROGRAMS"/>
-        <Row>
+        <Row className="mt-5">
           <Col xs={12} md={6} lg={6} className="home_program_left">
           <Row >
             <Col xs={12} md={6} lg={5} className="rounded" >
@@ -67,9 +66,9 @@ export default function Home() {
      <section class="home_impact">
       <Container>
         <Heading title="Our impact" />
-         <Row>
+         <Row className="mt-4">
            <Col xs={12} md={6} lg={6}>
-              <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/our-impact.png" alt="" />
+              <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/our-impact.png"  alt="" />
            </Col>
            <Col xs={12} md={6} lg={6}>
              <div className="our_reach">
@@ -82,7 +81,7 @@ export default function Home() {
                  <Col lg={7} className="achive_content" >
                  <div className="d_flex_start ">
                    <div className="mt-3">
-                     <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/our-impact-1.png" alt="" className="" />
+                     <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/our-impact-1.png" alt="" style={{width:"42px", height:"42px", marginRight:"12px"}} className="" />
                    </div>
                  <div className="d_flex_centert since_desc mx-4">
                    <div className="since_date">
@@ -90,7 +89,7 @@ export default function Home() {
                      <p>Since</p>
                    </div>
                    <div className="icons">
-                     <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/our-impact-2.png" alt="" className="" />
+                     <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/our-impact-2.png" alt="" style={{width:"42px", height:"42px", marginRight:"12px"}} className="" />
                    </div>
                   </div>
                  </div>
@@ -109,7 +108,7 @@ export default function Home() {
                  <Col lg={7} className="achive_content" >
                  <div className="d_flex_start ">
                    <div className="mt-3">
-                     <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/our-impact-3.png" alt="" className="" />
+                     <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/our-impact-3.png" alt="" style={{width:"42px", height:"42px", marginRight:"12px"}} className="" />
                    </div>
                  <div className="d_flex_centert since_desc mx-4">
                    <div className="since_date">
@@ -117,7 +116,7 @@ export default function Home() {
                      <p>Award Received</p>
                    </div>
                    <div className="icons">
-                     <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/our-impact-4.png" alt="" className="" />
+                     <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/our-impact-4.png" alt="" style={{width:"42px", height:"42px", marginRight:"12px"}} className="" />
                    </div>
                   </div>
                  </div>
@@ -132,55 +131,121 @@ export default function Home() {
                 </Col>  
                </Row>
              </div>
-             <div className="mt-4">
+             <div className="mt-5 pt-3 khefhfhj">
                  <Row>
                    <Col lg={6} className="d_flex ">
-                     <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/our-impact-5.png" className="w-100" alt=""/>
-                       <p className="">58,000 children from 75 Govt. schools benefitted</p>
+                      <Row style={{borderRight:"1px solid #000"}}>
+                        <Col lg={12} className="d_flex ">
+                          <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/our-impact-5.png" className="" style={{width:"42px", height:"42px", marginRight:"12px"}} alt=""/>
+                          <p className="">58,000 children from 75 Govt. schools benefitted h1</p>
+                      </Col>
+                      <Col lg={12} className="d_flex ">
+                          <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/our-impact-5.png" className="" style={{width:"42px", height:"42px", marginRight:"12px"}} alt=""/>
+                          <p className="">58,000 children from 75 Govt. schools benefitted h1</p>
+                      </Col>
+                      <Col lg={12} className="d_flex ">
+                          <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/our-impact-5.png" className="" style={{width:"42px", height:"42px", marginRight:"12px"}} alt=""/>
+                          <p className="">58,000 children from 75 Govt. schools benefitted h1</p>
+                      </Col>
+                      <Col lg={12} className="d_flex ">
+                          <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/our-impact-5.png" className="" style={{width:"42px", height:"42px", marginRight:"12px"}} alt=""/>
+                          <p className="">58,000 children from 75 Govt. schools benefitted h1</p>
+                      </Col>
+                      <Col lg={12} className="d_flex ">
+                          <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/our-impact-5.png" className="" style={{width:"42px", height:"42px", marginRight:"12px"}} alt=""/>
+                          <p className="">58,000 children from 75 Govt. schools benefitted h1</p>
+                      </Col>
+                      </Row>
                    </Col>
-                     <Col lg={6} className="d_flex">
-                     <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/our-impact-6.png" className="w-100" alt=""/>
-                       <p className="">58,000 children from 75 Govt. schools benefitted</p>
-                   </Col>
-                 </Row>
-                 <Row className="mt-3">
-                   <Col lg={6} className="d_flex">
-                     <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/our-impact-7.png" className="w-100" alt=""/>
-                       <p className="">58,000 children from 75 Govt. schools benefitted</p>
-                   </Col>
-                     <Col lg={6} className="d_flex">
-                     <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/our-impact-7.png" className="w-100" alt=""/>
-                       <p className="">58,000 children from 75 Govt. schools benefitted</p>
-                   </Col>
-                 </Row>
-                 <Row className="mt-3">
-                   <Col lg={6} className="d_flex">
-                     <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/our-impact-5.png" className="w-100" alt=""/>
-                       <p className="">58,000 children from 75 Govt. schools benefitted</p>
-                   </Col>
-                     <Col lg={6} className="d_flex">
-                     <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/our-impact-6.png" className="w-100" alt=""/>
-                       <p className="">58,000 children from 75 Govt. schools benefitted</p>
-                   </Col>
-                 </Row>
-                 <Row className="mt-3">
-                   <Col lg={6} className="d_flex">
-                     <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/our-impact-5.png" className="w-100" alt=""/>
-                       <p className="">58,000 children from 75 Govt. schools benefitted</p>
-                   </Col>
-                     <Col lg={6} className="d_flex">
-                     <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/our-impact-6.png" className="w-100" alt=""/>
-                       <p className="">58,000 children from 75 Govt. schools benefitted</p>
+
+                   <Col lg={6} className="d_flex ">
+                      <Row>
+                        <Col lg={12} className="d_flex ">
+                          <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/our-impact-5.png" className="" style={{width:"42px", height:"42px", marginRight:"12px"}} alt=""/>
+                          <p className="">58,000 children from 75 Govt. schools benefitted h1</p>
+                      </Col>
+                      <Col lg={12} className="d_flex ">
+                          <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/our-impact-5.png" className="" style={{width:"42px", height:"42px", marginRight:"12px"}} alt=""/>
+                          <p className="">58,000 children from 75 Govt. schools benefitted h1</p>
+                      </Col>
+                      <Col lg={12} className="d_flex ">
+                          <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/our-impact-5.png" className="" style={{width:"42px", height:"42px", marginRight:"12px"}} alt=""/>
+                          <p className="">58,000 children from 75 Govt. schools benefitted h1</p>
+                      </Col>
+                      <Col lg={12} className="d_flex ">
+                          <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/our-impact-5.png" className="" style={{width:"42px", height:"42px", marginRight:"12px"}} alt=""/>
+                          <p className="">58,000 children from 75 Govt. schools benefitted h1</p>
+                      </Col>
+                      <Col lg={12} className="d_flex ">
+                          <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/our-impact-5.png" className="" style={{width:"42px", height:"42px", marginRight:"12px"}} alt=""/>
+                          <p className="">58,000 children from 75 Govt. schools benefitted h1</p>
+                      </Col>
+                      </Row>
                    </Col>
                  </Row>
              </div>
+             <Row style={{borderTop:"1px solid #000"}}>
+               <Col md={6} lg={6}  className="d_flex pt-3" >
+                 <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/solar-girl.png" style={{width:"42px", height:"42px", marginRight:"12px"}} alt=""/>
+                 <p>2 Lakh benefitted through community development initiatives</p>
+               </Col>
+               <Col md={6} lg={6} className="d_flex pt-3" >
+                 <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/waster-converted.png" alt="" style={{width:"42px", height:"42px", marginRight:"12px"}} />
+                 <p>of waste converted into handicrafts 23,000 kg</p>
+               </Col>
+             </Row>
            </Col>
+           <Container>
+            
+           </Container>
          </Row>
       </Container>
 
        
      </section>
       
+
+     <section className="">
+       <Container style={{background:"#f9f9f9"}} className="mx-auto my-5 py-2" >
+         <Heading title="CONTRIBUTION TO SDG’S" />
+         <Row  className="mx-auto my-5 py-2">
+           <Col lg={2} md={3} sm={6} xs={12}>
+             <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/sdg-1.png" alt="" />
+           </Col>
+           <Col lg={2} md={3} sm={6} xs={12}>
+             <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/sdg-2.png" alt="" />
+           </Col>
+           <Col lg={2} md={3} sm={6} xs={12}>
+             <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/sdg-3.png" alt="" />
+           </Col>
+
+           <Col lg={2} md={3} sm={6} xs={12}>
+             <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/sdg-4.png" alt="" />
+           </Col>
+
+           <Col lg={2} md={3} sm={6} xs={12}>
+             <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/sdg-5.png" alt="" />
+           </Col>
+
+           <Col lg={2} md={3} sm={6} xs={12}>
+             <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/sdg-6.png" alt="" />
+           </Col>
+         </Row>
+       </Container>
+     </section>
+
+     <section className="">
+     <Container className="">
+       <Heading title="STORIES OF CHANGE"  />
+        <Row>
+          <Col xs={12} md={12} lg={12} className="">
+            <p>We are happy to introduce some of Lakshyam’s exceptionally brilliant and bright kids who have overcome tremendous adversities and are very close to our heart. We have many such successful warriors who have changed their fate with their sheer hardwork and determination. Their love for life inspires us to extend the best of resources to the</p>
+           
+          </Col>
+        </Row>
+      </Container>
+     </section>
+
     </>
   );
 }
