@@ -24,10 +24,15 @@ export default function Header() {
               
             <NavLink href="/">Home</NavLink>
 
-            <NavDropdown title="About Us" id="collasible-nav-dropdown" className="ml-4">
+            <NavDropdown title="abouts Us" id="collasible-nav-dropdown" className="ml-4">
               <NavDropdown.Item href="#action/3.1"><NavLink to="/introduction">Introduction</NavLink></NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2"> <NavLink to="">Mission&Vision </NavLink> </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3"> <NavLink to="">Aim & Objective </NavLink> </NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.2"><NavLink to="/mission">Mission&Vision </NavLink> </NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3"><NavLink to="/introduction">Aim & Objective </NavLink> </NavDropdown.Item>
+
+                 {/* <NavLink to="/abouts">Introduction</NavLink>
+                 <NavLink to="/mission">Mission&Vision </NavLink>
+                 <NavLink to="/introduction">Aim & Objective </NavLink> */}
+
             </NavDropdown>
 
             <NavDropdown title="Our Program" id="collasible-nav-dropdown">

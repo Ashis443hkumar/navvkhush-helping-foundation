@@ -1,9 +1,10 @@
 import React from "react";
+import {Outlet} from "react-router-dom"
 
 export default function Abouts() {
   return (
     <>
-        <h1>Introduction page</h1>
+        <Outlet/>
         
       
     </>
