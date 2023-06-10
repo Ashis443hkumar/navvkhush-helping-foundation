@@ -6,7 +6,6 @@ import Row from 'react-bootstrap/Row';
 import Image from 'react-bootstrap/Image';
 import "./head.css"
 
-
 export default function Demo(){
   return(
     <>

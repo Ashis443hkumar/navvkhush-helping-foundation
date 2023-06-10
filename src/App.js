@@ -11,10 +11,15 @@ import {Routes, Route} from "react-router-dom"
 
 // all pages section 
 import Home from "./components/pages/home/Home"
+
 import Abouts from "./components/pages/abouts/Abouts"
 // Dropdown menu
 import Mission from "./components/pages/abouts/Mission"
 import Introduction from "./components/pages/abouts/Introduction"
+
+// program 
+import Program from "./components/pages/programs/Program"
+import Butterfly from "./components/pages/programs/Butterfly"
 
 
 
@@ -30,6 +35,10 @@ export default function App() {
         <Route path="/mission" element={<Mission/>} />
         <Route path="/introduction" element={<Introduction/>} />
      </Route>
+
+      <Route path="/" element={<Program/>} >
+          <Route path="/butterfly" element={<Butterfly/>} />
+      </Route>
 
       </Routes>
       <Footer/>
