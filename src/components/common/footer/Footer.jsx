@@ -13,17 +13,20 @@ export default function Footer(){
     <section className="footer_section mt-3">
     <Container className="">
         <Row>
+          
         <Col xs={12} md={6} lg={5} className="footer_left">
           <h3>GET IN TOUCH WITH US</h3>
           <p>For donations / sponsorship queries / collaborations / others, please connect with us at support@lakshyam.co.in or you can also reach out to us at 011-40154493</p>
            <h3>TIME </h3>
            <p>9:30 AM to 5:30 PM</p>
         </Col>
+
           <Col xs={12} md={6} lg={4} className="footer_middle">
             <Image src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/shop-2.png"   />
           </Col>
 
           <Col xs={12} md={6} lg={3}  className="footer_right">
+            <h4>Follow Us</h4>
              <ul>
               <li><Link to="">Youtube<img src="https://cdn-icons-png.flaticon.com/128/4008/4008208.png" class="youtube" alt=""/></Link></li>
               <li><Link to="" >Linkedin<img src="https://cdn-icons-png.flaticon.com/128/3536/3536505.png" class="linkedin" alt="" /></Link></li>
