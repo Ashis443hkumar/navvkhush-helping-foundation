@@ -15,6 +15,7 @@ import "./style.css"
 export default function Home() {
   return (
     <>
+    {/* home About */}
       <section className="">
         <Container className="">
         <Heading title="about Us" />
@@ -27,6 +28,7 @@ export default function Home() {
        </Container>
       </section>
 
+      {/* OUR PROGRAMS */}
      <section className="home_program">
         <Container className="mt-3">
         <Heading title="OUR PROGRAMS"/>
@@ -56,22 +58,22 @@ export default function Home() {
               <p>Lakshyam’s Butterfly Program aims to provide comprehensive assistance to impoverished children through a learning program focusing on textual and practical knowledge as well as personality development.</p>
             </Col>
           </Row>
+          </Col>
 
-          </Col>
           <Col xs={12} md={6} lg={6}>
-          <Image src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/our-program-4.png" />
+             <Image src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/our-program-4.png" className="w-100" />
           </Col>
-         
         </Row>
       </Container>
      </section>
 
+     {/* Our impact */}
      <section class="home_impact">
       <Container>
         <Heading title="Our impact" />
          <Row className="mt-4">
            <Col xs={12} md={6} lg={6}>
-              <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/our-impact.png"  alt="" />
+              <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/our-impact.png" className="w-100"  alt="" />
            </Col>
            <Col xs={12} md={6} lg={6}>
              <div className="our_reach">
@@ -79,9 +81,10 @@ export default function Home() {
               <span> <strong >3</strong> Countries</span>
               <span> <strong>17</strong> States</span>
              </div>
+
            <div className="achive_since mt-4">
-             <Row className="mt-4 mx-3">
-                 <Col lg={7} className="achive_content" >
+             <Row className="mt-4 mx-3 sfdgfdgfd">
+                 <Col md={7} lg={7} className="achive_content" >
                  <div className="d_flex_start ">
                    <div className="mt-3">
                      <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/our-impact-1.png" alt="" style={{width:"42px", height:"42px", marginRight:"12px"}} className="" />
@@ -94,10 +97,10 @@ export default function Home() {
                    <div className="icons">
                      <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/our-impact-2.png" alt="" style={{width:"42px", height:"42px", marginRight:"12px"}} className="" />
                    </div>
-                  </div>
+                 </div>
                  </div>
                 </Col>
-                <Col lg={5} >
+                <Col md={5} lg={5} >
                  <div className="sine_right d-flex">
                    <div className="">
                      <h4>300000</h4>
@@ -203,42 +206,41 @@ export default function Home() {
            </Container>
          </Row>
       </Container>
-
-       
      </section>
       
-
+    {/* sdg section */}
      <section className="">
        <Container style={{background:"#f9f9f9"}} className="mx-auto my-5 py-2" >
          <Heading title="CONTRIBUTION TO SDG’S" />
          <Row  className="mx-auto my-5 py-2">
-           <Col lg={2} md={3} sm={6} xs={12}>
-             <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/sdg-1.png" alt="" />
+           <Col lg={2} md={4} sm={6} xs={12}>
+             <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/sdg-1.png" alt="" className="w-100" />
            </Col>
-           <Col lg={2} md={3} sm={6} xs={12}>
-             <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/sdg-2.png" alt="" />
+           <Col lg={2} md={4} sm={6} xs={12}>
+             <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/sdg-2.png" alt="" className="w-100" />
            </Col>
-           <Col lg={2} md={3} sm={6} xs={12}>
-             <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/sdg-3.png" alt="" />
-           </Col>
-
-           <Col lg={2} md={3} sm={6} xs={12}>
-             <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/sdg-4.png" alt="" />
+           <Col lg={2} md={4} sm={6} xs={12}>
+             <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/sdg-3.png" alt="" className="w-100" />
            </Col>
 
-           <Col lg={2} md={3} sm={6} xs={12}>
-             <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/sdg-5.png" alt="" />
+           <Col lg={2} md={4} sm={6} xs={12}>
+             <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/sdg-4.png" alt="" className="w-100" />
            </Col>
 
-           <Col lg={2} md={3} sm={6} xs={12}>
-             <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/sdg-6.png" alt="" />
+           <Col lg={2} md={4} sm={6} xs={12}>
+             <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/sdg-5.png" alt="" className="w-100" />
+           </Col>
+
+           <Col lg={2} md={4} sm={6} xs={12}>
+             <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/sdg-6.png" alt="" className="w-100" />
            </Col>
          </Row>
        </Container>
      </section>
 
+     {/* STORIES OF CHANGE */}
      <section className="home_stori_Chnage" >
-     <Container className="py-4">
+      <Container className="py-4">
        <Heading title="STORIES OF CHANGE"  />
         <Row>
           <Col xs={12} md={12} lg={12} className="">
@@ -269,8 +271,9 @@ export default function Home() {
       </Container>
      </section>
 
+     {/* home banner */}
      <section className="home_child_banner" >
-     <Container className="">
+      <Container className="">
         <Row style={{display:'flex', textAline:"center" }}>
           <Col xs={12} md={6} lg={8} className="">
              <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/girls.png" alt="" class="w-100" />
@@ -283,6 +286,7 @@ export default function Home() {
       </Container>
      </section>
 
+     {/* youtube video */}
      <section className="home_video_banner" >
       <Container className="">
         <Heading title="VIDEOS" />
@@ -307,6 +311,7 @@ export default function Home() {
       </Container>
      </section>
 
+     {/* SHOP FOR A CAUSE card */}
      <section className="home_card ">
       <Container className="">
         <Heading title="SHOP FOR A CAUSE" subtitle="Handmade Products by Women" />

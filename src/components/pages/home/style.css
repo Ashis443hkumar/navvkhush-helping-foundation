@@ -60,8 +60,7 @@
   color: red;
   font-weight: 800;
 }
-.icons img{
-}
+
 .khefhfhj img{
   width: 10px;
   height: 50px;
@@ -101,4 +100,23 @@
   width: 90%;
   height: 140px;
   margin: 10px auto;
+}
+/* home OUR IMPACT bomile size */
+@media(max-width:768px){
+  .our_reach{
+    margin-top: 12px;
+  }
+  .sfdgfdgfd{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: green;
+  }
+  .achive_content h4{
+    font-size: 12px;
+  }
+  .sine_right h4{
+    font-size: 12px;
+    margin-top: 20px;
+  }
 }
