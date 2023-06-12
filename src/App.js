@@ -12,6 +12,7 @@ import {Routes, Route} from "react-router-dom"
 // all pages section 
 import Home from "./components/pages/home/Home"
 
+// abouts pages
 import Abouts from "./components/pages/abouts/Abouts"
 // Dropdown menu
 import Mission from "./components/pages/abouts/Mission"
@@ -23,13 +24,25 @@ import SocialVenture from "./components/pages/abouts/SocialVenture"
 import NavvkhushTeam from "./components/pages/abouts/NavvkhushTeam"
 import AwardsRecognition from "./components/pages/abouts/AwardsRecognition"
 
-
-
-
-
 // program 
 import Program from "./components/pages/programs/Program"
+// Dropdown menu
 import Butterfly from "./components/pages/programs/Butterfly"
+import Rooh from "./components/pages/programs/Rooh"
+import Events from "./components/pages/programs/Events"
+import ToyLibrary from "./components/pages/programs/ToyLibrary"
+import SuccessStores from "./components/pages/programs/SuccessStores"
+
+
+
+
+// Celebrity % Meida
+import Celebrity from "./components/pages/celebrityMedia/Celebrity"
+// dropdown menu
+import Media from "./components/pages/celebrityMedia/Media"
+import CelebritySupport from "./components/pages/celebrityMedia/CelebritySupport"
+
+
 
 
 
@@ -52,9 +65,21 @@ export default function App() {
         <Route path="/awardsRecognition" element={<AwardsRecognition/>} />
      </Route>
 
-      <Route path="/" element={<Program/>} >
-          <Route path="/butterfly" element={<Butterfly/>} />
+
+     <Route path="/" element={<Program/>} >
+        <Route path="/butterfly" element={<Butterfly/>} />
+        <Route path="/rooh" element={<Rooh/>} />
+        <Route path="/events" element={<Events/>} />
+        <Route path="/toyLibrary" element={<ToyLibrary/>} />
+        <Route path="/successStores" element={<SuccessStores/>} />
+     </Route>  
+
+     <Route path="/" element={<Celebrity/>}>
+         <Route path="/media" element={<Media/>} />
+         <Route path="/celebritySuppor" element={<CelebritySupport/>} />
+        
       </Route>
+
 
       </Routes>
       <Footer/>

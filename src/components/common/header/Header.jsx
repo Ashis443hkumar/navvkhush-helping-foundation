@@ -21,6 +21,7 @@ export default function Header() {
             //  style={{ maxHeight: '500px' }}
             //  navbarScroll
             >
+
               
             <NavLink to="/">Home</NavLink>
 
@@ -33,33 +34,20 @@ export default function Header() {
               <NavDropdown.Item ><NavLink to="/socialVenture">Social Venture </NavLink> </NavDropdown.Item>
               <NavDropdown.Item ><NavLink to="/navvkhushTeam">NavvkhushTeam </NavLink> </NavDropdown.Item>
               <NavDropdown.Item ><NavLink to="/awardsRecognition">AwardsRecognition </NavLink> </NavDropdown.Item>
-
-
-
-
             </NavDropdown>
 
             <NavDropdown title="Our Program" id="collasible-nav-dropdown" className="ml-4">
-              <NavDropdown.Item ><NavLink to="/buttrfly">Buttrfly</NavLink></NavDropdown.Item>
-              <NavDropdown.Item ><NavLink to="/mission">Mission&Vision </NavLink> </NavDropdown.Item>
-              <NavDropdown.Item ><NavLink to="/aim">Aim & Objective </NavLink> </NavDropdown.Item>
+              <NavDropdown.Item ><NavLink to="/butterfly">BUTTERFLY</NavLink></NavDropdown.Item>
+              <NavDropdown.Item ><NavLink to="/toyLibrary">TOY LIBRARY</NavLink> </NavDropdown.Item>
+              <NavDropdown.Item ><NavLink to="/rooh">ROOH</NavLink></NavDropdown.Item>
+              <NavDropdown.Item ><NavLink to="/successStores">SUCCESS STORIES</NavLink> </NavDropdown.Item>
+              <NavDropdown.Item ><NavLink to="/events">EVENTS</NavLink></NavDropdown.Item>
+
             </NavDropdown>
 
-            {/* <NavDropdown title="Our Program" id="collasible-nav-dropdown">
-              <NavDropdown.Item > <NavLink to="/buttrfly">Butterfly</NavLink> </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2"> <NavLink to="">Another action</NavLink></NavDropdown.Item>
-            </NavDropdown> */}
-
             <NavDropdown title="Celebrity & Media" id="collasible-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                Another action
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">
-                Separated link
-              </NavDropdown.Item>
+              <NavDropdown.Item ><NavLink to="/celebritySuppor">Celebrity Support</NavLink></NavDropdown.Item>
+              <NavDropdown.Item ><NavLink to="/media">Media</NavLink> </NavDropdown.Item>
             </NavDropdown>
 
             <Nav.Link href="#pricing">joins</Nav.Link>
