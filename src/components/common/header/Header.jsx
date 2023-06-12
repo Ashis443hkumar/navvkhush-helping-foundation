@@ -22,29 +22,33 @@ export default function Header() {
             //  navbarScroll
             >
               
-            <NavLink href="/">Home</NavLink>
+            <NavLink to="/">Home</NavLink>
 
             <NavDropdown title="abouts Us" id="collasible-nav-dropdown" className="ml-4">
-              <NavDropdown.Item href="#action/3.1"><NavLink to="/introduction">Introduction</NavLink></NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2"><NavLink to="/mission">Mission&Vision </NavLink> </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3"><NavLink to="/introduction">Aim & Objective </NavLink> </NavDropdown.Item>
+              <NavDropdown.Item ><NavLink to="/introduction">Introduction</NavLink></NavDropdown.Item>
+              <NavDropdown.Item ><NavLink to="/mission">Mission&Vision </NavLink> </NavDropdown.Item>
+              <NavDropdown.Item ><NavLink to="/aim">Aim & Objective </NavLink> </NavDropdown.Item>
+              <NavDropdown.Item ><NavLink to="/legal">Legal Status</NavLink> </NavDropdown.Item>
+              <NavDropdown.Item ><NavLink to="/annual">Annual Reaports </NavLink> </NavDropdown.Item>
+              <NavDropdown.Item ><NavLink to="/socialVenture">Social Venture </NavLink> </NavDropdown.Item>
+              <NavDropdown.Item ><NavLink to="/navvkhushTeam">NavvkhushTeam </NavLink> </NavDropdown.Item>
+              <NavDropdown.Item ><NavLink to="/awardsRecognition">AwardsRecognition </NavLink> </NavDropdown.Item>
 
-                 {/* <NavLink to="/abouts">Introduction</NavLink>
-                 <NavLink to="/mission">Mission&Vision </NavLink>
-                 <NavLink to="/introduction">Aim & Objective </NavLink> */}
+
+
 
             </NavDropdown>
 
-            <NavDropdown title="Our Program" id="collasible-nav-dropdown">
-              <NavDropdown.Item href="#"> <NavLink to="/buttrfly">Butterfly</NavLink> </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2"> <NavLink to="">Another action</NavLink>
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">
-                Separated link
-              </NavDropdown.Item>
+            <NavDropdown title="Our Program" id="collasible-nav-dropdown" className="ml-4">
+              <NavDropdown.Item ><NavLink to="/buttrfly">Buttrfly</NavLink></NavDropdown.Item>
+              <NavDropdown.Item ><NavLink to="/mission">Mission&Vision </NavLink> </NavDropdown.Item>
+              <NavDropdown.Item ><NavLink to="/aim">Aim & Objective </NavLink> </NavDropdown.Item>
             </NavDropdown>
+
+            {/* <NavDropdown title="Our Program" id="collasible-nav-dropdown">
+              <NavDropdown.Item > <NavLink to="/buttrfly">Butterfly</NavLink> </NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.2"> <NavLink to="">Another action</NavLink></NavDropdown.Item>
+            </NavDropdown> */}
 
             <NavDropdown title="Celebrity & Media" id="collasible-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
