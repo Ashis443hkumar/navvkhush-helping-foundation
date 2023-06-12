@@ -11,6 +11,7 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
 import "./style.css"
+import Sdg from "./Sdg";
 
 export default function Home() {
   return (
@@ -186,36 +187,10 @@ export default function Home() {
          </Row>
       </Container>
      </section>
+
+     <Sdg/>
       
-    {/* sdg section */}
-     <section className="sdg_section">
-       <Container style={{background:"#f9f9f9"}} className="mx-auto my-5 py-2" >
-         <Heading title="CONTRIBUTION TO SDG’S" />
-         <Row  className="mx-auto my-5 py-2" >
-           <Col lg={2} md={4} sm={6} xs={12} className="sdg_section_space">
-             <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/sdg-1.png" alt="" className="w-100" />
-           </Col>
-           <Col lg={2} md={4} sm={6} xs={12} className="sdg_section_space">
-             <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/sdg-2.png" alt="" className="w-100" />
-           </Col>
-           <Col lg={2} md={4} sm={6} xs={12} className="sdg_section_space">
-             <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/sdg-3.png" alt="" className="w-100" />
-           </Col>
-
-           <Col lg={2} md={4} sm={6} xs={12} className="sdg_section_space">
-             <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/sdg-4.png" alt="" className="w-100" />
-           </Col>
-
-           <Col lg={2} md={4} sm={6} xs={12} className="sdg_section_space">
-             <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/sdg-5.png" alt="" className="w-100" />
-           </Col>
-
-           <Col lg={2} md={4} sm={6} xs={12} className="sdg_section_space">
-             <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/sdg-6.png" alt="" className="w-100" />
-           </Col>
-         </Row>
-       </Container>
-     </section>
+ 
 
      {/* STORIES OF CHANGE */}
      <section className="home_stori_Chnage" >

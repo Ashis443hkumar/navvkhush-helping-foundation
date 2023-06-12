@@ -33,18 +33,14 @@ import Events from "./components/pages/programs/Events"
 import ToyLibrary from "./components/pages/programs/ToyLibrary"
 import SuccessStores from "./components/pages/programs/SuccessStores"
 
-
-
-
 // Celebrity % Meida
 import Celebrity from "./components/pages/celebrityMedia/Celebrity"
 // dropdown menu
 import Media from "./components/pages/celebrityMedia/Media"
 import CelebritySupport from "./components/pages/celebrityMedia/CelebritySupport"
 
-
-
-
+// Joins
+import Joins from "./components/pages/Joins/Joins"
 
 export default function App() {
   return (
@@ -79,6 +75,9 @@ export default function App() {
          <Route path="/celebritySuppor" element={<CelebritySupport/>} />
         
       </Route>
+
+      <Route path="/joins" element={<Joins/>} />
+
 
 
       </Routes>

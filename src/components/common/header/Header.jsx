@@ -22,9 +22,10 @@ export default function Header() {
             //  navbarScroll
             >
 
-              
+             {/* home pages  */}
             <NavLink to="/">Home</NavLink>
 
+             {/* abouts pages */}
             <NavDropdown title="abouts Us" id="collasible-nav-dropdown" className="ml-4">
               <NavDropdown.Item ><NavLink to="/introduction">Introduction</NavLink></NavDropdown.Item>
               <NavDropdown.Item ><NavLink to="/mission">Mission&Vision </NavLink> </NavDropdown.Item>
@@ -35,22 +36,23 @@ export default function Header() {
               <NavDropdown.Item ><NavLink to="/navvkhushTeam">NavvkhushTeam </NavLink> </NavDropdown.Item>
               <NavDropdown.Item ><NavLink to="/awardsRecognition">AwardsRecognition </NavLink> </NavDropdown.Item>
             </NavDropdown>
-
+            
+             {/* Our programs  */}
             <NavDropdown title="Our Program" id="collasible-nav-dropdown" className="ml-4">
               <NavDropdown.Item ><NavLink to="/butterfly">BUTTERFLY</NavLink></NavDropdown.Item>
               <NavDropdown.Item ><NavLink to="/toyLibrary">TOY LIBRARY</NavLink> </NavDropdown.Item>
               <NavDropdown.Item ><NavLink to="/rooh">ROOH</NavLink></NavDropdown.Item>
               <NavDropdown.Item ><NavLink to="/successStores">SUCCESS STORIES</NavLink> </NavDropdown.Item>
               <NavDropdown.Item ><NavLink to="/events">EVENTS</NavLink></NavDropdown.Item>
-
             </NavDropdown>
 
+            {/* Celebrity & Media */}
             <NavDropdown title="Celebrity & Media" id="collasible-nav-dropdown">
               <NavDropdown.Item ><NavLink to="/celebritySuppor">Celebrity Support</NavLink></NavDropdown.Item>
-              <NavDropdown.Item ><NavLink to="/media">Media</NavLink> </NavDropdown.Item>
+              <NavDropdown.Item ><NavLink to="/media">Media</NavLink></NavDropdown.Item>
             </NavDropdown>
-
-            <Nav.Link href="#pricing">joins</Nav.Link>
+            {/* joins */}
+            <NavLink to="/joins">joins</NavLink>
 
           </Nav>
           <Nav className="donate">
