@@ -96,23 +96,24 @@ export default function CelebritySupport(){
        <Container className="celebrity_media">
          <Heading title="Media" />
         <Row className="mb-3 mx-auto text-center">
-          <Col xs={6} md={12} lg={12} className="text-center">
+          <Col xs={6} md={12} lg={12} className="">
           <Tabs
             defaultActiveKey="profile"
             id="uncontrolled-tab-example"
-            className="mb-3 mx-auto text-center"
+            className="mb-3 mx-auto text-center main_head_title"
+            justify
           >
-           <Tab eventKey="Print_Media" title="Print Media" className="text-center">
+           <Tab eventKey="Print Media" title="Print Media" className="text-center ">
               <Slide/>
-            </Tab>
+           </Tab>
 
-           <Tab eventKey="Online_Media" title="Online Media">
+           <Tab eventKey="Online_Media" title="Online Media" className="text-start mt-4  gtetry">
               <Tabs
                   defaultActiveKey="profile"
                   id="uncontrolled-tab-example"
-                  className="mb-3"
+                  className="mb-3 mt-4" justify
                 >
-                  <Tab eventKey="Lakshyam Story" title="Lakshyam Story">
+                  <Tab eventKey="Lakshyam Story" title="Lakshyam Story " className="thrtghrt">
                     <ul>
                       <li>A Catalyst for Change – Lakshyam and Ircon International Ltd’s Rooh Program Uplifts Women in Umri Village, Madhya Pradesh</li>
                       <li>Distribution of Solar Lamps & Ration Kits in collaboration with Binomo</li>
@@ -149,18 +150,12 @@ export default function CelebritySupport(){
                     </ul>
                   </Tab>
                   <Tab eventKey="Delhi Primes" title="Delhi Primes" >
-                  <ul>
-                      <li>How Rashi Anand is transforming the lives of street children and women with her NGO</li>
-                      <li>Lakshyam NGO has‌ ‌positively‌ ‌impacted‌ ‌the‌ ‌lives‌ ‌of‌ ‌more‌ ‌than‌ ‌7‌ lakh‌ women‌ ‌and ‌ ‌children‌ ‌in‌ ‌India,‌ ‌directly‌ ‌or‌ ‌indirectly</li>
-                      <li>Feel Good Factor August 09 2020</li>
-                      <li>From Educating Street Children To Creating Livelihood For Their Mothers, This Social Entrepreneur Is Transforming Lives</li>
-                      <li>This social entrepreneur stepped in to help destitute women and children during the coronavirus pandemic</li>
-                      <li>When Covid leads to aggression</li>
-                      <li>Rashi Anand: Helping children with her NGO</li>
-                      <li>Rashi Anand Recalls A Trafficked Woman’s Visit That Awoke An Activist In Her</li>
-                      <li>Celebrating National Girl Child Day With These 7 Girls Who Made Us Proud</li>
-
-                    </ul>
+                   <ul>
+                      <li>A Catalyst for Change – Lakshyam and Ircon International Ltd’s Rooh Program Uplifts Women in Umri Village, Madhya Pradesh</li>
+                      <li>Distribution of Solar Lamps & Ration Kits in collaboration with Binomo</li>
+                      <li>Lakshyam helping women change their lives by providing skilled based training & jobs</li>
+                      <li>Lakshyam NGO Uplifting at-risk communities through education and employment</li>
+                     </ul>
                   </Tab>
                   <Tab eventKey="Others" title="Others" >
                   <ul>
@@ -187,6 +182,10 @@ export default function CelebritySupport(){
         </Row>
       </Container>
       </section>
+
+     
+
+
 
     </>
   );
