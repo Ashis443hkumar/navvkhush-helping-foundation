@@ -250,7 +250,7 @@ export default function Home() {
      </section>
 
      {/*   youtube video     */}
-     <section className="home_video_banner slide_video" >
+     <section className="slide_video" >
         <Heading title="VIDEOS" />
          <Swiper  
             // install Swiper modules
@@ -331,16 +331,27 @@ export default function Home() {
         <p className="text-center my-4">VIEW ALL VIDEOS</p>
      </section>
 
-     {/* Sliding  */}
+     {/* Sliding ASSOCIATION AND PARTNERS */}
        <section className="sliding">
          <Heading title="ASSOCIATION AND PARTNERS" />
          <Sliding/>
-
        </section>
 
+     {/* Sliding AWARDS & RECOGNITION */}
+        <section className="sliding_RECOGNITION py-4">
+         <Heading title="AWARDS & RECOGNITION" />
+         <Sliding/>
+       </section>  
+
+       {/* Sliding FEATURED IN*/}
+        <section className="sliding_RECOGNITION py-4">
+         <Heading title="FEATURED IN" />
+         <Sliding/>
+       </section>  
+
      {/* SHOP FOR A CAUSE card */}
-     <section className="home_card">
-      <Container className="">
+     <section className="home_card mt-5 ">
+      <Container className="pt-4">
         <Heading title="SHOP FOR A CAUSE" subtitle="Handmade Products by Women" />
         <Row >
         <Col xs={12} md={3} lg={3} className="home_card_space">

@@ -9,6 +9,14 @@ import Tabs from 'react-bootstrap/Tabs';
 import Heading from "../../common/Heading";
 
 
+// Import Swiper styles
+import { Navigation, Scrollbar } from 'swiper';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+ 
+
 export default function Introduction() {
   return (
     <>
@@ -114,20 +122,18 @@ export default function Introduction() {
           </Container>
         </section>
 
-        <section className="">
+        {/* about section AWARDS & RECOGNITION */}
+         <section className="">
           <Container>
             <Heading title="AWARDS & RECOGNITION" />
             <Row>
-              <Col xs={12} md={12} lg={12}>
                 <Tabs
                   defaultActiveKey="2023"
                   transition={false}
                   id="noanim-tab-example"
                   className="mb-3 text-center"
                 >
-                {/* <Tab eventKey="2023" title="2023">
-                  Tab content for 2023
-                </Tab> */}
+              
                 <Tab eventKey="2022" title="2022">
                   Tab content for 2022
                   <div className="">
@@ -189,19 +195,59 @@ export default function Introduction() {
                       <li>Rising Star Champion Award, 2017 by ‘We are the City’ India & Barclays, for outstanding performance as a woman entrepreneur.</li>
                       <li>Rising Star Champion Award, 2017 by ‘We are the City’ India & Barclays, for outstanding performance as a woman entrepreneur.</li>
                       <li>Rising Star Champion Award, 2017 by ‘We are the City’ India & Barclays, for outstanding performance as a woman entrepreneur.</li>
-                      <li></li>
                     </ul>
                   </div>
                 </Tab>
               </Tabs>
 
-              </Col>
             </Row>
-          </Container>
+        
+       </Container>
+       <section className="slide_video" >
+            <Swiper  
+              // install Swiper modules
+            modules={[Navigation, Scrollbar]}
+            spaceBetween={30}
+            slidesPerView={3}
+            navigation
+            pagination={{ clickable: true }}
+            scrollbar={{ draggable: true }}
+            onSwiper={(swiper) => console.log(swiper)}
+            onSlideChange={() => console.log('slide change')}
+          >
+            <SwiperSlide>
+              <div className="slide_image">
+                <img src="https://media.licdn.com/dms/image/D4D22AQHRXtEn5pBZpg/feedshare-shrink_1280/0/1685684249868?e=1688601600&v=beta&t=-7e-oBFp2ubl9jAWutSHfCvIChcY94Ok2ljCYpc-l-k" alt=""  />
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="slide_image">
+                <img src="https://media.licdn.com/dms/image/D4D22AQHRXtEn5pBZpg/feedshare-shrink_1280/0/1685684249868?e=1688601600&v=beta&t=-7e-oBFp2ubl9jAWutSHfCvIChcY94Ok2ljCYpc-l-k" alt=""  />
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="slide_image">
+                <img src="https://media.licdn.com/dms/image/D4D22AQHRXtEn5pBZpg/feedshare-shrink_1280/0/1685684249868?e=1688601600&v=beta&t=-7e-oBFp2ubl9jAWutSHfCvIChcY94Ok2ljCYpc-l-k" alt=""  />
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="slide_image">
+                <img src="https://media.licdn.com/dms/image/D4D22AQHRXtEn5pBZpg/feedshare-shrink_1280/0/1685684249868?e=1688601600&v=beta&t=-7e-oBFp2ubl9jAWutSHfCvIChcY94Ok2ljCYpc-l-k" alt=""  />
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="slide_image">
+                <img src="https://media.licdn.com/dms/image/D4D22AQHRXtEn5pBZpg/feedshare-shrink_1280/0/1685684249868?e=1688601600&v=beta&t=-7e-oBFp2ubl9jAWutSHfCvIChcY94Ok2ljCYpc-l-k" alt=""  />
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="slide_image">
+                <img src="https://media.licdn.com/dms/image/D4D22AQHRXtEn5pBZpg/feedshare-shrink_1280/0/1685684249868?e=1688601600&v=beta&t=-7e-oBFp2ubl9jAWutSHfCvIChcY94Ok2ljCYpc-l-k" alt=""  />
+              </div>
+            </SwiperSlide>
+         </Swiper>
         </section>
-
-
-
+     </section>
 
         
       
