@@ -1,16 +1,17 @@
 import React from "react";
 // Import Swiper React components
-import { Swiper, SwiperSlide } from 'swiper/react';
 
 import 'swiper/css';
 import "./slide.css"
 
-import { Navigation, Scrollbar } from 'swiper';
+
 // Import Swiper styles
+import { Navigation, Scrollbar } from 'swiper';
+import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
-
+ 
 
 export default function Slide() {
   return (

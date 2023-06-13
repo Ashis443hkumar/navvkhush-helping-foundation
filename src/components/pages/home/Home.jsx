@@ -15,6 +15,14 @@ import Sdg from "./Sdg";
 import Slide from "../../common/slide/Slide";
 import Sliding from "./Sliding"
 
+// Import Swiper styles
+import { Navigation, Scrollbar } from 'swiper';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+ 
+
 export default function Home() {
   return (
     <>
@@ -241,30 +249,86 @@ export default function Home() {
       </Container>
      </section>
 
-     {/* youtube video */}
-     <section className="home_video_banner" >
-      <Container className="">
+     {/*   youtube video     */}
+     <section className="home_video_banner slide_video" >
         <Heading title="VIDEOS" />
-        
-        <Row >
-          <Col xs={12} md={4} lg={4} className="video_Gap">
-            <Ratio aspectRatio="16x9">
-              <embed type="image/svg+xml" src="https://www.youtube.com/embed/YFSl4MqzdrA?start=39" />
-            </Ratio>
-          </Col>
-          <Col xs={12} md={4} lg={4} className="video_Gap">
-            <Ratio aspectRatio="16x9">
-              <embed type="image/svg+xml" src="https://www.youtube.com/embed/YFSl4MqzdrA?start=39" />
-            </Ratio>
-          </Col>
-          <Col xs={12} md={4} lg={4} className="video_Gap">
-            <Ratio aspectRatio="16x9">
-              <embed type="image/svg+xml" src="https://www.youtube.com/embed/YFSl4MqzdrA?start=39" />
-            </Ratio>
-          </Col>
-          <p className="text-center my-4">VIEW ALL VIDEOS</p>
-        </Row>
-      </Container>
+         <Swiper  
+            // install Swiper modules
+          modules={[Navigation, Scrollbar]}
+          spaceBetween={30}
+          slidesPerView={3}
+          navigation
+          pagination={{ clickable: true }}
+          scrollbar={{ draggable: true }}
+          onSwiper={(swiper) => console.log(swiper)}
+          onSlideChange={() => console.log('slide change')}
+        >
+          <SwiperSlide>
+            <div className="slide_image">
+              <Ratio aspectRatio="16x9">
+                  <embed type="image/svg+xml" src="https://www.youtube.com/embed/YFSl4MqzdrA?start=39" />
+              </Ratio>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="slide_image">
+              <Ratio aspectRatio="16x9">
+                  <embed type="image/svg+xml" src="https://www.youtube.com/embed/YFSl4MqzdrA?start=39" />
+              </Ratio>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="slide_image">
+              <Ratio aspectRatio="16x9">
+                  <embed type="image/svg+xml" src="image/svg+xml" src="https://www.youtube.com/embed/YFSl4MqzdrA?start=39" />
+              </Ratio>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="slide_image">
+              <Ratio aspectRatio="16x9">
+                  <embed type="image/svg+xml" src="image/svg+xml" src="https://www.youtube.com/embed/YFSl4MqzdrA?start=39" />
+              </Ratio>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="slide_image">
+              <Ratio aspectRatio="16x9">
+                  <embed type="image/svg+xml" src="image/svg+xml" src="https://www.youtube.com/embed/YFSl4MqzdrA?start=39" />
+              </Ratio>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="slide_image">
+              <Ratio aspectRatio="16x9">
+                  <embed type="image/svg+xml" src="image/svg+xml" src="https://www.youtube.com/embed/YFSl4MqzdrA?start=39" />
+              </Ratio>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="slide_image">
+              <Ratio aspectRatio="16x9">
+                  <embed type="image/svg+xml" src="image/svg+xml" src="https://www.youtube.com/embed/YFSl4MqzdrA?start=39" />
+              </Ratio>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="slide_image">
+              <Ratio aspectRatio="16x9">
+                  <embed type="image/svg+xml" src="image/svg+xml" src="https://www.youtube.com/embed/YFSl4MqzdrA?start=39" />
+              </Ratio>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="slide_image">
+              <Ratio aspectRatio="16x9">
+                  <embed type="image/svg+xml" src="image/svg+xml" src="https://www.youtube.com/embed/YFSl4MqzdrA?start=39" />
+              </Ratio>
+            </div>
+          </SwiperSlide>
+    
+        </Swiper>
+        <p className="text-center my-4">VIEW ALL VIDEOS</p>
      </section>
 
      {/* Sliding  */}

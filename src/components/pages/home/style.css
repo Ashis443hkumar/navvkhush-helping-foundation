@@ -119,6 +119,11 @@
   font-size: 24px;
 }
 
+/* youtube video  */
+.slide_video p{
+  padding-bottom: -140px;
+}
+
 /* Sliding page */
 .sliding{
   padding: 40px 0%;
