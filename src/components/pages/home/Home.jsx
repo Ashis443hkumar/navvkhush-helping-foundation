@@ -31,7 +31,6 @@ export default function Home() {
        </Container>
       </section>
 
-      <Slide/>
 
       {/* OUR PROGRAMS */}
      <section className="home_program">
@@ -246,6 +245,7 @@ export default function Home() {
      <section className="home_video_banner" >
       <Container className="">
         <Heading title="VIDEOS" />
+        
         <Row >
           <Col xs={12} md={4} lg={4} className="video_Gap">
             <Ratio aspectRatio="16x9">
