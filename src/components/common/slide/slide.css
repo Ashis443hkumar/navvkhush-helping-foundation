@@ -1,0 +1,19 @@
+
+*{
+  padding: 0%;
+  margin: 0;
+  box-sizing: border-box;
+}
+.swiper{
+  margin: 30px 7%;
+}
+
+.swiper-slide{
+  background-color: crimson;
+  margin-bottom: -4px;
+}
+
+.slide_image img{
+  width: 100%;
+  height: 250px;
+}

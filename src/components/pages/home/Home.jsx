@@ -12,6 +12,7 @@ import Card from 'react-bootstrap/Card';
 
 import "./style.css"
 import Sdg from "./Sdg";
+import Slide from "../../common/slide/Slide";
 
 export default function Home() {
   return (
@@ -28,6 +29,8 @@ export default function Home() {
         </Row>
        </Container>
       </section>
+
+      <Slide/>
 
       {/* OUR PROGRAMS */}
      <section className="home_program">
