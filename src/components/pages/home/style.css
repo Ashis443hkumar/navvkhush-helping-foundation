@@ -119,7 +119,27 @@
   font-size: 24px;
 }
 
-/* card */
+/* Sliding page */
+.sliding{
+  padding: 40px 0%;
+  background-color: #eee;
+}
+.sliding .swiper{
+  margin: 40px  7%;;
+}
+.sliding .swiper-wrapper{
+  width: 100%;
+  height: 100%;
+}
+.sliding .slide_image img{
+  width: 100%;
+  height: 120px;
+  border: 1px solid #eee;
+  padding: 10px;
+}
+
+
+/* card section */
 .home_card{
   text-align: center;
 }
@@ -128,6 +148,7 @@
   height: 140px;
   margin: 10px auto;
 }
+
 /* home OUR IMPACT bomile size */
 @media(max-width:768px){
   .our_reach{

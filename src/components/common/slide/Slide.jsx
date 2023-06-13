@@ -14,7 +14,7 @@ import 'swiper/css/pagination';
 
 export default function Slide() {
   return (
-    <div>
+    <div className="slide">
       <Swiper  
         // install Swiper modules
       modules={[Navigation, Scrollbar]}

@@ -13,11 +13,12 @@ import Card from 'react-bootstrap/Card';
 import "./style.css"
 import Sdg from "./Sdg";
 import Slide from "../../common/slide/Slide";
+import Sliding from "./Sliding"
 
 export default function Home() {
   return (
     <>
-    {/* home About */}
+      {/* home About */}
       <section className="">
         <Container className="">
         <Heading title="about Us" />
@@ -192,8 +193,6 @@ export default function Home() {
      </section>
 
      <Sdg/>
-      
- 
 
      {/* STORIES OF CHANGE */}
      <section className="home_stori_Chnage" >
@@ -267,6 +266,13 @@ export default function Home() {
         </Row>
       </Container>
      </section>
+
+     {/* Sliding  */}
+       <section className="sliding">
+         <Heading title="ASSOCIATION AND PARTNERS" />
+         <Sliding/>
+
+       </section>
 
      {/* SHOP FOR A CAUSE card */}
      <section className="home_card">
