@@ -13,3 +13,10 @@
 Tabs{
   margin-left: 300px;
 }
+.volunteer_image{
+  width: 80%;
+  height: 100px;
+  object-fit: cover;
+  text-align: center;
+  margin: auto;
+}

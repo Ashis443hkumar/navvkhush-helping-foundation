@@ -1,3 +1,6 @@
+.heroHeading {
+  padding-top: 40px;
+}
 .heroHeading h1{
   text-transform: uppercase;
   text-align: center;
@@ -8,8 +11,7 @@
   color: #0a4158;
 }
 .heroHeading p{
-  width: 80%;
-  margin: 20px auto;
-  margin-top: -20px;
-  margin-bottom: 20px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  text-align: center;
 }

@@ -15,11 +15,14 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
+import Slide from "../../common/slide/Slide";
  
 
 export default function Introduction() {
   return (
     <>
+       
+
         <section className="pt-3">
           <Container>
             <Heading title="ABOUT US"/>
@@ -248,7 +251,48 @@ export default function Introduction() {
         </section>
        </section>
 
+       {/* SOCIAL VENTURES */}
+       <section className="">
+        <Container>
+         <Heading title="SOCIAL VENTURES" subtitle="Lakshyam has been striving to become self sustainable, we’ve launched two initiatives to support our vision. These programs have been initiated with a vision to create an empathizing society utilizing environmental friendly practices.Profits earned through these ventures will be utilized for the NGO’s activities:" />
+        <Row>
+         <Col xs={12} lg={6} md={6}>
+         <Card >
+          <Card.Img variant="top" className="volunteer_image" src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/travel.png" />
+          <Card.Body className="text-center">
+            <Card.Title>Travel Change</Card.Title>
+            <Card.Text>
+            Travel4change is a social enterprise offering a combination of volunteer programs and immersive travel packages benefiting you and the development of communities in need. Unlike normal travellers who have few opportunities to discover a culture during a stay abroad, our volunteers actively participate in a project and get highly involved. We believe that any traveller should be given the opportunity to explore the culture in-depth while creating a meaningful and sustainable impact on a local level. To know more about the organization, please ...Read More
+            </Card.Text>
+          </Card.Body>
+         </Card>  
+         </Col>
+         <Col xs={12} lg={6} md={6}>
+         <Card  className="text-center" >
+          <Card.Img  className="volunteer_image"  variant="top" src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/travel.png"  />
+          <Card.Body className="text-center">
+            <Card.Title>Travel Change</Card.Title>
+            <Card.Text>
+            Travel4change is a social enterprise offering a combination of volunteer programs and immersive travel packages benefiting you and the development of communities in need. Unlike normal travellers who have few opportunities to discover a culture during a stay abroad, our volunteers actively participate in a project and get highly involved. We believe that any traveller should be given the opportunity to explore the culture in-depth while creating a meaningful and sustainable impact on a local level. To know more about the organization, please ...Read More
+            </Card.Text>
+          </Card.Body>
+         </Card>  
+         </Col>
         
+        </Row>
+       </Container>
+      </section>
+
+      {/* ANNUAL REPORTS */}
+       <section className="">
+        <Container>
+         <Heading title="ANNUAL REPORTS" subtitle="Below are the annual reports which depict the main activities and work accomplished by Lakshyam till date." />
+        <Row>
+          <Slide/>   
+        </Row>
+       </Container>
+      </section>
+
         
       
     </>
