@@ -50,7 +50,7 @@ export default function App() {
     <>
       <Head/>
       <Header/>
-      <Contact/>
+      {/* <Contact/> */}
       <Routes>
         <Route path="/" element={<Home/>} />
 

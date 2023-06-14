@@ -27,7 +27,7 @@ export default function Home() {
   return (
     <>
       {/* home About */}
-      <section className="">
+      <section className="home_about">
         <Container className="">
         <Heading title="about Us" />
         <Row>
@@ -39,10 +39,9 @@ export default function Home() {
        </Container>
       </section>
 
-
       {/* OUR PROGRAMS */}
      <section className="home_program">
-        <Container className="mt-3">
+        <Container className="">
         <Heading title="OUR PROGRAMS"/>
         <Row className="mt-5">
           <Col xs={12} md={8} lg={6} className="home_program_left">
@@ -80,14 +79,14 @@ export default function Home() {
      </section>
 
      {/* Our impact */}
-     <section class="home_impact">
+     <section class="home_impact py-4">
       <Container>
         <Heading title="Our impact" />
          <Row className="mt-4">
            <Col xs={12} md={6} lg={6}>
               <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/our-impact.png" className="w-100"  alt="" />
            </Col>
-           <Col xs={12} md={6} lg={6}>
+           <Col xs={12} md={6} lg={5}>
              <div className="our_reach">
               <h4>Our Reach</h4>
               <span> <strong >3</strong> Countries</span>
@@ -129,7 +128,7 @@ export default function Home() {
              </article>
 
              <div className="mt-5 pt-3 khefhfhj">
-                 <Row>
+                 <Row className="">
                    <Col xs={12} md={6} lg={6} className="d_flex  boder_right_desc">
                       <Row  className="border_bottom">
                         <Col lg={12} className="d_flex ">
@@ -148,19 +147,11 @@ export default function Home() {
                           <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/our-impact-5.png" className="" style={{width:"42px", height:"42px", marginRight:"12px"}} alt=""/>
                           <p className="">58,000 children from 75 Govt. schools benefitted h1</p>
                       </Col>
-                      <Col lg={12} className="d_flex ">
-                          <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/our-impact-5.png" className="" style={{width:"42px", height:"42px", marginRight:"12px"}} alt=""/>
-                          <p className="">58,000 children from 75 Govt. schools benefitted h1</p>
-                      </Col>
                       </Row>
                    </Col>
 
-                   <Col xs={12} md={6} lg={6} className="d_flex ">
-                      <Row>
-                        <Col lg={12} className="d_flex ">
-                          <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/our-impact-5.png" className="" style={{width:"42px", height:"42px", marginRight:"12px"}} alt=""/>
-                          <p className="">58,000 children from 75 Govt. schools benefitted h1</p>
-                      </Col>
+                   <Col xs={12} md={6} lg={6} className="d_flex boder_right_desc border_left_impact">
+                      <Row className="border_bottom">
                       <Col lg={12} className="d_flex ">
                           <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/our-impact-5.png" className="" style={{width:"42px", height:"42px", marginRight:"12px"}} alt=""/>
                           <p className="">58,000 children from 75 Govt. schools benefitted h1</p>
