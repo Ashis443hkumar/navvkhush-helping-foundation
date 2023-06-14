@@ -353,7 +353,7 @@ export default function Home() {
             <Card.Text>
               <p>Some quick example text to build on the Doll Pencils and make up the bulk of the card's content..</p>
             </Card.Text>
-            <Button variant="primary">Go somewhere</Button>
+            <p>Price: Rs689</p>
           </Card.Body>
          </Card>
          </Col>
@@ -366,7 +366,7 @@ export default function Home() {
               Some quick example text to build on the Doll Pencils and make up the
               bulk of the card's content.
             </Card.Text>
-            <Button variant="primary">Go somewhere</Button>
+            <p>Price: Rs689</p>
           </Card.Body>
          </Card>
          </Col>
@@ -380,7 +380,7 @@ export default function Home() {
               Some quick example text to build on the card title and make up the
               bulk of the card's content.
             </Card.Text>
-            <Button variant="primary">Go somewhere</Button>
+            <p>Price: Rs689</p>
           </Card.Body>
          </Card>
          </Col>
@@ -394,7 +394,7 @@ export default function Home() {
               Some quick example text to build on the card title and make up the
               bulk of the card's content.
             </Card.Text>
-            <Button variant="primary">Go somewhere</Button>
+            <p>Price: Rs689</p>
           </Card.Body>
          </Card>
          </Col>

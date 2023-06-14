@@ -20,10 +20,10 @@ import 'swiper/css/pagination';
 export default function Introduction() {
   return (
     <>
-        <section className="">
+        <section className="pt-3">
           <Container>
             <Heading title="ABOUT US"/>
-            <Row>
+            <Row  className="py-4">
                <Col lg={12} className="">
                  <p>Lakshyam was founded in the year 2012 by a young social entrepreneur who further brought a group of like minded people together to contribute towards the betterment of society with focus on child education, holistic child development and women empowerment. We started this journey with a dream of creating a world where every child is showered with love, given opportunities for having a bright future, no child’s innocence is marred by the horrors of child labour, and a world where women’s well being is paid attention to and they’re empowered to sustain themselves and their family.</p>
                  <p>In India 35.2% of people living in Urban Areas reside in slums that are overpopulated, have lack of adequate water supply, sanitation, and security. Children of these slum dwellers often do not get access to basic education and instead have to start working to support their families. The statistics and the problem is the same in both rural or urban India.</p>
@@ -123,7 +123,7 @@ export default function Introduction() {
         </section>
 
         {/* about section AWARDS & RECOGNITION */}
-         <section className="">
+       <section className="">
           <Container>
             <Heading title="AWARDS & RECOGNITION" />
             <Row>
@@ -132,8 +132,8 @@ export default function Introduction() {
                   transition={false}
                   id="noanim-tab-example"
                   className="mb-3 text-center"
+                  justify
                 >
-              
                 <Tab eventKey="2022" title="2022">
                   Tab content for 2022
                   <div className="">
@@ -201,9 +201,8 @@ export default function Introduction() {
               </Tabs>
 
             </Row>
-        
-       </Container>
-       <section className="slide_video" >
+        </Container>
+        <section className="slide_video" >
             <Swiper  
               // install Swiper modules
             modules={[Navigation, Scrollbar]}
@@ -247,8 +246,9 @@ export default function Introduction() {
             </SwiperSlide>
          </Swiper>
         </section>
-     </section>
+       </section>
 
+        
         
       
     </>

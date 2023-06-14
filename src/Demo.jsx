@@ -10,7 +10,16 @@ import "./head.css"
 export default function Demo(){
   return(
     <>
-      <section className="head_section">
+     <section className="head_section">
+       <Container>
+        <Row>
+         <Col xs={12} lg={6} md={6}> </Col>
+         <Col xs={12} lg={6} md={6}> </Col>
+        </Row>
+       </Container>
+      </section>
+
+     <section className="head_section">
       <Container className="">
         <Row>
           <Col xs={6} md={6} lg={6} className="">
@@ -29,7 +38,7 @@ export default function Demo(){
          <Col xs={12} lg={6} md={6}> </Col>
        </Row>
       </Container>
-
+ 
       </section>
     </>
   )
