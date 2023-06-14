@@ -3,15 +3,22 @@
   border: none;
   outline: none
 }
+.card_listname .heroHeading p{
+  width: 100%;
+  padding-top: 20px;
+}
+
 .card_listname .card_body-content{
   background-color: salmon;
 }
 
-/* media section */
+/* celebrity media section */
 
+.celebrity_media ul{
+  border: none;
+  outline: none;
 
-/* .celebrity_media .gtetry .thrtghrt ul li */
-
+}
 .main_head_title {
   font-size: 28px;
   margin-top: 30px;
@@ -40,3 +47,36 @@
 }
 
 
+/* media  */
+.tabs_section{
+  background-color: crimson;
+}
+.tabs_section p{
+  color: #ffff;
+}
+.tabs_section ul{
+  border: none;
+}
+.tabs_section ul li{
+  color: red;
+  font-size: 33px;
+  border: none;
+  outline: none;
+}
+.tabs_section ul li:hover{
+  display: block;
+  border: none;
+  outline: none;
+  /* padding: 10px; */
+
+}
+.tabs_section ul li a.active{
+  background: none;
+}
+
+#fill-tab-example ul li:hover{
+  color: yellow;
+  border: none;
+  outline: none;
+
+}

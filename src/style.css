@@ -8,6 +8,7 @@
 }
 .d_flex{
   display: flex;
+  text-align: center;
 }
 .d_sbetween{
   display: flex;
