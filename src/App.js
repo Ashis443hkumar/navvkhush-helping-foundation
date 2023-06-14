@@ -42,11 +42,15 @@ import CelebritySupport from "./components/pages/celebrityMedia/CelebritySupport
 // Joins
 import Joins from "./components/pages/Joins/Joins"
 
+import Contact from "./components/pages/contact/Contact"
+
+
 export default function App() {
   return (
     <>
       <Head/>
       <Header/>
+      <Contact/>
       <Routes>
         <Route path="/" element={<Home/>} />
 

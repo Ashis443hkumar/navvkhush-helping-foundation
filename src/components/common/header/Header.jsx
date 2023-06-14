@@ -4,12 +4,16 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown'
 import "./header.css"
-import {NavLink} from "react-router-dom"
+import {NavLink, Link} from "react-router-dom"
 import HeroButton from "../heroButton/HeroButton";
+
+// import Contact from "./components/pages/contact/Contact"
 
 export default function Header() {
   return (
     <>
+    {/* <Contact/> */}
+    
       <Navbar collapseOnSelect expand="lg" variant="light" style={{background:"#b2bec3"}} className="header" >
       <Container>
         <Navbar.Brand href="#home"></Navbar.Brand>
@@ -51,14 +55,15 @@ export default function Header() {
               <NavDropdown.Item ><NavLink to="/celebritySuppor">Celebrity Support</NavLink></NavDropdown.Item>
               <NavDropdown.Item ><NavLink to="/media">Media</NavLink></NavDropdown.Item>
             </NavDropdown>
-            {/* joins */}
-            <NavLink to="/joins">joins</NavLink>
 
+            {/* joins */}
+            <NavLink to="/joins">Join Us</NavLink>
           </Nav>
+
           <Nav className="donate">
-            <Nav.Link eventKey={2} href="#memes">
+            <Link to="/contact/Contact" eventKey={2}>
               <HeroButton title="Contact Us" />
-            </Nav.Link>
+            </Link>
           </Nav>
         
         </Navbar.Collapse>

@@ -1,0 +1,28 @@
+.join_background{
+  background-color: aliceblue;
+}
+.card_button button{
+  background-color: #ff5c3e;
+  padding: 10px 30px;
+  color: #fff;
+}
+.card_button button:hover{
+  background-color: #ff5c3e;
+}
+/* join_program */
+.join_program{
+  background-color: #eeee;
+}
+/* .join_requrement */
+.join_requrement h3{
+  padding: 40px 0;
+}
+.join_requrement ul li{
+  list-style: none;
+  margin-left: -30px;
+  font-size: 18px
+}
+/* join_contributtion */
+.join_contributtion h4{
+  font-size: 20px;
+}

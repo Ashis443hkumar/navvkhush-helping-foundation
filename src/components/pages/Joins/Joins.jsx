@@ -5,6 +5,10 @@ import Row from 'react-bootstrap/Row';
 import Image from 'react-bootstrap/Image';
 import Heading from "../../common/Heading";
 import Card from 'react-bootstrap/Card';
+import "./style.css"
+
+import Button from 'react-bootstrap/Button';
+import Slide from "../../common/slide/Slide";
 
 export default function Joins() {
   return (
@@ -14,7 +18,7 @@ export default function Joins() {
    <section className="joins_section ">
       <Container className="join_background">
         <Heading title="WHY VOLUNTEER / INTERN WITH LAKSHYAM" />
-       <Row>
+       <Row className="py-5">
          <Col xs={12} lg={6} md={6}>
           <p>Volunteering is such a simple, effecting and rewarding way to work for a cause that you care about. Below are some of the reasons suggesting why should volunteer/ intern with us.</p>
            <ul>
@@ -35,7 +39,7 @@ export default function Joins() {
       </Container>
       </section>
 
-      <section className="joins_section py-4">
+     <section className="joins_section py-4">
        <Container>
         <Heading title="VOLUNTEER / INTERN"  />
         <p>Lakshyam has introduced a volunteering & internship program in India which gives an opportunity for those who want to give back to society to join our team. We promise a holistic experience during the tenure of your association which includes interaction with the beneficiaries.</p>
@@ -122,19 +126,108 @@ export default function Joins() {
           </Card.Body>
          </Card>
          </Col>
-
-     
-      
+    
        </Row>
+      </Col>
+     </Row>
+       <div className="card_button text-center ">
+         <Button className="text-center" variant="">Applay Now </Button>
+       </div>
+       </Container>
+      </section>
+   
+  {/* PROGRAM REQUIREMENTS */}
+   <section className="join_program">
+     <Container>
+       <Heading title="PROGRAM REQUIREMENTS" />
+       <Row className="py-5">
+         <Col xs={12} lg={12} md={12}>
+           <ul>
+             <li>Those above 16 y/o can apply for the Volunteering & internship programs .</li>
+             <li>To apply for an internship, minimum tenure is 1 month wherein interns work for 6 days a week and 7 hours a day.</li>
+             <li>To apply for volunteering, minimum tenure of commitment is three months wherein volunteers work for about 2-4 hours a day.</li>
+             <li>You should have an authorized photo ID.</li>
+             <li>Willingness to work in an environment having unfavorable living conditions and unhealthy surroundings.</li>
+             <li>We will be analyzing your documents for a background check</li>
+
+           </ul>
          </Col>
-      
        </Row>
       </Container>
+   </section>
 
-      </section>
+   {/* FOR JOB AND OTHER QUERIES */}
+   <section className="join_requrement">
+     <Container>
+       <Row className="py-5">
+         <Col xs={12} lg={6} md={6}>
+           <h3>FOR JOB AND OTHER QUERIES</h3>
+           <ul>
+             <li>To apply for a full time job, internship or volunteering, please fill the form by clicking on Applay Now </li>
+             <li>For any other queries, email us at support@lakshyam.co.in</li>
+           </ul>
+         </Col>
+         <Col xs={12} lg={6} md={6}>
+           <h3>CORPORATE VOLUNTEER PROGRAMS</h3>
+           <ul>
+             <li>You can help us in tasks related to marketing, promotions, fund raising, financial analysis, tie ups, etc. </li>
+           </ul>
+         </Col>
+
+       </Row>
+      </Container>
+   </section>
+
+   {/* WHAT OUR INTERNS HAVE TO SAY */}
+   <section className="join_requrement">
+     <Container>
+       <Heading title="WHAT OUR INTERNS HAVE TO SAY" />
+       <Row className="">
+         <Slide/>
+       </Row>
+      </Container>
+   </section>
 
 
-    
+   {/* OTHER WAYS OF CONTRIBUTION */}
+   <section className="join_contributtion">
+     <Container>
+       <Heading title="OTHER WAYS OF CONTRIBUTION" />
+       <Row className="">
+         <Col xs={12} md={12} lg={12} >
+            <h4>Payroll Contribution:</h4>
+            <p>Donate a part of your salary/earnings for the cause</p>
+         </Col>
+         <Col xs={12} md={12} lg={12} >
+            <h4>Leverage Grant/Project Sponsorships:</h4>
+            <p>Sponsor a Child, Skill Building Workshop, Lakshyam Toy Library</p>
+         </Col>
+         <Col xs={12} md={12} lg={12} >
+            <h4>Kind Donations/Charity/Philanthropy:</h4>
+            <p>Donate materials like food, clothes, toys, books, newspapers, waste paper, computers for Lakshyam projects</p>
+         </Col>
+         <Col xs={12} md={12} lg={12} >
+            <h4>Consumer’s Participation:</h4>
+            <p>Donate a part of your salary/earnings for the cause</p>
+         </Col>
+         <Col xs={12} md={12} lg={12} >
+            <h4>Payroll Contribution:</h4>
+            <p>Place bulk orders to purchase handmade products</p>
+            <p>Recommend Lakshyam for product’s sale at exhibitions and stalls</p>
+
+         </Col>
+       </Row>
+      </Container>
+    </section>
+
+    <section className="join_volunteer my-5">
+     <Container>
+       <Heading title="VOLUNTEER AT WORK" />
+       <Row className="">
+         <Slide/>
+       </Row>
+      </Container>
+   </section>
       
     </>
   );
