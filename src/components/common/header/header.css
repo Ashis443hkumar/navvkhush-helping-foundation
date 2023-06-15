@@ -1,10 +1,48 @@
-/* 
-#responsive-navbar-nav{
-  position: absolute;
-  right: 20%;
+
+.navigation{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navigation .home{
+  margin-right: 15px;
+  font-size: 15px;
+}
+.navigation a{
+  margin-left: 20px;
+  text-decoration: none;
+  color: black;
+  font-size: 17px;
+  text-transform: uppercase;
 }
 
-.donate{
-  margin-left: 50px;
-  
-} */
+.navigation a.active,
+.navigation a:hover{
+  color: red;
+}
+.navigation .dropdown_menu li{
+  padding: 30px;
+}
+
+.navigation .dropdown_menu a{
+  margin-left: 0px;
+  font-size: 14px;
+  padding-top: -20px;
+  padding-bottom: -20px;
+}
+
+.navigation .dropdown_menu a:hover{
+  background: none;
+}
+
+@media (max-width:1000px){
+.navigation{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.navigation #collasible-nav-dropdown{
+  margin-right: 0px;
+  margin-left: 20px;
+}
+}
