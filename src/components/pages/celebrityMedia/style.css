@@ -9,15 +9,15 @@
 }
 
 .card_listname .card_body-content{
-  background-color: salmon;
+  background-color: #f8a5c2;
 }
+
 
 /* celebrity media section */
 
 .celebrity_media ul{
   border: none;
   outline: none;
-
 }
 .main_head_title {
   font-size: 28px;
@@ -27,6 +27,10 @@
   border-bottom: 1px solid black;
 
 }
+.main_head_title:hover{
+  background: none;
+}
+
 .main_head_title ul li a{
   color: red;
 }
@@ -47,7 +51,7 @@
 }
 
 
-/* media  */
+/* media pages */
 .tabs_section{
   background-color: crimson;
 }
@@ -67,8 +71,6 @@
   display: block;
   border: none;
   outline: none;
-  /* padding: 10px; */
-
 }
 .tabs_section ul li a.active{
   background: none;
@@ -79,4 +81,56 @@
   border: none;
   outline: none;
 
+}
+
+
+
+/* .celebrity_media  */
+
+@media(max-width:768px){
+
+.main_head_title {
+  font-size: 18px;
+  margin-top: 30px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid black;
+}
+.celebrity_media .gtetry ul li{
+  font-size: 14px;
+}
+
+
+}
+@media(max-width:500px){
+  .main_head_title {
+    font-size: 19px;
+    display: flex;
+    flex-direction: column;
+  }
+ 
+  .gtetry{
+
+  }
+  .gtetry ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+  }
+  .gtetry ul li{
+    font-size: 22px;
+  }
+.celebrity_media .gtetry ul li{
+  font-size: 18px;
+  border: none;
+  outline: none;
+  padding: 0%;
+}
+.celebrity_media .gtetry ul:hover{
+  border: none;
+  outline: none;
+  padding: 0%;
+}
 }

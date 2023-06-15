@@ -14,14 +14,14 @@ export default function CelebritySupport(){
   return (
      <>
 
-        <section className="card_listname mt-5 ">
+        <section className="card_listname  ">
           <Container>
             <Heading  title="CELEBRITY SUPPORT" subtitle="We thank all the wonderful celebrities and leaders who have associated with Lakshyam by participating in our events, workshops and even donated with their heart and might. We are happy to have been associated with some prominent personalities in different fields of work.
             There is no way we would have come this far without them." />
             <Row className="mt-5 pt-4">
               <Col xs={12} md={10} lg={9}  className="mx-auto g-0 ">
                 <Row className="d-flex g-0 ">
-                <Col xs={12} md={6} lg={4}>
+                <Col xs={12} md={4} lg={4}>
               <Card >
               <Card.Header className="text-center">CELEBRITY</Card.Header>
               <Card.Body className="card_body-content">
@@ -48,7 +48,7 @@ export default function CelebritySupport(){
               </Card>
               </Col>
 
-              <Col xs={12} md={6} lg={4}>
+              <Col xs={12} md={4} lg={4}>
               <Card >
               <Card.Header className="text-center">LEADERS OF INDIA</Card.Header>
               <Card.Body className="card_body-content">
@@ -62,7 +62,7 @@ export default function CelebritySupport(){
               </Card>
               </Col>
 
-              <Col xs={12} md={6} lg={4}>
+              <Col xs={12} md={4} lg={4}>
               <Card >
               <Card.Header className="text-center">DESIGNERS</Card.Header>
               <Card.Body className="card_body-content">
@@ -103,17 +103,19 @@ export default function CelebritySupport(){
        <Container>
         <Heading title="Media" />
         <Row className="mb-3 mx-auto text-center">
-          <Col xs={6} md={12} lg={12} className="">
+          <Col xs={12} md={12} lg={12} className="tabs">
           <Tabs
             defaultActiveKey="profile"
             id="uncontrolled-tab-example"
             className="mb-3 mx-auto text-center main_head_title"
             justify
           >
+            {/* tab1 */}
            <Tab eventKey="Print Media" title="Print Media" className="text-center ">
               <Slide/>
            </Tab>
 
+              {/* tabs2 */}
            <Tab eventKey="Online_Media" title="Online Media" className="text-start mt-4  gtetry">
               <Tabs
                   defaultActiveKey="profile"
@@ -180,6 +182,7 @@ export default function CelebritySupport(){
                 </Tabs>
             </Tab>
 
+              {/* tabs3 */}
             <Tab eventKey="Electronic Media" title="Electronic Media" className="">
               <Slide/>
             </Tab>

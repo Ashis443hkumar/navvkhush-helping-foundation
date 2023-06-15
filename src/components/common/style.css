@@ -4,16 +4,14 @@
 .heroHeading h1{
   text-transform: uppercase;
   text-align: center;
-  padding-bottom: 30px;
-  padding-top: 20px;
   font-size: 26px;
   font-weight: 800;
+  margin-bottom: 20px;
   color: #0a4158;
 }
 .heroHeading p{
-  margin-top: 10px;
-  margin-bottom: 40px;
   text-align: center;
+  padding-bottom: 10px;
 }
 /* donateButton */
 

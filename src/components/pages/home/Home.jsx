@@ -29,13 +29,9 @@ export default function Home() {
       {/* home About */}
       <section className="home_about">
         <Container className="">
-        <Heading title="about Us" />
-        <Row>
-          <Col xs={12} md={12} lg={12}>
-            <p>‘Lakshyam’ is derived from the word ‘Lakshya’ in Hindi Language which means ‘Goal’ in English.
-                Lakshyam was founded in the year 2012 by a young social entrepreneur named Rashi Anand with a mission to enhance the lives of disadvantaged children and women, and to offer a positive direction and a healthier approach towards life. Our logo (a hand colored in 6 colors) & tagline ‘hands to heart’ symobolize with our thought that every helping hand can touch the heart and life of others. And this is what we are doing at Lakshyam, impacting the lives of the people who belong to the marginalized communities.</p>
-          </Col>
-        </Row>
+        <Heading title="about Us" subtitle="Lakshyam’ is derived from the word ‘Lakshya’ in Hindi Language which means ‘Goal’ in English.
+              
+                Lakshyam was founded in the year 2012 by a young social entrepreneur named Rashi Anand with a mission to enhance the lives of disadvantaged children and women, and to offer a positive direction and a healthier approach towards life. Our logo (a hand colored in 6 colors) & tagline ‘hands to heart’ symobolize with our thought that every helping hand can touch the heart and life of others. And this is what we are doing at Lakshyam, impacting the lives of the people who belong to the marginalized communities" />
        </Container>
       </section>
 
@@ -43,7 +39,7 @@ export default function Home() {
      <section className="home_program">
         <Container className="">
         <Heading title="OUR PROGRAMS"/>
-        <Row className="mt-5">
+        <Row className="">
           <Col xs={12} md={8} lg={6} className="home_program_left">
           <Row >
             <Col xs={12} md={6} lg={5} className="rounded" >
@@ -82,7 +78,7 @@ export default function Home() {
      <section class="home_impact py-4">
       <Container>
         <Heading title="Our impact" />
-         <Row className="mt-4">
+         <Row className="">
            <Col xs={12} md={6} lg={6}>
               <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/our-impact.png" className="w-100"  alt="" />
            </Col>
