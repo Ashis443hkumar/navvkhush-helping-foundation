@@ -18,8 +18,9 @@
 .footer_right {
   text-align: end;
 }
-.footer_right h3{
-  text-align: center;
+.footer_right .follow-title{
+  text-align: start;
+  padding-left: 50px;
 }
 
 .footer_right ul li{
@@ -38,6 +39,11 @@
   height: 30px;
   object-fit: cover;
   margin-left: 30px;
+}
+@media (max-width:769px){
+.footer_right{
+  text-align: center;
+}
 }
 
 

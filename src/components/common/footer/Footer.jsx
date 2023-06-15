@@ -26,7 +26,7 @@ export default function Footer(){
           </Col>
 
           <Col xs={12} md={6} lg={3}  className="footer_right">
-            <h4>Follow Us</h4>
+            <h4 className="follow-title" >Follow Us</h4>
              <ul>
               <li><Link to="">Youtube<img src="https://cdn-icons-png.flaticon.com/128/4008/4008208.png" class="youtube" alt=""/></Link></li>
               <li><Link to="" >Linkedin<img src="https://cdn-icons-png.flaticon.com/128/3536/3536505.png" class="linkedin" alt="" /></Link></li>
