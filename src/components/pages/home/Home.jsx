@@ -9,6 +9,7 @@ import Ratio from 'react-bootstrap/Ratio';
 import Carousel from 'react-bootstrap/Carousel';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import {NavLink, Link} from "react-router-dom"
 
 import "./style.css"
 import Sdg from "./Sdg";
@@ -21,7 +22,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
- 
+
 
 export default function Home() {
   return (
@@ -29,9 +30,10 @@ export default function Home() {
       {/* home About */}
       <section className="home_about">
         <Container className="">
-        <Heading title="about Us" subtitle="Lakshyam’ is derived from the word ‘Lakshya’ in Hindi Language which means ‘Goal’ in English.
+        <Heading title="about Us" subtitle="" />
+        <p>Lakshyam’ is derived from the word ‘Lakshya’ in Hindi Language which means ‘Goal’ in English. <br/>
               
-                Lakshyam was founded in the year 2012 by a young social entrepreneur named Rashi Anand with a mission to enhance the lives of disadvantaged children and women, and to offer a positive direction and a healthier approach towards life. Our logo (a hand colored in 6 colors) & tagline ‘hands to heart’ symobolize with our thought that every helping hand can touch the heart and life of others. And this is what we are doing at Lakshyam, impacting the lives of the people who belong to the marginalized communities" />
+              Lakshyam was founded in the year 2012 by a young social entrepreneur named Rashi Anand with a mission to enhance the lives of disadvantaged children and women, and to offer a positive direction and a healthier approach towards life. Our logo (a hand colored in 6 colors) & tagline ‘hands to heart’ symobolize with our thought that every helping hand can touch the heart and life of others. And this is what we are doing at Lakshyam, impacting the lives of the people who belong to the marginalized communities <Link to="./introduction" className="home_read_more" >....Read More</Link> </p>
        </Container>
       </section>
 
@@ -46,7 +48,7 @@ export default function Home() {
                <Image src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/prg-3-1-1.png"  />
             </Col>
             <Col xs={12} md={6} lg={7}>
-              <p>Lakshyam’s Butterfly Program aims to provide comprehensive assistance to impoverished children through a learning program focusing on textual and practical knowledge as well as personality development.</p>
+              <p>Lakshyam’s Butterfly Program aims to provide comprehensive assistance to impoverished children through a learning program focusing on textual and practical knowledge as well as personality development. <Link to="./introduction" className="home_read_more" >...Read More</Link>  </p>
             </Col>
           </Row>
           <Row className="mt-4">
@@ -54,7 +56,7 @@ export default function Home() {
                <Image src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/toy-1.png"  />
             </Col>
             <Col xs={12} md={6} lg={7}>
-              <p>Lakshyam’s Butterfly Program aims to provide comprehensive assistance to impoverished children through a learning program focusing on textual and practical knowledge as well as personality development.</p>
+              <p>Lakshyam’s Butterfly Program aims to provide comprehensive assistance to impoverished children through a learning program focusing on textual and practical knowledge as well as personality development. <Link to="./introduction" className="home_read_more" >...Read More</Link>  </p>
             </Col>
           </Row>
           <Row className="mt-4">
@@ -62,7 +64,7 @@ export default function Home() {
               <Image src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/rooh-1.png"  />
             </Col>
             <Col xs={12} md={6} lg={7}>
-              <p>Lakshyam’s Butterfly Program aims to provide comprehensive assistance to impoverished children through a learning program focusing on textual and practical knowledge as well as personality development.</p>
+              <p>Lakshyam’s Butterfly Program aims to provide comprehensive assistance to impoverished children through a learning program focusing on textual and practical knowledge as well as personality development. <Link to="./introduction" className="home_read_more" >...Read More</Link> </p>
             </Col>
           </Row>
           </Col>

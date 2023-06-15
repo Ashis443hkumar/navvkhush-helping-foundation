@@ -20,14 +20,24 @@
   bottom: 40%;
   right: -5%;
   position: fixed;
-
+  margin: 0%;
 }
 .donateButton button{
   transform: rotate(90deg);
   padding: 10px 40px;
   background-color: #ff5c3e;
+  margin: 0%;
 }
 .donateButton button:hover{
   background-color: #ff5c3e;
 
 }
+
+/* @media (min-width:768px){
+  .donateButton{
+    top: 50%;
+    bottom: 40%;
+    right: -5%;
+    position: fixed;
+  }
+} */

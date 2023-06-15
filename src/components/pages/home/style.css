@@ -1,13 +1,22 @@
 .home_about{
   padding: 10px 0;
 }
+.home_read_more{
+  color: red;
+  text-decoration: none;
+  font-size: 19px;
+}
 
 /* .home_program  */
 .home_program{
   background-color: #eeee;
   padding: 0px 0%;
 }
-
+.home_program .rounded{
+  border: 1px solid #000;
+  padding: 10px;
+  
+}
 .home_program_left{
   border-right: 1px solid  #000;
 }

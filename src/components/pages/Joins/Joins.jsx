@@ -13,7 +13,14 @@ import Slide from "../../common/slide/Slide";
 export default function Joins() {
   return (
     <>
-    <Heading title="THE LAKSHYAM FAMILY" subtitle="Lakshyam believes there is no dearth of good intentions and helping hands. We are always eager and excited to welcome passionate and dedicated volunteers to our budding team. If you have an urge to do something nice for the society and have any kind of skills or knowledge that can be taken into use, Lakshyam might just be the place for you to do it." />
+
+      <section className="py-4">
+       <Container>
+       <Heading title="THE LAKSHYAM FAMILY" subtitle="Lakshyam believes there is no dearth of good intentions and helping hands. We are always eager and excited to welcome passionate and dedicated volunteers to our budding team. If you have an urge to do something nice for the society and have any kind of skills or knowledge that can be taken into use, Lakshyam might just be the place for you to do it." />
+       </Container>
+      </section>
+
+   
 
    <section className="joins_section ">
       <Container className="join_background">
