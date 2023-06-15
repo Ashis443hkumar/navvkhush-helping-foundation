@@ -5,6 +5,8 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import Head from "./components/common/head/Head"
 import Header from "./components/common/header/Header"
 import Footer from "./components/common/footer/Footer"
+import DonateButton from "./components/common/DonateButton"
+
 
 // route file import
 import {Routes, Route} from "react-router-dom"
@@ -42,7 +44,6 @@ import CelebritySupport from "./components/pages/celebrityMedia/CelebritySupport
 // Joins
 import Joins from "./components/pages/Joins/Joins"
 
-import Contact from "./components/pages/contact/Contact"
 
 
 export default function App() {
@@ -50,7 +51,7 @@ export default function App() {
     <>
       <Head/>
       <Header/>
-      {/* <Contact/> */}
+      <DonateButton/>
       <Routes>
         <Route path="/" element={<Home/>} />
 
