@@ -45,7 +45,7 @@ export default function Footer(){
     <section className="tfooter">
     <Container className="">
         <Row>
-          <Col xs={12} md={6} lg={6} className="">
+          <Col xs={12} md={6} lg={6} className="footer_left">
             <h3>Contact Us | Privacy Policy</h3>
           
           </Col>
