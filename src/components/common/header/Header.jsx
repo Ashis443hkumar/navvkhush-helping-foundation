@@ -67,7 +67,7 @@ export default function Header() {
           </Nav>
 
           <Nav className="donate">
-            <Link to="/contact/Contact" eventKey={2}>
+            <Link to="/contact/contact" eventKey={2}>
               <HeroButton title="Contact Us" />
             </Link>
           </Nav>
