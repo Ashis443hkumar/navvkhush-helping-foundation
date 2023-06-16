@@ -4,11 +4,17 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown'
 import "./header.css"
-import {NavLink, Link} from "react-router-dom"
+import {NavLink,useNavigate, Link} from "react-router-dom"
 import HeroButton from "../heroButton/HeroButton";
+
+import {NavLink,useNavigate, Link} from "react-router-dom"
 
 
 export default function Header() {
+
+   const navigate = useNavigate()
+
+
   return (
     <>
     
@@ -66,10 +72,8 @@ export default function Header() {
             <NavLink to="/Joins">Join Us</NavLink>
           </Nav>
 
-          <Nav className="donate">
-            <Link to="/contact/contact" eventKey={2}>
+          <Nav className="donate" onClick={() =>navigate("./contact")}>
               <HeroButton title="Contact Us" />
-            </Link>
           </Nav>
         
         </Navbar.Collapse>

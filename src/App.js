@@ -43,7 +43,7 @@ import CelebritySupport from "./components/pages/celebrityMedia/CelebritySupport
 
 // Joins
 import Joins from "./components/pages/Joins/Joins"
-
+import Contact from "./components/pages/contact/Contact"
 
 
 export default function App() {
@@ -82,6 +82,9 @@ export default function App() {
       </Route>
 
       <Route path="/joins" element={<Joins/>} />
+      <Route path="/contact" element={<Contact/>} />
+      <Route path="/donateButton" element={<DonateButton/>} />
+
 
 
 
