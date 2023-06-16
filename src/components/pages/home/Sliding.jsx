@@ -1,10 +1,10 @@
 import React from "react";
 // Import Swiper React components
-import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation, Scrollbar, Autoplay } from 'swiper';
+import { Swiper, SwiperSlide, Autoplay } from 'swiper/react';
 
 import 'swiper/css';
 
-import { Navigation, Scrollbar } from 'swiper';
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -15,11 +15,33 @@ export default function Slide() {
     <>
     <div>
       <Swiper  
-        // install Swiper modules
-      modules={[Navigation, Scrollbar]}
+      // install Swiper modules
+      modules={[Navigation, Scrollbar, Autoplay]}
       spaceBetween={20}
       slidesPerView={5}
       navigation
+      autoplay={{
+        delay: 2500,
+        disableOnInteraction: false,
+      }}
+      breakpoints={{
+        "@0.00": {
+          slidesPerView: 1,
+          spaceBetween: 10,
+        },
+        "@0.75": {
+          slidesPerView: 2,
+          spaceBetween: 20,
+        },
+        "@1.00": {
+          slidesPerView: 3,
+          spaceBetween: 40,
+        },
+        "@1.50": {
+          slidesPerView: 5,
+          spaceBetween: 50,
+        },
+      }}
       pagination={{ clickable: true }}
       scrollbar={{ draggable: true }}
       onSwiper={(swiper) => console.log(swiper)}

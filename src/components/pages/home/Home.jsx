@@ -26,7 +26,8 @@ import 'swiper/css/pagination';
 
 export default function Home() {
   return (
-    <>
+     <>
+       <Slide/>
       {/* home About */}
       <section className="home_about">
         <Container className="">

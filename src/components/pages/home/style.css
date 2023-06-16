@@ -207,14 +207,11 @@
   .icons{
     display: none;
   }
-
   .boder_right_desc{
     border-bottom: 1px solid black;
     border-right: none;
     margin-bottom: 10px;
-
   }
-
 }
 
 /* sdg's section  */
