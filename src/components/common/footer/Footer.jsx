@@ -23,6 +23,11 @@ export default function Footer(){
 
           <Col xs={12} md={4} lg={4} className="footer_middle">
             <Image src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/shop-2.png"   />
+            <div className="footer_scroll">
+             <img src="https://scontent.fdel24-1.fna.fbcdn.net/v/t39.30808-6/349849717_5661928917241475_7074863927270693829_n.jpg?stp=dst-jpg_p235x350&_nc_cat=110&ccb=1-7&_nc_sid=110474&_nc_ohc=z0ZLwKPuM3EAX9EKhZy&_nc_ht=scontent.fdel24-1.fna&edm=AEDRbFQEAAAA&oh=00_AfBFWZG3Ra9BSMvk9wdb6vqp8xTrwpVWE4MVNc3g1LBprA&oe=649199DD" />
+             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse quisquam nostrum natus iste asperiores neque laudantium quo tenetur itaque voluptas.</p>
+
+            </div>
           </Col>
 
           <Col xs={12} md={4} lg={3}  className="footer_right">
@@ -31,14 +36,12 @@ export default function Footer(){
               <li><Link to="">Youtube<img src="https://cdn-icons-png.flaticon.com/128/4008/4008208.png" class="youtube" alt=""/></Link></li>
               <li><Link to="" >Linkedin<img src="https://cdn-icons-png.flaticon.com/128/3536/3536505.png" class="linkedin" alt="" /></Link></li>
               <li><Link to="" >Instagram<img src="https://cdn-icons-png.flaticon.com/128/2111/2111463.png" class="instagram" alt=""/></Link></li>
-              <li><Link to="" >Facebook <img src="https://cdn-icons-png.flaticon.com/128/733/733547.png" class="facebook" alt=""/></Link></li>
+              <li><Link to="" >Facebook<img src="https://cdn-icons-png.flaticon.com/128/733/733547.png" class="facebook" alt=""/></Link></li>
               <li><Link to="" >Twitter<img src="https://cdn-icons-png.flaticon.com/128/3256/3256013.png" class="facebook" alt=""/></Link></li>
             </ul>
           </Col>
-          
         </Row>
       </Container>
-
     </section>
 
 

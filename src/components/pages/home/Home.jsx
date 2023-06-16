@@ -17,8 +17,8 @@ import Slide from "../../common/slide/Slide";
 import Sliding from "./Sliding"
 
 // Import Swiper styles
-import { Navigation, Scrollbar } from 'swiper';
-import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation, Scrollbar, Autoplay } from 'swiper';
+import { Swiper, SwiperSlide, Autoplay } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
@@ -27,7 +27,6 @@ import 'swiper/css/pagination';
 export default function Home() {
   return (
      <>
-       <Slide/>
       {/* home About */}
       <section className="home_about">
         <Container className="">
@@ -244,10 +243,32 @@ export default function Home() {
         <Heading title="VIDEOS" />
          <Swiper  
             // install Swiper modules
-          modules={[Navigation, Scrollbar]}
+          modules={[Navigation, Scrollbar, Autoplay]}
           spaceBetween={30}
           slidesPerView={3}
           navigation
+          autoplay={{
+            delay: 2500,
+            disableOnInteraction: false,
+          }}
+          breakpoints={{
+            "@0.00": {
+              slidesPerView: 1,
+              spaceBetween: 10,
+            },
+            "@0.75": {
+              slidesPerView: 2,
+              spaceBetween: 20,
+            },
+            "@1.00": {
+              slidesPerView: 3,
+              spaceBetween: 40,
+            },
+            "@1.50": {
+              slidesPerView: 3,
+              spaceBetween: 50,
+            },
+          }}
           pagination={{ clickable: true }}
           scrollbar={{ draggable: true }}
           onSwiper={(swiper) => console.log(swiper)}
