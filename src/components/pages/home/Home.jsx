@@ -70,7 +70,7 @@ export default function Home() {
           </Col>
 
           <Col xs={12} md={4} lg={6}>
-             <Image src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/our-program-4.png" />
+             <Image src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/our-program-4.png" className="w-100" />
           </Col>
         </Row>
       </Container>

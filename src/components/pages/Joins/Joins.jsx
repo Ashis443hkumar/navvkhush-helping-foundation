@@ -39,7 +39,7 @@ export default function Joins() {
            </ul>
          </Col>
          <Col xs={12} lg={6} md={6}>
-         <Image src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/intern-pic.png" rounded  />
+         <Image src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/intern-pic.png" className="w-100" rounded  />
               
          </Col>
        </Row>

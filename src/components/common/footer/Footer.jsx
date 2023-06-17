@@ -17,12 +17,13 @@ export default function Footer(){
         <Col xs={12} md={4} lg={5} className="footer_left">
           <h3>GET IN TOUCH WITH US</h3>
           <p>For donations / sponsorship queries / collaborations / others, please connect with us at support@lakshyam.co.in or you can also reach out to us at 011-40154493</p>
-           <h3>TIME </h3>
+           <h3 className="time">Office Time  </h3>
            <p>9:30 AM to 5:30 PM</p>
+           <p className="office_day">Monday To  Saturday</p>
         </Col>
 
          <Col xs={12} md={4} lg={4} className="footer_middle">
-            <Image src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/shop-2.png"   />
+            <Image src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/girls.png"   />
             <div className="footer_scroll">
              <img src="https://scontent.fdel24-1.fna.fbcdn.net/v/t39.30808-6/349849717_5661928917241475_7074863927270693829_n.jpg?stp=dst-jpg_p235x350&_nc_cat=110&ccb=1-7&_nc_sid=110474&_nc_ohc=z0ZLwKPuM3EAX9EKhZy&_nc_ht=scontent.fdel24-1.fna&edm=AEDRbFQEAAAA&oh=00_AfBFWZG3Ra9BSMvk9wdb6vqp8xTrwpVWE4MVNc3g1LBprA&oe=649199DD" />
              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse quisquam nostrum natus iste asperiores neque laudantium quo tenetur itaque voluptas.</p>
