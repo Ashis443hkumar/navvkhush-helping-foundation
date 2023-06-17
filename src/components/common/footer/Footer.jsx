@@ -5,6 +5,7 @@ import Row from 'react-bootstrap/Row';
 import Image from 'react-bootstrap/Image';
 import "./footer.css"
 import Socialicons from "../socialIcons/SocialIcons";
+
 import { Link } from "react-router-dom";
 
 export default function Footer(){
@@ -13,7 +14,6 @@ export default function Footer(){
     <section className="footer_section mt-3">
     <Container className="">
         <Row>
-          
         <Col xs={12} md={4} lg={5} className="footer_left">
           <h3>GET IN TOUCH WITH US</h3>
           <p>For donations / sponsorship queries / collaborations / others, please connect with us at support@lakshyam.co.in or you can also reach out to us at 011-40154493</p>
@@ -21,23 +21,22 @@ export default function Footer(){
            <p>9:30 AM to 5:30 PM</p>
         </Col>
 
-          <Col xs={12} md={4} lg={4} className="footer_middle">
+         <Col xs={12} md={4} lg={4} className="footer_middle">
             <Image src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/shop-2.png"   />
             <div className="footer_scroll">
              <img src="https://scontent.fdel24-1.fna.fbcdn.net/v/t39.30808-6/349849717_5661928917241475_7074863927270693829_n.jpg?stp=dst-jpg_p235x350&_nc_cat=110&ccb=1-7&_nc_sid=110474&_nc_ohc=z0ZLwKPuM3EAX9EKhZy&_nc_ht=scontent.fdel24-1.fna&edm=AEDRbFQEAAAA&oh=00_AfBFWZG3Ra9BSMvk9wdb6vqp8xTrwpVWE4MVNc3g1LBprA&oe=649199DD" />
              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse quisquam nostrum natus iste asperiores neque laudantium quo tenetur itaque voluptas.</p>
-
             </div>
           </Col>
 
           <Col xs={12} md={4} lg={3}  className="footer_right">
             <h4 className="follow-title" >Follow Us</h4>
              <ul>
-              <li><Link to="">Youtube<img src="https://cdn-icons-png.flaticon.com/128/4008/4008208.png" class="youtube" alt=""/></Link></li>
-              <li><Link to="" >Linkedin<img src="https://cdn-icons-png.flaticon.com/128/3536/3536505.png" class="linkedin" alt="" /></Link></li>
-              <li><Link to="" >Instagram<img src="https://cdn-icons-png.flaticon.com/128/2111/2111463.png" class="instagram" alt=""/></Link></li>
-              <li><Link to="" >Facebook<img src="https://cdn-icons-png.flaticon.com/128/733/733547.png" class="facebook" alt=""/></Link></li>
-              <li><Link to="" >Twitter<img src="https://cdn-icons-png.flaticon.com/128/3256/3256013.png" class="facebook" alt=""/></Link></li>
+              <li><Link to="https://www.youtube.com/@Navvkhushbharat" target="_blank" >Youtube<img src="https://cdn-icons-png.flaticon.com/128/4008/4008208.png" class="youtube" alt=""/></Link></li>
+              <li><Link target="_blank" to="https://www.linkedin.com/in/navv-khush-bharat-crime-control-and-social-development-organisation-54a979260" >Linkedin<img src="https://cdn-icons-png.flaticon.com/128/3536/3536505.png" class="linkedin" alt="" /></Link></li>
+              <li><Link target="_blank" to="https://instagram.com/navvkhushbharat.ccsdo?igshid=NGExMmI2YTkyZg==" >Instagram<img src="https://cdn-icons-png.flaticon.com/128/2111/2111463.png" class="instagram" alt=""/></Link></li>
+              <li><Link target="_blank" to="https://www.facebook.com/navvkhushbharat?mibextid=ZbWKwL" >Facebook<img src="https://cdn-icons-png.flaticon.com/128/733/733547.png" class="facebook" alt=""/></Link></li>
+              <li><Link target="_blank" to="" >Twitter<img src="https://cdn-icons-png.flaticon.com/128/3256/3256013.png" class="twitter" alt=""/></Link></li>
             </ul>
           </Col>
         </Row>

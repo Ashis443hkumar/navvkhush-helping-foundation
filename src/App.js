@@ -1,6 +1,7 @@
 import React from "react";
 import "./style.css";
 import 'bootstrap/dist/css/bootstrap.min.css'
+
 // common pages
 import Head from "./components/common/head/Head"
 import Header from "./components/common/header/Header"
@@ -44,6 +45,8 @@ import CelebritySupport from "./components/pages/celebrityMedia/CelebritySupport
 // Joins
 import Joins from "./components/pages/Joins/Joins"
 import Contact from "./components/pages/contact/Contact"
+import Donate from "./components/pages/donate/Donate"
+
 
 
 export default function App() {
@@ -52,7 +55,9 @@ export default function App() {
       <Head/>
       <Header/>
       <DonateButton/>
+
       <Routes>
+
         <Route path="/" element={<Home/>} />
 
       <Route path="/" element={<Abouts/>}>
@@ -83,7 +88,7 @@ export default function App() {
 
       <Route path="/joins" element={<Joins/>} />
       <Route path="/contact" element={<Contact/>} />
-      <Route path="/donateButton" element={<DonateButton/>} />
+      <Route path="/donate" element={<Donate/>} />
 
 
 

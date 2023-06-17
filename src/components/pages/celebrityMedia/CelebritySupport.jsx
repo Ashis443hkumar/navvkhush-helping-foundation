@@ -13,7 +13,6 @@ import Tabs from 'react-bootstrap/Tabs'
 export default function CelebritySupport(){
   return (
      <>
-
         <section className="card_listname  ">
           <Container>
             <Heading  title="CELEBRITY SUPPORT" subtitle="We thank all the wonderful celebrities and leaders who have associated with Lakshyam by participating in our events, workshops and even donated with their heart and might. We are happy to have been associated with some prominent personalities in different fields of work.

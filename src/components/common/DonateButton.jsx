@@ -1,7 +1,6 @@
 import React,{useState} from "react";
 import Button from 'react-bootstrap/Button';
 import { Link , useNavigate} from "react-router-dom";
-import Donate from "./Donate";
 import HeroButton from "./heroButton/HeroButton";
 
 
@@ -14,11 +13,8 @@ export default function DonateButton() {
 
   return (
     <>
-    <Donate/>
-
-      <div className="donateButton" onClick={() =>navigate("./contact")} >
+      <div className="donateButton" onClick={() =>navigate("./donate")} >
           <HeroButton  title="Donate Now" />
-
       </div>
      
    

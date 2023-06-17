@@ -75,6 +75,7 @@ export default function Header() {
           <Nav className="donate" onClick={() =>navigate("./contact")}>
               <HeroButton title="Contact Us" />
           </Nav>
+
         
         </Navbar.Collapse>
       </Container>
