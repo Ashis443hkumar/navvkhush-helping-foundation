@@ -52,3 +52,11 @@
   height: 260px;
   object-fit: cover;
 }
+
+/* successfull stores  */
+.event{
+  background-color: #eeee;
+}
+.other_event{
+  background-color: #eeee;
+}
