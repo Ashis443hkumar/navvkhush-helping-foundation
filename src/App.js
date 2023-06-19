@@ -46,6 +46,8 @@ import CelebritySupport from "./components/pages/celebrityMedia/CelebritySupport
 import Joins from "./components/pages/Joins/Joins"
 import Contact from "./components/pages/contact/Contact"
 import Donate from "./components/pages/donate/Donate"
+import DonateBillAddress from "./components/pages/donate/model/DonateBillAddress"
+
 
 
 
@@ -55,6 +57,7 @@ export default function App() {
       <Head/>
       <Header/>
       <DonateButton/>
+      {/* <DonateBillAddress/> */}
 
       <Routes>
 
@@ -89,6 +92,7 @@ export default function App() {
       <Route path="/joins" element={<Joins/>} />
       <Route path="/contact" element={<Contact/>} />
       <Route path="/donate" element={<Donate/>} />
+      <Route path="/DonateBillAddress" element={<DonateBillAddress/>} />
 
 
 

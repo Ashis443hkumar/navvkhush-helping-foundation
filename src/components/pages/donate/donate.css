@@ -95,6 +95,7 @@
 }
 .ddd{
   padding-bottom: 40px;
+  display: flex;
 }
 .ddd input{
   width: 120px;
@@ -102,19 +103,23 @@
   padding: 13px;
   border: 1px solid black;
 }
-.ddd .subscribe-btn{
-  padding: 8px 23px;
+.ddd .subscribe-btntt .heroButton button{
+  padding: 6px 23px;
   margin-left: 40px;
   outline: none;
-  border: 1px solid black;
-  color: #ff6600;
+  border: none;
+  color: #fff;
   font-size: 21px;
+  border-radius: 2px;
 
 }
-.ddd .subscribe-btn:hover{
+.ddd .subscribe-btn button{
+  width: 100%;
+}
+/* .ddd .subscribe-btn:hover{
   background-color: #ff6600;
   color: #fff;
-}
+} */
 .max-amount{
   margin-top: -30px;
   color: crimson;

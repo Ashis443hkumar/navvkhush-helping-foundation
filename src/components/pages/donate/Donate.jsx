@@ -6,10 +6,18 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import "./donate.css"
 import Model from "./model/Model";
+import DonateBillAddress from "./model/DonateBillAddress";
+import HeroButton from "../../common/heroButton/HeroButton";
+import { Link , useNavigate} from "react-router-dom";
+import Button from 'react-bootstrap/Button';
 
 export default function Donate() {
+
+  const navigate = useNavigate()
+
+
   return (
-    <>
+     <>
       <section className=" py-4">
        <Container>
         <Row>
@@ -52,8 +60,12 @@ export default function Donate() {
                 <p>Pay what you want</p>
               </div>
               <div className="ddd">
-                  <input type="text" placeholder="1899" class="subscribe-input" />
-                  <button class="subscribe-btn">Donate</button>
+                <input type="text" placeholder="1899" class="subscribe-input" />
+
+                <div className="subscribe-btntt" onClick={() =>navigate("/DonateBillAddress")} >
+                  <HeroButton title="Donate " />
+                </div>
+
               </div>
               <p className="max-amount" > (Min. amount Rs. 50) </p>
             </div>
@@ -161,6 +173,7 @@ export default function Donate() {
             </Col>
          </Row>
           </Tab>
+
           <Tab eventKey="profile" title="PAY WHAT YOU WANT">
           <Row>
            <Col xs={12} lg={6} md={6}> 
