@@ -228,7 +228,7 @@ export default function Home() {
              <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/girls.png" alt="" class="w-100" />
           </Col>
           <Col xs={12} md={6} lg={4} className="home_child_content">
-           <p> Contribute for a noble cause. Your help can make a big difference in the life of a child. You can sponsor a child by donating <strong>Rs. 1000 a month</strong> only.</p>
+           <p> Make a difference in a child's life. Contribute to our noble cause by sponsoring a child with a monthly donation of just Rs. 1000. Your support can provide education, healthcare, and a brighter future for a deserving child.</p>
            <HeroButton title="Donate" />
           </Col>
         </Row>
