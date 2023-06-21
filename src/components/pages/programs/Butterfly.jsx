@@ -24,9 +24,7 @@ export default function Butterfly() {
               <p>Emotional Support: We offer counseling and emotional support to children, addressing their psychological well-being and helping them overcome trauma or difficult circumstances.</p>
               <p>Skill Development: The Butterfly program equips children with essential life skills, vocational training, and entrepreneurship education to enhance their future prospects.</p>
               <p>Parental and Community Engagement: We actively involve parents and the community in supporting children's welfare and education, fostering a strong support network.</p>
-       
-           
-           
+    
             </Col>
             <Col xs={12} md={6} lg={6}>
               <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/Butterfly-Main-Picture.jpg" alt="" />
@@ -64,11 +62,8 @@ export default function Butterfly() {
                 <p>58,000 children from 75 Govt. schools benefitted</p>
               </div>
             </Col>
-            
-          
           </Row>
         </Container>
-
       </section>
 
       <section className="buttry_flowChat">

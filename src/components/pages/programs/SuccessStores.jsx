@@ -97,7 +97,7 @@ export default function SuccessStores() {
         <Row>
          <Col xs={12} lg={12} md={12}>
            <Heading title="FASHION FOR CAUSE" />
-             <p>Lakshyam took the initiative to organize a social media campaign called 'PeriodT - Making periods a non-issue' with the aim of normalizing conversations about menstruation. On National Period Day, we launched this campaign across our social media platforms, encouraging our audience to share myths about periods that they wanted to debunk. The campaign shed light on alarming statistics regarding the impact of menstruation in our country: [Include specific statistics or provide the intended content to be highlighted].</p>
+             <p>One of Lakshyam's highly esteemed and thriving initiatives is 'Fashion for a Cause,' held annually. This fundraising event serves a dual purpose: generating support from society and raising funds for existing and upcoming programs. Children from our centers proudly walk alongside renowned Fashion Icons, leveraging their influence to raise awareness about societal issues and the need for collective action. Each year, we strive to make it a bigger success, spreading Lakshyam's message while providing our children with exposure, confidence, and a memorable experience. We express heartfelt gratitude to all individuals participating in the fashion shows, enabling us to further our efforts.</p>
          </Col>
          <Col xs={12} lg={12} md={12} className="mt-4"> 
          <Row>
