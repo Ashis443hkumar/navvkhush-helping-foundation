@@ -27,13 +27,10 @@ import 'swiper/css/pagination';
 export default function Home() {
   return (
      <>
-      {/* home About */}
       <section className="home_about">
         <Container className="">
         <Heading title="about Us" subtitle="" />
-        <p>Lakshyam’ is derived from the word ‘Lakshya’ in Hindi Language which means ‘Goal’ in English. <br/>
-              
-              Lakshyam was founded in the year 2012 by a young social entrepreneur named Rashi Anand with a mission to enhance the lives of disadvantaged children and women, and to offer a positive direction and a healthier approach towards life. Our logo (a hand colored in 6 colors) & tagline ‘hands to heart’ symobolize with our thought that every helping hand can touch the heart and life of others. And this is what we are doing at Lakshyam, impacting the lives of the people who belong to the marginalized communities <Link to="./introduction" className="home_read_more" >....Read More</Link> </p>
+        <p>CCSDO strives to empower women with dignity and independence through economic and social support, working towards reducing violence and discrimination. Their achievements include education, counseling, and financial empowerment for women and children, as well as collaborations with government projects and employment opportunities. Join CCSDO in creating a more just and equal society.<Link to="./introduction" className="home_read_more" >....Read More</Link> </p>
        </Container>
       </section>
 

@@ -28,10 +28,13 @@ export default function Introduction() {
             <Heading title="ABOUT US"/>
             <Row  className="py-4">
                <Col lg={12} className="">
-                 <p>Lakshyam was founded in the year 2012 by a young social entrepreneur who further brought a group of like minded people together to contribute towards the betterment of society with focus on child education, holistic child development and women empowerment. We started this journey with a dream of creating a world where every child is showered with love, given opportunities for having a bright future, no child’s innocence is marred by the horrors of child labour, and a world where women’s well being is paid attention to and they’re empowered to sustain themselves and their family.</p>
-                 <p>In India 35.2% of people living in Urban Areas reside in slums that are overpopulated, have lack of adequate water supply, sanitation, and security. Children of these slum dwellers often do not get access to basic education and instead have to start working to support their families. The statistics and the problem is the same in both rural or urban India.</p>
-                 <p>We at Lakshyam vowed to put an end to this widespread violation of people’s fundamental rights, especially of women and children residing in the slums of India. We aim to empower them through education and employment by implementing models of development that are tailored according to the needs of the community</p>
-              </Col>
+                 <p>At the Crime Control & Social Development Organisation (CCSDO), we believe that every woman has the right to live a life of dignity and self-respect. Our registered NGO envisions working towards bringing significant changes in the lives of women across society by providing economic and social support, empowering them with financial independence..</p>
+                 <p>CCSDO is committed to contributing to society as equal partners in the development of families and communities, with a focus on reducing violence, harassment, and discrimination against women. We believe that by empowering women, we can create a brighter, more equal future for all</p>
+                 <p>Our team is made up of dedicated professionals who are passionate about making a difference. From providing education and training to children and women in underserved communities to giving stitching classes to women inmates in Tihar Jail, our programs aim to equip individuals with the knowledge and tools they need to succeed in the modern world.</p>
+                 <p>We are proud of our achievements and the impact we have made in the lives of women and children. Our achievements till date include educating 1779 children, providing counselling to over 3000 women, registering over 1250 women with us, and empowering 75 women who are now financially independent. Additionally, we were selected for the Delhi Government</p>
+                 <p>Project for Digital Literacy Awareness Program in Delhi Government Schools, North East Delhi, and we have received orders from Munjal Showa and AG Industries for uniform and T-shirt stitching, providing employment opportunities to women.</p>
+                 <p>At CCSDO, we are committed to our mission of creating a more just and equal society. Join us on this journey towards a brighter future for all</p>
+               </Col>
             </Row>
           </Container>
         </section>
@@ -80,13 +83,11 @@ export default function Introduction() {
             <Row>
                <Col lg={12} className="">
                  <ul>
-                   <li>To ensure ‘Education-for-all’ by providing free-of-cost education to underprivileged children.</li>
-                   <li>To provide a holistic education for the development of students</li>
-                   <li>To provide a conducive environment that fosters their creativity and curiosity. </li>
-                   <li>To enroll students into the formal schooling system.</li>
-                   <li>To help rural women learn vocational skills and attain financial independence.</li>
-                   <li>To create replicable development models for rural India and bridge the gap between urban and rural India.</li>
-                   <li>To ensure that rural populations do not have to migrate to urban cities for a better standard of living.</li>
+                   <li>Empowering marginalized communities through education, healthcare, and sustainable development for social progress</li>
+                   <li>Promoting equality, justice, and human rights through advocacy, awareness, and community empowerment initiatives.</li>
+                   <li>Providing essential services and support to vulnerable populations, addressing their immediate needs and fostering long-term resilience.</li>
+                   <li>Creating a sustainable environment by promoting conservation, environmental awareness, and responsible resource management.</li>
+                   <li>Building partnerships and collaborations to maximize impact and create systemic change in addressing societal challenges.</li>
                  </ul>
               </Col>
             </Row>
