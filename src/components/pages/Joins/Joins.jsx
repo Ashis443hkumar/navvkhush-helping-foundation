@@ -16,7 +16,16 @@ export default function Joins() {
 
       <section className="py-4">
        <Container>
-       <Heading title="THE LAKSHYAM FAMILY" subtitle="Lakshyam believes there is no dearth of good intentions and helping hands. We are always eager and excited to welcome passionate and dedicated volunteers to our budding team. If you have an urge to do something nice for the society and have any kind of skills or knowledge that can be taken into use, Lakshyam might just be the place for you to do it." />
+       <Heading title="THE Navvkhush baharat FAMILY" />
+       <Row>
+         <Col>
+          <p>Navvkhush firmly believes that there is an abundance of good intentions and helping hands within our society. We are consistently eager and excited to welcome passionate and dedicated volunteers to join our budding team. If you have a strong desire to contribute positively to society and possess any skills or knowledge that can be put to good use, Navvkhush could be the perfect place for you to make a difference.</p>
+          <p>At Navvkhush, we value the unique talents and expertise that each individual brings. Whether you have skills in teaching, arts and crafts, technology, event management, or any other field, we enthusiastically invite you to be a part of our team. Your skills and knowledge can be utilized across various initiatives and projects aimed at making a positive impact in society.</p>
+          <p>By joining Navvkhush, you will have the opportunity to work closely with our team and other passionate volunteers who share a common goal of creating a better world. We are dedicated to addressing social issues and promoting holistic development in underprivileged communities through education, healthcare, skill development, and other sustainable initiatives.</p>
+          <p>If you feel the urge to do something meaningful for society and make a tangible difference, we encourage you to reach out to Navvkhush. Together, we can create a brighter future and improve the lives of those in need.</p>
+          <p>To learn more about Navvkhush and how you can get involved as a volunteer, please visit our website or contact us directly. We are eagerly looking forward to welcoming you to our team of passionate and dedicated individuals.</p>
+         </Col>
+       </Row>
        </Container>
       </section>
 
@@ -24,18 +33,17 @@ export default function Joins() {
 
    <section className="joins_section ">
       <Container className="join_background">
-        <Heading title="WHY VOLUNTEER / INTERN WITH LAKSHYAM" />
-       <Row className="py-5">
+        <Heading title="WHY INTERN / VOLUNTEER WITH Navvkhush" />
+       <Row className="py-0">
          <Col xs={12} lg={6} md={6}>
-          <p>Volunteering is such a simple, effecting and rewarding way to work for a cause that you care about. Below are some of the reasons suggesting why should volunteer/ intern with us.</p>
+          <p>Volunteering or interning with us can be a simple yet impactful and fulfilling way to contribute to a cause you care about. Here are some compelling reasons to consider volunteering or interning with our organization:</p>
            <ul>
-             <li>By helping the other people, you will play a crucial role towards the upliftment of the community and the world as a whole. You will become aware of the small things (often neglected) that can impact the society in a various positive ways. It will make you more empathetic towards others.</li>
+             <li>Make a Difference: By volunteering or interning with us, you have the opportunity to make a tangible impact on the lives of others. Whether it's helping underprivileged communities, promoting education, supporting healthcare initiatives, or advocating for social change, your efforts can create positive and lasting effects.</li>
 
-             <li>Your volunteering experience will help you develop invaluable professional skills and build your leadership capabilities. The experience of volunteering with us will make you more empathetic towards the feelings of others. All of this will help you gain confidence and enhance your overall personality.</li>
+             <li>Personal Growth: Volunteering or interning provides a unique space for personal growth and development. It allows you to enhance your skills, gain practical experience, and broaden your perspective. You can develop leadership abilities, improve communication and teamwork skills, and gain valuable insights into social issues.</li>
 
-             <li>Personality If you are a fresher and looking out for employment opportunity, then volunteering with us will definitely be an add on in your resume and give you an edge over the others.</li>
-
-             <li>One thing that we guarantee is that, your volunteering experience with us will give an immense amount of happiness and make you self content. Because we believe that there is more content and satisfaction in giving rather than receiving.</li>
+             <li>Learn and Apply Your Skills: Volunteering or interning with us gives you a platform to apply your skills and knowledge in a real-world setting. Whether you have expertise in a specific field like teaching, marketing, fundraising, or project management, or you're looking to learn new skills, we provide opportunities to contribute your strengths and learn from hands-on experiences.</li>
+             
            </ul>
          </Col>
          <Col xs={12} lg={6} md={6}>
@@ -49,9 +57,11 @@ export default function Joins() {
      <section className="joins_section py-4">
        <Container>
         <Heading title="VOLUNTEER / INTERN"  />
-        <p>Lakshyam has introduced a volunteering & internship program in India which gives an opportunity for those who want to give back to society to join our team. We promise a holistic experience during the tenure of your association which includes interaction with the beneficiaries.</p>
-        <p>Your time, skills, knowledge and most importantly, your passion to bring about a positive change in society is exactly why we would love to have you on board.</p>
-        <p>Lakshyam provides a diverse range of tasks for volunteers. A volunteer may choose from any (One or more) from below:</p>
+        <p>Navvkhush now offers a volunteering and internship program in India, providing individuals an opportunity to contribute to society. Join our team for a holistic experience that includes direct interaction with beneficiaries and a chance to make a meaningful impact during your association with us.</p>
+
+        <p>We greatly appreciate your time, skills, knowledge, and most importantly, your passion for creating positive change in society. Your dedication is precisely why we would be thrilled to have you join our team. Together, we can make a real difference and work towards building a better future for all.</p>
+
+        <p>Navvkhush provides a diverse range of tasks for volunteers. A volunteer may choose from any (One or more) from below:</p>
        <Row className="mt-3 py-4">
          <Col xs={12} lg={3} md={3}>
          <Card >
@@ -59,7 +69,7 @@ export default function Joins() {
           <Card.Body className="text-center">
             <Card.Title>Media & Communications:</Card.Title>
             <Card.Text>
-              Create Posters, Draft Online Content, Graphic Designing, Film Making, Creative and Content writing
+            NGOs use media to raise awareness, advocate for social issues, provide information, monitor media content, and promote responsible journalism.
             </Card.Text>
           </Card.Body>
          </Card>
@@ -68,9 +78,9 @@ export default function Joins() {
          <Card >
           <Card.Img variant="top" src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/icon-1.png" style={{width:"80px", height:"80px", margin: "10px auto"}} />
           <Card.Body className="text-center">
-            <Card.Title>Media & Communications:</Card.Title>
+            <Card.Title>Performing Arts:</Card.Title>
             <Card.Text>
-              Create Posters, Draft Online Content, Graphic Designing, Film Making, Creative and Content writing
+            NGOs in performing arts support artists, promote cultural diversity, provide arts education, and organize community performances and events.
             </Card.Text>
           </Card.Body>
          </Card>
@@ -79,9 +89,9 @@ export default function Joins() {
          <Card >
           <Card.Img variant="top" src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/icon-1.png" style={{width:"80px", height:"80px", margin: "10px auto"}} />
           <Card.Body className="text-center">
-            <Card.Title>Media & Communications:</Card.Title>
+            <Card.Title>Academics:</Card.Title>
             <Card.Text>
-              Create Posters, Draft Online Content, Graphic Designing, Film Making, Creative and Content writing
+            NGOs in academics promote access to education, support educational initiatives, provide scholarships, and advocate for equitable and inclusive learning opportunities.
             </Card.Text>
           </Card.Body>
          </Card>
@@ -91,52 +101,14 @@ export default function Joins() {
          <Card >
           <Card.Img variant="top" src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/icon-1.png" style={{width:"80px", height:"80px", margin: "10px auto"}} />
           <Card.Body className="text-center">
-            <Card.Title>Media & Communications:</Card.Title>
+            <Card.Title>Building and Construction</Card.Title>
             <Card.Text>
-              Create Posters, Draft Online Content, Graphic Designing, Film Making, Creative and Content writing
+              NGOs in building and construction focus on sustainable practices, community development, housing projects, and 
             </Card.Text>
           </Card.Body>
          </Card>
          </Col>
-         <Col xs={12} md={10} className="mx-auto mt-5">
-         <Row className="mx-auto">
-         <Col xs={12} lg={4} md={4}>
-         <Card >
-          <Card.Img variant="top" src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/icon-1.png" style={{width:"80px", height:"80px", margin: "10px auto"}} />
-          <Card.Body className="text-center">
-            <Card.Title>Media & Communications:</Card.Title>
-            <Card.Text>
-              Create Posters, Draft Online Content, Graphic Designing, Film Making, Creative and Content writing
-            </Card.Text>
-          </Card.Body>
-         </Card>
-         </Col>
-         <Col xs={12} lg={4} md={4}>
-         <Card >
-          <Card.Img variant="top" src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/icon-1.png" style={{width:"80px", height:"80px", margin: "10px auto"}} />
-          <Card.Body className="text-center">
-            <Card.Title>Media & Communications:</Card.Title>
-            <Card.Text>
-              Create Posters, Draft Online Content, Graphic Designing, Film Making, Creative and Content writing
-            </Card.Text>
-          </Card.Body>
-         </Card>
-         </Col>
-         <Col xs={12} lg={4} md={4}>
-         <Card >
-          <Card.Img variant="top" src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/icon-1.png" style={{width:"80px", height:"80px", margin: "10px auto"}} />
-          <Card.Body className="text-center">
-            <Card.Title>Media & Communications:</Card.Title>
-            <Card.Text>
-              Create Posters, Draft Online Content, Graphic Designing, Film Making, Creative and Content writing
-            </Card.Text>
-          </Card.Body>
-         </Card>
-         </Col>
-    
        </Row>
-      </Col>
-     </Row>
        <div className="card_button text-center ">
          <Button className="text-center" variant="">Applay Now </Button>
        </div>
@@ -150,12 +122,19 @@ export default function Joins() {
        <Row className="py-5">
          <Col xs={12} lg={12} md={12}>
            <ul>
-             <li>Those above 16 y/o can apply for the Volunteering & internship programs .</li>
-             <li>To apply for an internship, minimum tenure is 1 month wherein interns work for 6 days a week and 7 hours a day.</li>
-             <li>To apply for volunteering, minimum tenure of commitment is three months wherein volunteers work for about 2-4 hours a day.</li>
-             <li>You should have an authorized photo ID.</li>
-             <li>Willingness to work in an environment having unfavorable living conditions and unhealthy surroundings.</li>
-             <li>We will be analyzing your documents for a background check</li>
+             <li>Mission and Values: Understand the NGO's mission, goals, and core values to align the content with their objectives..</li>
+             <li>Target Audience: Identify the target audience or stakeholders the NGO aims to reach with the content, such as donors, volunteers, or the communities they serve.</li>
+
+             <li>Content Strategy: Develop a content strategy that outlines the purpose, themes, and formats for the new content, ensuring it supports the NGO's objectives and engages the target audience effectively.</li>
+             <li>Research and Analysis: Conduct research on relevant topics and analyze the current content landscape to identify gaps, trends, and opportunities for the NGO's content creation</li>
+
+             <li>Storytelling: Utilize storytelling techniques to convey the NGO's impact, success stories, and the challenges they address, creating an emotional connection with the audience.</li>
+
+             <li>Visual and Multimedia Content: Incorporate visual elements such as images, infographics, videos, or interactive media to enhance engagement and deliver messages effectively.</li>
+
+             <li>Call-to-Action: Include a clear call-to-action in the content to encourage the audience to get involved, donate, volunteer, or support the NGO's initiatives.</li>
+
+             <li>Brand Consistency: Ensure consistency in branding elements, such as logos, colors, and messaging, to maintain a recognizable and cohesive brand identity throughout the content.</li>
 
            </ul>
          </Col>
@@ -170,14 +149,14 @@ export default function Joins() {
          <Col xs={12} lg={6} md={6}>
            <h3>FOR JOB AND OTHER QUERIES</h3>
            <ul>
-             <li>To apply for a full time job, internship or volunteering, please fill the form by clicking on Applay Now </li>
-             <li>For any other queries, email us at support@lakshyam.co.in</li>
+             <li>I apologize for any confusion, but it seems like you are requesting assistance with job-related queries or have some other specific questions. Please go ahead and provide more details or ask your specific query so that I can assist you accordingly.  please fill the form by clicking on Applay Now </li>
+             <li>For any other queries, email us at info@thecrimecontrol.com</li>
            </ul>
          </Col>
          <Col xs={12} lg={6} md={6}>
            <h3>CORPORATE VOLUNTEER PROGRAMS</h3>
            <ul>
-             <li>You can help us in tasks related to marketing, promotions, fund raising, financial analysis, tie ups, etc. </li>
+             <li>Corporate volunteer programs are initiatives established by companies to encourage their employees to engage in volunteer activities and contribute to the community. These programs offer employees the opportunity to participate in various volunteer projects and make a positive impact on social and environmental issues. Here's some information regarding corporate volunteer programs: </li>
            </ul>
          </Col>
 

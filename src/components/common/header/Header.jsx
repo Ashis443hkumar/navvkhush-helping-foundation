@@ -62,11 +62,12 @@ export default function Header() {
             </NavDropdown>
 
             {/* Celebrity & Media */}
-            <NavDropdown title="Celebrity & Media" id="collasible-nav-dropdown" className="dropdown_menu" >
-              <NavDropdown.Item ><NavLink to="/celebritySuppor">Celebrity Support</NavLink></NavDropdown.Item>
+            <NavDropdown title="Media" id="collasible-nav-dropdown" className="dropdown_menu" >
+              <NavDropdown.Item ><NavLink to="/celebritySuppor">Gallery</NavLink></NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item ><NavLink to="/media">Media</NavLink></NavDropdown.Item>
             </NavDropdown>
+
 
             {/* joins */}
             <NavLink to="/Joins">Join Us</NavLink>
