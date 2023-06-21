@@ -17,11 +17,15 @@ export default function Butterfly() {
           <Heading title="BUTTERFLY - CHILD WELFARE AND EDUCATION" />
           <Row className="mt-5">
             <Col xs={12} md={6} lg={6}>
-              <p>Unable to afford basic human needs like water, food, and shelter, parents are left with no choice but to catapult their children into the same unjust world of child labor that they have grown up in. Few can barely save money and admit their child into a school, hence living a life of struggle and injustice.</p>
-              <p>The butterfly is a symbol of freedom. The freedom from the clutches of inequality and child labor. Lakshyam (NGO in India for children’s education) vowed to right these wrongs and ensures that the human rights of these children are no longer violated. Butterfly- Child Welfare and Education program aims to provide comprehensive assistance to impoverished children through a learning program focusing on textual and practical knowledge as well as personality development.</p>
-              <p>The attention and efforts of Lakshyam focus on increasing the school enrollment at the primary level and reducing school drop-out rates, particularly for girls. 
-              Lakshyam believes that education is the key to breaking the cycle of poverty.</p>
-              <p>Basic Education is the human right of every individual as laid down in the International Human Rights Law by the United Nations.</p>
+              
+              <p>Child Protection: The Butterfly program prioritizes the safety and protection of children, working to prevent child abuse, neglect, and exploitation.</p>
+              <p>Quality Education: We ensure access to quality education for children, focusing on improving school infrastructure, providing learning materials, and enhancing teaching methodologies.</p>
+              <p>Health and Nutrition: Our program emphasizes the importance of good health and nutrition for children, providing medical check-ups, hygiene education, and nutritious meals.</p>
+              <p>Emotional Support: We offer counseling and emotional support to children, addressing their psychological well-being and helping them overcome trauma or difficult circumstances.</p>
+              <p>Skill Development: The Butterfly program equips children with essential life skills, vocational training, and entrepreneurship education to enhance their future prospects.</p>
+              <p>Parental and Community Engagement: We actively involve parents and the community in supporting children's welfare and education, fostering a strong support network.</p>
+       
+           
            
             </Col>
             <Col xs={12} md={6} lg={6}>
@@ -97,7 +101,7 @@ export default function Butterfly() {
         <Heading title="SUCCESS STORIES"  />
         <Row>
           <Col xs={12} md={12} lg={12} className="">
-            <p>We are happy to introduce some of Lakshyam’s exceptionally brilliant and bright kids who have overcome tremendous adversities and are very close to our heart. We have many such successful warriors who have changed their fate with their sheer hardwork and determination. Their love for life inspires us to extend the best of resources to the</p>
+            <p>We are delighted to introduce some of Navvkhush Bharat exceptionally brilliant and bright children who have triumphed over tremendous adversities and hold a special place in our hearts. These remarkable young individuals have reshaped their destinies through their unwavering determination and hard work. Their zest for life serves as a constant inspiration, motivating us to provide them with the finest resources and opportunities.</p>
          
           </Col>
            <Col lg={12}>

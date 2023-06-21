@@ -97,7 +97,7 @@ export default function SuccessStores() {
         <Row>
          <Col xs={12} lg={12} md={12}>
            <Heading title="FASHION FOR CAUSE" />
-             <p>‘Fashion for a Cause’ is one of Lakshyam’s most illustrious and thriving initiatives that is held every year. Our annual fundraising initiative has a twofold objective that aims at garnering support from the society, and raising funds for the existing programs and the ones in the pipeline. Children from our centres walk hand-in-hand with the most prestigious Fashion Icons of our country. Owing to the acclaimed status of the guests, we are able to raise awareness in the public eye of the issues plaguing our society and the urgent need for each one of us to do our bit.  Every year, we not only try to make it a bigger success that spreads the message of Lakshyam, but also ensure that our kids experience immense exposure and confidence from the initiative, and have a gala time. We wholeheartedly thank every individual that takes part in the fashion shows, and thus enabling us to advance our endeavours.</p>
+             <p>Lakshyam took the initiative to organize a social media campaign called 'PeriodT - Making periods a non-issue' with the aim of normalizing conversations about menstruation. On National Period Day, we launched this campaign across our social media platforms, encouraging our audience to share myths about periods that they wanted to debunk. The campaign shed light on alarming statistics regarding the impact of menstruation in our country: [Include specific statistics or provide the intended content to be highlighted].</p>
          </Col>
          <Col xs={12} lg={12} md={12} className="mt-4"> 
          <Row>
@@ -238,14 +238,16 @@ export default function SuccessStores() {
           <Slide/>
          </Col>
          <Col xs={12} lg={12} md={12}>
-           <p>Lakshyam organized a social media campaign ‘PeriodT – Making periods a non-issue’ with a belief and idea to normalize talking about periods. On the occasion of National Period Day, we launched this campaign on all our social media handles urging our audience to describe a myth related to periods that they want to burst. We witnessed some shocking statistics related to the impact of menstruation on our country:</p>
+           <p>Lakshyam took the initiative to organize a social media campaign called 'PeriodT - Making periods a non-issue' with the aim of normalizing conversations about menstruation. On National Period Day, we launched this campaign across our social media platforms, encouraging our audience to share myths about periods that they wanted to debunk. The campaign shed light on alarming statistics regarding the impact of menstruation in our country: [Include specific statistics or provide the intended content to be highlighted].</p>
            <ul>
-             <li>23 million girls drop out every year due to periods.</li>
-             <li>Around 42.4% of women don’t have access to any kind of sanitary pads</li>
-             <li>87% of women still believe in taboos and don’t enter the kitchen and temples due to periods</li>
-             <li>56% of women are shy to use pads in public</li>
-             <li>64% of women burn or bury their used pads</li>
-             <li>No access to menstrual hygiene is the 5th biggest killer in the world.</li>
+             <p>Lakshyam's 'PeriodT - Making periods a non-issue' social media campaign highlighted concerning statistics surrounding menstruation in our country:</p>
+             <li>Every year, 23 million girls drop out of school due to periods.</li>
+             <li>Approximately 42.4% of women lack access to any form of sanitary pads.</li>
+             <li>87% of women still adhere to taboos and refrain from entering the kitchen and temples during their periods.</li>
+             <li>56% of women feel embarrassed to use pads in public.</li>
+             <li>Shockingly, 64% of women resort to burning or burying their used pads.</li>
+             <li>Lack of access to menstrual hygiene is the 5th leading cause of death globally.</li>
+             <p>These statistics emphasize the urgency of addressing menstrual hygiene challenges and working towards creating a society where menstruation is normalized, and every woman has access to safe and hygienic menstrual products</p>
            </ul>
            <p>Through this campaign, Lakshyam wanted to put a full stop and debunk all the myths surrounding menstrual hygiene. With this campaign, Lakshyam also aimed to raise funds to spread awareness about menstrual hygiene, distribute safe menstrual absorbents and help girls continue their schooling and become financially independent. The idea of the campaign was originated when we saw our women in rural areas of Jharkhand & Madhya Pradesh considering themselves impure & during our skill training program, they would not touch the sewing machines saying they are untouchables! We were happy to see that more than 500 individuals shared their entries via messages to stand with the cause. Not just the individuals but schools & colleges participated as institutions followed by 10 digital media influencers.</p>
          </Col>
