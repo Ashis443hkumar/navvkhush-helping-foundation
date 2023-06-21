@@ -84,23 +84,22 @@ export default function Home() {
            <Col xs={12} md={6} lg={5}>
              <div className="our_reach">
               <h4>Our Reach</h4>
-              <span> <strong >3</strong> Countries</span>
-              <span> <strong>17</strong> States</span>
+              <span> <strong>13</strong> States</span>
              </div>
              <article className="achimed_date">
                 <Row>
                   <Col lg={6} md={12} xs={12} className="d_flex mt-4 border_left_sine_date " >
                     <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/our-impact-1.png" style={{width:"42px", height:"42px", marginRight:"12px"}} alt="" />
                     <div className="content_desc">
-                      <h4>2012</h4>
-                      <p>Since</p>
+                      <h4>1779</h4>
+                      <p>Number of Children Educated </p>
                     </div>
                   </Col>
                   <Col lg={6} md={12} xs={12} className="d_flex mt-4 border_left_sine_date" >
                     <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/our-impact-2.png" style={{width:"42px", height:"42px", marginRight:"12px"}} alt="" />
                     <div className="content_desc">
-                      <h4>300000</h4>
-                      <p>Lives Impacted Directly</p>
+                      <h4>3000 +</h4>
+                      <p>Women Counseling </p>
                     </div>
                   </Col>
                 </Row>
@@ -108,40 +107,37 @@ export default function Home() {
                   <Col lg={6} md={12} xs={12} className="d_flex mt-4 border_left_sine_date " >
                     <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/our-impact-3.png" style={{width:"42px", height:"42px", marginRight:"12px"}} alt="" />
                     <div className="content_desc">
-                      <h4>37</h4>
-                      <p>Award Received</p>
+                      <h4>1250+ </h4>
+                      <p>Women Registered with us  </p>
                     </div>
                   </Col>
                   <Col lg={6} md={12} xs={12} className="d_flex mt-4 border_left_sine_date" >
                     <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/our-impact-4.png" style={{width:"42px", height:"42px", marginRight:"12px"}} alt="" />
                     <div className="content_desc">
-                      <h4>700000</h4>
-                      <p>Lives Impacted Indirectly</p>
+                      <h4>80+ </h4>
+                      <p>Women Employed &  financially independent </p>
                     </div>
                   </Col>
                 </Row>
              </article>
 
-             <div className="mt-5 pt-3 khefhfhj">
+             <div className="mt-0 pt-3 khefhfhj">
                  <Row className="">
                    <Col xs={12} md={6} lg={6} className="d_flex  boder_right_desc">
                       <Row  className="border_bottom">
                         <Col lg={12} className="d_flex ">
                           <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/our-impact-5.png" className="" style={{width:"42px", height:"42px", marginRight:"12px"}} alt=""/>
-                          <p className="">58,000 children from 75 Govt. schools benefitted h1</p>
+                          <p className="">47,000 children from 75 Govt. schools transformed through our initiatives.</p>
                       </Col>
                       <Col lg={12} className="d_flex ">
                           <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/our-impact-5.png" className="" style={{width:"42px", height:"42px", marginRight:"12px"}} alt=""/>
-                          <p className="">58,000 children from 75 Govt. schools benefitted h1</p>
+                          <p className="">2,000 street children enrolled in schools, transforming their lives.</p>
                       </Col>
                       <Col lg={12} className="d_flex ">
                           <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/our-impact-5.png" className="" style={{width:"42px", height:"42px", marginRight:"12px"}} alt=""/>
-                          <p className="">58,000 children from 75 Govt. schools benefitted h1</p>
+                          <p className="">23,000 children across diverse NGOs experienced transformative benefits.</p>
                       </Col>
-                      <Col lg={12} className="d_flex ">
-                          <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/our-impact-5.png" className="" style={{width:"42px", height:"42px", marginRight:"12px"}} alt=""/>
-                          <p className="">58,000 children from 75 Govt. schools benefitted h1</p>
-                      </Col>
+                     
                       </Row>
                    </Col>
 
@@ -149,32 +145,29 @@ export default function Home() {
                       <Row className="border_bottom">
                       <Col lg={12} className="d_flex ">
                           <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/our-impact-5.png" className="" style={{width:"42px", height:"42px", marginRight:"12px"}} alt=""/>
-                          <p className="">58,000 children from 75 Govt. schools benefitted h1</p>
+                          <p className="">Empowering women through one lakh sanitary pads distributed.</p>
                       </Col>
                       <Col lg={12} className="d_flex ">
                           <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/our-impact-5.png" className="" style={{width:"42px", height:"42px", marginRight:"12px"}} alt=""/>
-                          <p className="">58,000 children from 75 Govt. schools benefitted h1</p>
+                          <p className="">4,000 women empowered, creating positive change.</p>
                       </Col>
                       <Col lg={12} className="d_flex ">
                           <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/our-impact-5.png" className="" style={{width:"42px", height:"42px", marginRight:"12px"}} alt=""/>
-                          <p className="">58,000 children from 75 Govt. schools benefitted h1</p>
+                          <p className="">We are proud to announce the collection of 2.5 lakh books and toys, providing joy and educational resources to children in need.</p>
                       </Col>
-                      <Col lg={12} className="d_flex ">
-                          <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/our-impact-5.png" className="" style={{width:"42px", height:"42px", marginRight:"12px"}} alt=""/>
-                          <p className="">58,000 children from 75 Govt. schools benefitted h1</p>
-                      </Col>
+                    
                       </Row>
                    </Col>
                  </Row>
              </div>
-             <Row style={{borderTop:"1px solid #000"}}>
-               <Col md={6} lg={6}  className="d_flex pt-3" >
+             <Row style={{borderTop:"1px solid #000"}} className="sttrytr_center" >
+               <Col md={6} lg={6}  className="d_flex pt-3 sttrytr_center" >
                  <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/solar-girl.png" style={{width:"42px", height:"42px", marginRight:"12px"}} alt=""/>
-                 <p>2 Lakh benefitted through community development initiatives</p>
+                 <p>2 lakh individuals transformed through impactful community development initiatives</p>
                </Col>
-               <Col md={6} lg={6} className="d_flex pt-3" >
+               <Col md={6} lg={6} className="d_flex pt-3 sttrytr_center" >
                  <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/waster-converted.png" alt="" style={{width:"42px", height:"42px", marginRight:"12px"}} />
-                 <p>of waste converted into handicrafts 23,000 kg</p>
+                 <p>23,000 kg of waste transformed into beautiful handicrafts.</p>
                </Col>
              </Row>
            </Col>
