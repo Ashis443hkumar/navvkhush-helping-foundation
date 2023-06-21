@@ -255,7 +255,7 @@ export default function Introduction() {
        {/* SOCIAL VENTURES */}
        <section className="">
         <Container>
-         <Heading title="SOCIAL VENTURES" subtitle="Lakshyam has been striving to become self sustainable, we’ve launched two initiatives to support our vision. These programs have been initiated with a vision to create an empathizing society utilizing environmental friendly practices.Profits earned through these ventures will be utilized for the NGO’s activities:" />
+         <Heading title="SOCIAL VENTURES" subtitle="Lakshyam actively engages in impactful social ventures addressing education, healthcare, skill development, women empowerment, and community development. Through innovative approaches, we create sustainable solutions, empower communities, and foster holistic development. Our initiatives aim to bring positive change and build a more inclusive society for all" />
         <Row>
          <Col xs={12} lg={6} md={6}>
          <Card >
@@ -263,7 +263,7 @@ export default function Introduction() {
           <Card.Body className="text-center">
             <Card.Title>Travel Change</Card.Title>
             <Card.Text>
-            Travel4change is a social enterprise offering a combination of volunteer programs and immersive travel packages benefiting you and the development of communities in need. Unlike normal travellers who have few opportunities to discover a culture during a stay abroad, our volunteers actively participate in a project and get highly involved. We believe that any traveller should be given the opportunity to explore the culture in-depth while creating a meaningful and sustainable impact on a local level. To know more about the organization, please ...Read More
+            To know more about Travel4change, our social enterprise offering volunteer programs and immersive travel packages, visit our website. Our unique approach allows volunteers to actively participate in community projects, enabling them to deeply experience and understand the local culture while making a meaningful and sustainable impact. Explore our programs and join us in creating positive change in communities in need.
             </Card.Text>
           </Card.Body>
          </Card>  
@@ -274,7 +274,7 @@ export default function Introduction() {
           <Card.Body className="text-center">
             <Card.Title>Travel Change</Card.Title>
             <Card.Text>
-            Travel4change is a social enterprise offering a combination of volunteer programs and immersive travel packages benefiting you and the development of communities in need. Unlike normal travellers who have few opportunities to discover a culture during a stay abroad, our volunteers actively participate in a project and get highly involved. We believe that any traveller should be given the opportunity to explore the culture in-depth while creating a meaningful and sustainable impact on a local level. To know more about the organization, please ...Read More
+            To know more about Holy Cow Foundation, the NGO dedicated to creating a healthy habitat for abandoned and distressed animals in India, please visit our website. We focus on animal welfare, particularly for cattle, and provide guidance to Gaushalas (cow shelters) to adopt sustainable models that ensure a safe and nurturing environment for the animals, along with efficient management practices. Explore our initiatives and join us in supporting this urgent cause.
             </Card.Text>
           </Card.Body>
          </Card>  
@@ -287,7 +287,7 @@ export default function Introduction() {
       {/* ANNUAL REPORTS */}
        <section className="">
         <Container>
-         <Heading title="ANNUAL REPORTS" subtitle="Below are the annual reports which depict the main activities and work accomplished by Lakshyam till date." />
+         <Heading title="ANNUAL REPORTS" subtitle="Our annual reports provide comprehensive insights into our activities, impact, and financials, showcasing the progress and achievements of our organization." />
         <Row>
           <Slide/>   
         </Row>
