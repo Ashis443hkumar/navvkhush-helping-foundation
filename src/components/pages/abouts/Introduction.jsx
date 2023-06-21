@@ -45,9 +45,9 @@ export default function Introduction() {
              <Col xs={12} md={4} lg={4}  >
                <Card className="text-center py-3 px-4"  style={{background:"#ff6b6b"}}>
                 <Card.Body>
-                  <Card.Title>Our Mission</Card.Title>
+                  <Card.Title>Our Vision</Card.Title>
                   <Card.Text>
-                      We intend to empower and expand our family in the coming years. Our mission is to enroll more students to the formal schooling system, increase our reach of toy libraries, and upskill a new women community
+                  Our unwavering commitment is to foster a world where every woman and child is treated with dignity and respect. We advocate for their rights, provide support, and work towards creating inclusive communities that value and uphold their well-being, equality, and empowerment.
                   </Card.Text>
                 </Card.Body>
               </Card>
@@ -55,9 +55,9 @@ export default function Introduction() {
              <Col xs={12} md={4} lg={4}  >
                <Card className="text-center py-3 px-4" style={{background:"#00d2d3"}}>
                 <Card.Body>
-                  <Card.Title>Our Mission</Card.Title>
+                  <Card.Title>Our Mission </Card.Title>
                   <Card.Text>
-                      We intend to empower and expand our family in the coming years. Our mission is to enroll more students to the formal schooling system, increase our reach of toy libraries, and upskill a new women community
+                  We empower women and children through skills development, education programs, training, and employment opportunities. By equipping them with knowledge, tools, and resources, we enable them to lead self-reliant lives, break the cycle of poverty, and achieve their full potential in society.
                   </Card.Text>
                 </Card.Body>
               </Card>
@@ -65,9 +65,9 @@ export default function Introduction() {
              <Col xs={12} md={4} lg={4} >
                <Card className="text-center py-3 px-4"   style={{background:"#ea8685"}}>
                 <Card.Body>
-                  <Card.Title>Our Mission</Card.Title>
+                  <Card.Title>Objectives</Card.Title>
                   <Card.Text>
-                      We intend to empower and expand our family in the coming years. Our mission is to enroll more students to the formal schooling system, increase our reach of toy libraries, and upskill a new women community
+                  Our core vision drives our passionate work, promoting skill training and employment opportunities for individuals. We strive to raise funds from diverse sources to support our mission, ensuring sustainability and expanding our impact in creating positive change in the community.
                   </Card.Text>
                 </Card.Body>
               </Card>
@@ -100,7 +100,7 @@ export default function Introduction() {
             <Row>
                <Col lg={6} col={6} className="">
                  <h4>Registrations/Exemption under various Acts</h4>
-                 <p>Lakshyam is an NGO registered as a trust under the Indian Trust Act 1882 vide registration No. 393 dated 3rd Feb 2012 with the amalgamation of Lakshya, a society; registered under Societies Registration Act 1860 vide registration number 440 dated 23rd march 2005</p>
+                 <p>Registration: Lakshyam is a registered non-governmental organization (NGO) under the relevant laws and regulations of the country. We have obtained the necessary registrations and certifications to operate legally as a nonprofit organization.</p>
                  <h4>Other Important Registration</h4>
                  <p>Niti Ayog Unique Id – DL/2013/0059507</p>
                  <p>Guide Star Registration No. – 4540</p>
@@ -110,9 +110,9 @@ export default function Introduction() {
               </Col>
               <Col lg={6} col={6} className="">
                  <h4>Donations/voluntary contributions are exempt under section :</h4>
-                 <p>12 (A) and 80(G) 50 (vi) of the Income Tax Act 1961 as per permission granted by the Director of Income Tax (exemptions), New Delhi vide letter No. DEL-LE24407-11012013</p>
+                 <p>Tax Exemption: Lakshyam has been granted tax-exempt status by the appropriate authorities. Donations and contributions made to our organization are eligible for tax benefits as per the prevailing tax laws and regulations.</p>
 
-                 <p>Permanent Income Tax No. is AAATL9638D We are also eligible to receive foreign funding from the Ministry of External Affairs by FCRA No. is 231661694.</p>
+                 <p>We ensure compliance with all legal requirements and maintain transparency in our operations to uphold the trust and confidence of our stakeholders and supporters.</p>
 
                  <p>Permanent Income Tax No. is AAATL9638D</p>
                  <p>We are also eligible to receive foreign funding from the Ministry of External Affairs by FCRA No. is 231661694.</p>
