@@ -97,31 +97,30 @@ export default function CelebritySupport(){
       
       <Slide/>
 
-
       <section  className="celebrity_media">
        <Container>
         <Heading title="Media" />
         <Row className="mb-3 mx-auto text-center">
           <Col xs={12} md={12} lg={12} className="tabs">
           <Tabs
-            defaultActiveKey="profile"
+            defaultActiveKey="home"
             id="uncontrolled-tab-example"
             className="mb-3 mx-auto text-center main_head_title"
             justify
           >
             {/* tab1 */}
-           <Tab eventKey="Print Media" title="Print Media" className="text-center ">
+           <Tab eventKey="home" title="Print Media" className="text-center ">
               <Slide/>
            </Tab>
 
               {/* tabs2 */}
            <Tab eventKey="Online_Media" title="Online Media" className="text-start mt-4  gtetry">
               <Tabs
-                  defaultActiveKey="profile"
+                  defaultActiveKey="NavvkhushStory"
                   id="uncontrolled-tab-example"
                   className="mb-3 mt-4" justify
                 >
-                  <Tab eventKey="Lakshyam Story" title="Lakshyam Story " className="thrtghrt">
+                  <Tab eventKey="NavvkhushStory" title="Navvkhush Story " className="thrtghrt">
                     <ul>
                       <li>A Catalyst for Change – Lakshyam and Ircon International Ltd’s Rooh Program Uplifts Women in Umri Village, Madhya Pradesh</li>
                       <li>Distribution of Solar Lamps & Ration Kits in collaboration with Binomo</li>
