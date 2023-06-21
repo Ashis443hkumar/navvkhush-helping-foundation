@@ -289,9 +289,10 @@ export default function Introduction() {
         <Container>
          <Heading title="ANNUAL REPORTS" subtitle="Our annual reports provide comprehensive insights into our activities, impact, and financials, showcasing the progress and achievements of our organization." />
         <Row>
-          <Slide/>   
         </Row>
        </Container>
+       <Slide/>   
+
       </section>
 
         
