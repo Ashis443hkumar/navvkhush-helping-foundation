@@ -16,7 +16,7 @@ export default function Footer(){
         <Row>
         <Col xs={12} md={4} lg={5} className="footer_left">
           <h3>GET IN TOUCH WITH US</h3>
-          <p>For donations / sponsorship queries / collaborations / others, please connect with us at support@lakshyam.co.in or you can also reach out to us at 011-40154493</p>
+          <p>At NavvKhush Bharat-CCSDO, we empower women for a dignified life, providing economic and social support, reducing violence, and fostering equality, with notable achievements in education, counseling, and financial independence for women and children.</p>
            <h3 className="time">Office Time  </h3>
            <p>9:30 AM to 5:30 PM</p>
            <p className="office_day">Monday To  Saturday</p>
