@@ -45,7 +45,7 @@ export default function Home() {
                <Image src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/prg-3-1-1.png"  />
             </Col>
             <Col xs={12} md={6} lg={7}>
-              <p>Lakshyam’s Butterfly Program aims to provide comprehensive assistance to impoverished children through a learning program focusing on textual and practical knowledge as well as personality development. <Link to="./introduction" className="home_read_more" >...Read More</Link>  </p>
+              <p>Education for All: Our program ensures equal access to quality education for underprivileged children, empowering them with knowledge and skills for a better future. <Link to="./introduction" className="home_read_more" >...Read More</Link>  </p>
             </Col>
           </Row>
           <Row className="mt-4">
@@ -53,7 +53,7 @@ export default function Home() {
                <Image src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/toy-1.png"  />
             </Col>
             <Col xs={12} md={6} lg={7}>
-              <p>Lakshyam’s Butterfly Program aims to provide comprehensive assistance to impoverished children through a learning program focusing on textual and practical knowledge as well as personality development. <Link to="./introduction" className="home_read_more" >...Read More</Link>  </p>
+              <p>Health and Wellness: We provide healthcare services, including medical check-ups, immunizations, and health education, promoting the well-being of individuals and communities. <Link to="./introduction" className="home_read_more" >...Read More</Link>  </p>
             </Col>
           </Row>
           <Row className="mt-4">
@@ -61,7 +61,7 @@ export default function Home() {
               <Image src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/rooh-1.png"  />
             </Col>
             <Col xs={12} md={6} lg={7}>
-              <p>Lakshyam’s Butterfly Program aims to provide comprehensive assistance to impoverished children through a learning program focusing on textual and practical knowledge as well as personality development. <Link to="./introduction" className="home_read_more" >...Read More</Link> </p>
+              <p>Sustainable Development: Our program focuses on environmental conservation, renewable energy, and community development projects to create a sustainable and thriving future for all. <Link to="./introduction" className="home_read_more" >...Read More</Link> </p>
             </Col>
           </Row>
           </Col>
@@ -193,7 +193,7 @@ export default function Home() {
        <Heading title="STORIES OF CHANGE"  />
         <Row>
           <Col xs={12} md={12} lg={12} className="">
-            <p>We are happy to introduce some of Lakshyam’s exceptionally brilliant and bright kids who have overcome tremendous adversities and are very close to our heart. We have many such successful warriors who have changed their fate with their sheer hardwork and determination. Their love for life inspires us to extend the best of resources to the</p>
+            <p>Our organization collects inspiring stories of individuals and communities who have experienced positive transformation. These stories highlight the impact of our programs, showcasing personal growth, improved livelihoods, and social progress. They serve as a testament to the power of collective action and the potential for change in even the most challenging circumstances.</p>
          
           </Col>
            <Col lg={12}>
