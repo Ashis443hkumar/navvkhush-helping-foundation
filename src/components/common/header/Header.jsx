@@ -66,6 +66,10 @@ export default function Header() {
               <NavDropdown.Item ><NavLink to="/celebritySuppor">Gallery</NavLink></NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item ><NavLink to="/media">Media</NavLink></NavDropdown.Item>
+              <NavDropdown.Divider />
+              <NavDropdown.Item ><NavLink to="/Intership">Intership</NavLink></NavDropdown.Item>
+              <NavDropdown.Divider />
+              <NavDropdown.Item ><NavLink to="/volunteer">Volunteer</NavLink></NavDropdown.Item>
             </NavDropdown>
 
 

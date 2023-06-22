@@ -41,6 +41,9 @@ import Celebrity from "./components/pages/celebrityMedia/Celebrity"
 // dropdown menu
 import Media from "./components/pages/celebrityMedia/Media"
 import CelebritySupport from "./components/pages/celebrityMedia/CelebritySupport"
+import Interships from "./components/pages/celebrityMedia/Interships"
+import Volunteer from "./components/pages/celebrityMedia/Volunteer"
+
 
 // Joins
 import Joins from "./components/pages/Joins/Joins"
@@ -86,8 +89,9 @@ export default function App() {
      <Route path="/" element={<Celebrity/>}>
          <Route path="/media" element={<Media/>} />
          <Route path="/celebritySuppor" element={<CelebritySupport/>} />
-        
-      </Route>
+         <Route path="/Intership" element={<Interships/>} />
+         <Route path="/volunteer" element={<Volunteer/>} />
+     </Route>
 
       <Route path="/joins" element={<Joins/>} />
       <Route path="/contact" element={<Contact/>} />
