@@ -413,8 +413,23 @@ export default function Home() {
 
       </Container>
      </section>
+  
 
-
+     <section className="home_Subscribe">
+       <Container>
+        <Row >
+         <Col xs={12} lg={6} md={6}>
+           <h4 className="text-white">Subscribe to our newsletter</h4>
+         </Col>
+         <Col xs={12} lg={6} md={6} className="text-center ">
+         <div className="subcribe_box">
+          <input placeholder="Enter your email" type="email" name="email" id="email-address"/>
+          <button type="submit">Subscribe</button>
+        </div>
+         </Col>
+        </Row>
+       </Container>
+      </section>
 
 
     </>
