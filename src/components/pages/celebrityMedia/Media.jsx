@@ -9,14 +9,10 @@ import Slide from "../../common/slide/Slide";
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
 
-import CelebritySupport from "../celebrityMedia/CelebritySupport";
-
-
 export default function Media(){
   return (
     <>
 
-      <Slide/>
       <section  className="celebrity_media">
        <Container>
         <Heading title="Media" />
@@ -30,7 +26,8 @@ export default function Media(){
           >
             {/* tab1 */}
            <Tab eventKey="home" title="Print Media" className="text-center ">
-              <Slide/>
+            <Slide/>
+
            </Tab>
 
               {/* tabs2 */}
