@@ -338,11 +338,7 @@ export default function Home() {
          <Sliding/>
        </section>
 
-     {/* Sliding AWARDS & RECOGNITION */}
-        <section className="sliding_RECOGNITION py-4">
-         <Heading title="AWARDS & RECOGNITION" />
-         <Sliding/>
-       </section>  
+   
 
        {/* Sliding FEATURED IN*/}
         <section className="sliding_RECOGNITION py-4">

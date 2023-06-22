@@ -26,3 +26,198 @@
 .join_contributtion h4{
   font-size: 20px;
 }
+/* vlunteer  */
+.volunteer{
+  padding: 30px 5%;
+  padding-top: 70px;
+  background-color: #eeee;
+
+}
+.volunteer_content{
+  padding-right: 30px;
+}
+.volunteer_content h3{
+  font-size: 34px;
+  color: #e67e22;
+}
+/* .volunteer_info  */
+.volunteer_info{
+  background-color: #ffff;
+  box-shadow: 0px 0px 12px -6px;
+  padding: 20px 25px;
+}
+.volunteer_info h1{
+  font-size: 34px;
+  color: #e67e22;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.volunteer_info .user_form{
+   margin-bottom: -20px;
+}
+.volunteer_button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: none;
+  margin-top: 20px;
+}
+.volunteer_button .cancelfr button{
+  background-color: green;
+  margin-left: 30px;
+}
+.volunteer_form{
+  width: 47%;
+  height: 80vh;
+  background-color: #ffff;
+  box-shadow: 10px 0px -6px 6px;
+  padding: 30px 40px;
+  margin-left: 34px;
+  padding-top: 0%;
+}
+
+
+/* intership section  */
+.intership{
+  background-color: #eee;
+  padding: 40px 0%;
+}
+.intershop_content{
+  padding-right: 30px;
+}
+.intershop_content h1{
+  font-size: 37px;
+  color: #e67e22;
+}
+.intership_form{
+  background-color: #ffff;
+  box-shadow: 0px 0px 12px -6px;
+  padding: 40px 40px;
+  padding-top: 15px;
+  margin-bottom: 20px;
+  height: 760px;
+}
+.intership_form h4{
+  font-size: 20px;
+  margin-bottom: 40px;
+  line-height: 30px;
+  color: #e67e22;
+  text-align: center;
+}
+.inter_suser_form{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.inter_suser_form label{
+  font-size: 15px;
+}
+.inter_suser_form input{
+  width: 173px;
+  height: 30px;
+  margin-right: 17px;
+}
+.input_form input{
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+}
+.date_of_birth{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.date_of_birth label{
+  font-size: 15px;
+}
+.date_day{
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+.date_of_month{
+  margin: 0 15px ;
+}
+/* gender  */
+.radio-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.radio-wrapper {
+  margin-right: 20px;
+}
+
+.radio-button {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.radio-button:hover {
+  transform: translateY(-2px);
+}
+
+.radio-button input[type="radio"] {
+  display: none;
+}
+
+.radio-checkmark {
+  display: inline-block;
+  position: relative;
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+  border: 2px solid #333;
+  border-radius: 50%;
+}
+
+.radio-checkmark:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #333;
+  transition: all 0.2s ease-in-out;
+}
+.radio-button input[type="radio"]:checked ~ .radio-checkmark:before {
+  transform: translate(-50%, -50%) scale(1);
+}
+.radio-label {
+  font-size: 16px;
+  font-weight: 600;
+}
+.intership_submit_btn {
+  margin-top: 30px;
+}
+.intership_submit_btn button{
+  display: inline-block;
+  width: 100%;
+}
+
+/* media query  */
+@media (max-width:600px){
+   .Internship .row{
+     flex-direction: column;
+   }
+   .intershop_content h1{
+     font-size: 21px;
+   }
+   .intership_form{
+    background-color: #ffff;
+    box-shadow: 0px 0px 12px -6px;
+    padding: 40px 40px;
+    padding-top: 15px;
+    margin-bottom: 20px;
+    height: 900px;
+  }
+  .intership_submit_btn{
+    margin-top: -1px;
+  }
+}
