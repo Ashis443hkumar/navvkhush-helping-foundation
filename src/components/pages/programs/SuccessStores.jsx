@@ -22,9 +22,8 @@ export default function SuccessStores() {
           <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/prg-3-1-1.png" alt=""  />
           <Card.Body>
             <Card.Text>
-            Lakshyam’s Butterfly Program aims to provide comprehensive assistance to impoverished children through a learning program focusing on textual and practical knowledge as well as personality development.
+            Education for All: Our program ensures equal access to quality education for underprivileged children, empowering them with knowledge and skills for a better future.
             </Card.Text>
-            <Link to="/" >Read More</Link>
           </Card.Body>
           </Card>
           </Col>
@@ -33,9 +32,8 @@ export default function SuccessStores() {
           <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/prg-3-1-1.png" alt="" />
           <Card.Body>
             <Card.Text>
-            Lakshyam’s Butterfly Program aims to provide comprehensive assistance to impoverished children through a learning program focusing on textual and practical knowledge as well as personality development.
+            Health and Wellness: We provide healthcare services, including medical check-ups, immunizations, and health education, promoting the well-being of individuals and communities.
             </Card.Text>
-            <Link to="/" >Read More</Link>
           </Card.Body>
           </Card>
           </Col>
@@ -44,9 +42,8 @@ export default function SuccessStores() {
           <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/prg-3-1-1.png" alt=""  />
           <Card.Body>
             <Card.Text>
-            Lakshyam’s Butterfly Program aims to provide comprehensive assistance to impoverished children through a learning program focusing on textual and practical knowledge as well as personality development.
+            Sustainable Development: Our program focuses on environmental conservation, renewable energy, and community development projects to create a sustainable and thriving future for all.
             </Card.Text>
-            <Link to="/" >Read More</Link>
           </Card.Body>
           </Card>
           </Col>
@@ -137,96 +134,14 @@ export default function SuccessStores() {
             </Card.Body>
           </Card>
           </Col>
-         </Row> 
-         <Row className="my-4">
-           <Col xs={12} lg={4} md={4}>
-           <Card>
-            <Card.Img variant="top" src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/being-human.png" />
-            <Card.Body className="text-center">
-              <Card.Title>Fashion For A Cause 1</Card.Title>
-              <Card.Text>
-              Bollywood heartthrob, Salman Khan and his charitable trust, Being Human..
-              </Card.Text>
-              <Button variant="primary">Read More</Button>
-            </Card.Body>
-          </Card>
-          </Col>
-          <Col xs={12} lg={4} md={4}>
-           <Card>
-            <Card.Img variant="top" src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/being-human.png" />
-            <Card.Body className="text-center">
-              <Card.Title>Fashion For A Cause 1</Card.Title>
-              <Card.Text>
-              Bollywood heartthrob, Salman Khan and his charitable trust, Being Human..
-              </Card.Text>
-              <Button variant="primary">Read More</Button>
-            </Card.Body>
-          </Card>
-          </Col>
-          <Col xs={12} lg={4} md={4}>
-           <Card>
-            <Card.Img variant="top" src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/being-human.png" />
-            <Card.Body className="text-center">
-              <Card.Title>Fashion For A Cause 1</Card.Title>
-              <Card.Text>
-              Bollywood heartthrob, Salman Khan and his charitable trust, Being Human..
-              </Card.Text>
-              <Button variant="primary">Read More</Button>
-            </Card.Body>
-          </Card>
-          </Col>
+         </Row>   
 
-         </Row>         
          </Col>
         </Row>
        </Container>
       </section>
 
-      {/* DELHI PRIMES */}
-      <section className="">
-       <Container>
-         <Heading title="DELHI PRIMES" />
-        <Row>
-         <Col xs={12} lg={4} md={4}>
-         <Card>
-            <Card.Img variant="top" src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/being-human.png" />
-            <Card.Body className="text-center">
-              <Card.Title>Fashion For A Cause 1</Card.Title>
-              <Card.Text>
-              Bollywood heartthrob, Salman Khan and his charitable trust, Being Human..
-              </Card.Text>
-              <Button variant="primary">Read More</Button>
-            </Card.Body>
-          </Card>
-         </Col>
-         <Col xs={12} lg={4} md={4}>
-         <Card>
-            <Card.Img variant="top" src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/being-human.png" />
-            <Card.Body className="text-center">
-              <Card.Title>Fashion For A Cause 1</Card.Title>
-              <Card.Text>
-              Bollywood heartthrob, Salman Khan and his charitable trust, Being Human..
-              </Card.Text>
-              <Button variant="primary">Read More</Button>
-            </Card.Body>
-          </Card>
-         </Col>
-         <Col xs={12} lg={4} md={4}>
-         <Card>
-            <Card.Img variant="top" src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/being-human.png" />
-            <Card.Body className="text-center">
-              <Card.Title>Fashion For A Cause 1</Card.Title>
-              <Card.Text>
-              Bollywood heartthrob, Salman Khan and his charitable trust, Being Human..
-              </Card.Text>
-              <Button variant="primary">Read More</Button>
-            </Card.Body>
-          </Card>
-         </Col>
-
-        </Row>
-       </Container>
-      </section>
+ 
 
       {/* OTHER EVENTS */}
       <section className="my-4 other_event">

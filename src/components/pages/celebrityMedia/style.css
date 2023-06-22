@@ -12,41 +12,11 @@
   background-color: #f8a5c2;
 }
 
-
-/* celebrity media section */
-.celebrity_media ul{
-  border: none;
-  outline: none;
-}
-.main_head_title {
-  font-size: 28px;
-  margin-top: 30px;
-  border: none;
-  outline: none;
-  border-bottom: 1px solid black;
-
-}
-.main_head_title:hover{
-  background: none;
-}
-
-.main_head_title ul li a{
-  color: red;
-}
-.main_head_title ul li a:hover{
-  color: red;
-  border: none;
-  outline: none;
-  
-}
-.celebrity_media .gtetry ul{
-  padding: 0px 0%;
-}
-.celebrity_media .gtetry ul li{
-  font-size: 21px;
-}
-.thrtghrt ul li{
-  list-style-type: decimal;
+.gallery_img img{
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+ 
 }
 
 
