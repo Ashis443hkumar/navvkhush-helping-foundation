@@ -27,6 +27,9 @@ import 'swiper/css/pagination';
 export default function Home() {
   return (
      <>
+  
+
+
       <section className="home_about">
         <Container className="">
         <Heading title="about Us" subtitle="" />
@@ -212,6 +215,21 @@ export default function Home() {
         </Row>
       </Container>
      </section>
+
+     <section className="home_volunterr_banner">
+       <Container>
+        <Row >
+         <Col xs={12} lg={8} md={8}>
+           <h4 className="text-white">Start with helping one poor person and pave way for the bigger changes!</h4>
+         </Col>
+         <Col xs={12} lg={4} md={4} className="text-end ">
+           <Link to="/volunteer">
+              <HeroButton title="Become a volunteer" />
+           </Link>
+         </Col>
+        </Row>
+       </Container>
+      </section>
 
      {/* home banner */}
      <section className="home_child_banner" >
@@ -417,7 +435,7 @@ export default function Home() {
          <Col xs={12} lg={6} md={6}>
            <h4 className="text-white">Subscribe to our newsletter</h4>
          </Col>
-         <Col xs={12} lg={6} md={6} className="text-center ">
+         <Col xs={12} lg={6} md={6} className="text-end ">
          <div className="subcribe_box">
           <input placeholder="Enter your email" type="email" name="email" id="email-address"/>
           <button type="submit">Subscribe</button>

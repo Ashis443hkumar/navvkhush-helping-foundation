@@ -24,10 +24,20 @@
   background-color: #ffff;
   text-align: center;
 }
+/* home_volunterr_banner */
+.home_volunterr_banner{
+  width: 100%;
+  height: 20vh;
+  padding: 40px 0;
+  color: #fff;
+  background-color: #3898EC;
+
+}
+.home_volunterr_banner h4{
+  font-size: 21px;
+}
 
 /* Our impact  */
-
-/* title impact  */
 .our_reach{
   border-left: 2px solid red;
   padding-left: 10px;

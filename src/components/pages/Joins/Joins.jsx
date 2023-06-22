@@ -1,4 +1,5 @@
 import React from "react";
+import Nav from 'react-bootstrap/Nav';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -6,7 +7,8 @@ import Image from 'react-bootstrap/Image';
 import Heading from "../../common/Heading";
 import Card from 'react-bootstrap/Card';
 import "./style.css"
-import {NavLink, Link} from "react-router-dom"
+import {NavLink,useNavigate, Link} from "react-router-dom"
+
 
 
 import Button from 'react-bootstrap/Button';
@@ -14,6 +16,9 @@ import Slide from "../../common/slide/Slide";
 import HeroButton from "../../common/heroButton/HeroButton";
 
 export default function Joins() {
+
+    const navigate = useNavigate()
+
   return (
     <>
       <section className="py-4">
@@ -111,16 +116,11 @@ export default function Joins() {
          </Card>
          </Col>
        </Row>
-       <div className="card_button text-center ">
-         <Link to="/Intership" className="home_read_more" >
-           <Button className="text-center" variant="">Applay Now </Button>
-            
-         </Link>
-
+       <div className=" applay_intership_form" onClick={() =>navigate("/Intership")}>
+              <HeroButton title="Applay Now" />
        </div>
-       {/* <Nav className="donate" onClick={() =>navigate("./contact")}>
-              <HeroButton title="Contact Us" />
-       </Nav> */}
+
+     
 
        </Container>
       </section>
@@ -178,10 +178,10 @@ export default function Joins() {
    <section className="join_requrement">
      <Container>
        <Heading title="WHAT OUR INTERNS HAVE TO SAY" />
-       <Row className="">
-         <Slide/>
-       </Row>
+     
       </Container>
+      <Slide/>
+
    </section>
 
 
@@ -219,10 +219,9 @@ export default function Joins() {
     <section className="join_volunteer my-5">
      <Container>
        <Heading title="VOLUNTEER AT WORK" />
-       <Row className="">
-         <Slide/>
-       </Row>
       </Container>
+      <Slide/>
+
    </section>
       
     </>
