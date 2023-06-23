@@ -33,7 +33,7 @@ export default function Header() {
             <NavDropdown title="Abouts Us" id="collasible-nav-dropdown" className="ml-4 dropdown_menu">
               <NavDropdown.Item ><NavLink to="/introduction">Introduction</NavLink></NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item ><NavLink to="/mission">Mission&Vision </NavLink> </NavDropdown.Item>
+              <NavDropdown.Item ><NavLink to="/mission">Mission & Vision </NavLink> </NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item ><NavLink to="/aim">Aim & Objective </NavLink> </NavDropdown.Item>
               <NavDropdown.Divider />
