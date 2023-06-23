@@ -29,11 +29,19 @@ export default function LegalStatus() {
                  <h4>Registrations/Exemption under various Acts</h4>
                  <p>Registration: Lakshyam is a registered non-governmental organization (NGO) under the relevant laws and regulations of the country. We have obtained the necessary registrations and certifications to operate legally as a nonprofit organization.</p>
                  <h4>Other Important Registration</h4>
-                 <p>Niti Ayog Unique Id – DL/2013/0059507</p>
-                 <p>Guide Star Registration No. – 4540</p>
-                 <p>CAF Certificate No. – 127/N-53/2015-2016</p>
-                 <p>MSME No.: JH2000005860</p>
-                 <p>CSR Number : 00007758</p>
+                 <p> <strong>Name of organisation:- </strong> NAVVKHUSH HELPING FOUNDATION, CCSDO</p>
+                 <p><strong>Address:- </strong> 21/41-42, KALYAN PURI, NEW DELHI, DELHI, 110091</p>
+                 <p><strong>Contact No:- </strong> 8287372178, 9311281717</p>
+                 <p><strong>E-Mail:- </strong>INFO@THECRIMECONTROL.COM </p>
+                 <p><strong>Date of Establishment:- </strong> 15TH OCT 2020</p>
+                 <p><strong>Registration No:- </strong> 2325</p>
+                 <p><strong>MSME No.:- </strong> UDYAM-DL-02-0045921</p>
+                 <p><strong>PAN:- </strong> AACTC7828E</p>
+                 <p><strong>NGO Darpan No:- </strong> DL/2021/0300598</p>
+                 <p><strong>TAN:- </strong>DELC23076E </p>
+                 <p><strong>80G:- </strong> AACTC7828EF20222</p>
+                 <p><strong>12A:- </strong> AACTC7828EE20216</p>
+                 <p><strong>TP ID:- </strong> TP160040</p>
               </Col>
               <Col lg={6} col={6} className="">
                  <h4>Donations/voluntary contributions are exempt under section :</h4>
