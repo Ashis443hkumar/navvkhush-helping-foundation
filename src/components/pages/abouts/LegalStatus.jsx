@@ -27,7 +27,7 @@ export default function LegalStatus() {
             <Row>
                <Col lg={6} col={6} className="">
                  <h4>Registrations/Exemption under various Acts</h4>
-                 <p>Registration: Lakshyam is a registered non-governmental organization (NGO) under the relevant laws and regulations of the country. We have obtained the necessary registrations and certifications to operate legally as a nonprofit organization.</p>
+                 <p>Registration: Navvkhush is a registered non-governmental organization (NGO) under the relevant laws and regulations of the country. We have obtained the necessary registrations and certifications to operate legally as a nonprofit organization.</p>
                  <h4>Other Important Registration</h4>
                  <p> <strong>Name of organisation:- </strong> NAVVKHUSH HELPING FOUNDATION, CCSDO</p>
                  <p><strong>Address:- </strong> 21/41-42, KALYAN PURI, NEW DELHI, DELHI, 110091</p>
@@ -45,7 +45,7 @@ export default function LegalStatus() {
               </Col>
               <Col lg={6} col={6} className="">
                  <h4>Donations/voluntary contributions are exempt under section :</h4>
-                 <p>Tax Exemption: Lakshyam has been granted tax-exempt status by the appropriate authorities. Donations and contributions made to our organization are eligible for tax benefits as per the prevailing tax laws and regulations.</p>
+                 <p>Tax Exemption: Navvkhush has been granted tax-exempt status by the appropriate authorities. Donations and contributions made to our organization are eligible for tax benefits as per the prevailing tax laws and regulations.</p>
 
                  <p>We ensure compliance with all legal requirements and maintain transparency in our operations to uphold the trust and confidence of our stakeholders and supporters.</p>
 
@@ -67,12 +67,24 @@ export default function LegalStatus() {
             <Heading title="AWARDS & RECOGNITION" />
             <Row>
                 <Tabs
-                  defaultActiveKey="2022"
+                  defaultActiveKey="2023"
                   transition={false}
                   id="noanim-tab-example"
                   className="mb-3 text-center"
                   justify
                 >
+                <Tab eventKey="2023" title="2023">
+                  Tab content for 2023
+                  <div className="">
+                    <ul>
+                      <li>Citizen Women Award 2022 to Mrs. Poonam Anand by Citizen Club of Ranchi</li>
+                      <li>Chancellor Award 2022 for Women Empowerment to Mrs. Poonam Anand by YBN University, Ranchi</li>
+                      <li>Award to Rashi Anand as a Social Worker by ‘WBR Corp UK Limited’ (India Edition Felicitation 2022)</li>
+                      <li>Award of Excellence in Women & Child Development (by CSR Universe Social Impact Awards 2022)</li>
+                      <li>‘Social Stalwart’ Award to Rashi Anand for her excellent work in Social Welfare (by i2u Social Foundation)</li>
+                    </ul>
+                  </div>
+                </Tab>
                 <Tab eventKey="2022" title="2022">
                   Tab content for 2022
                   <div className="">
@@ -85,6 +97,7 @@ export default function LegalStatus() {
                     </ul>
                   </div>
                 </Tab>
+
                 <Tab eventKey="2021" title="2021">
                   Tab content for 2021
                   <div className="">
