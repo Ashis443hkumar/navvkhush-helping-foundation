@@ -35,11 +35,11 @@ export default function Model(){
             <Modal.Title>Bank Transfer</Modal.Title>
           </Modal.Header>
           <Modal.Body>
-            <p><strong>Name : </strong>  Lakshyam</p>
-            <p><strong>Account :</strong> 915010013423887</p>
-            <p><strong>IFSC Code :</strong> UTIB0000015</p>
-            <p><strong>Bank Name :</strong> Axis</p>
-            <p><strong>Branch : </strong>  Green park, New Delhi</p>
+            <p><strong>Name:- </strong>Crime Control & Social Development Organisation</p>
+            <p><strong>Bank Name:- </strong> RBL Bank Limited </p>
+            <p><strong>Account:- </strong> 408287372178</p>
+            <p><strong>IFSC Code:- </strong> RATN0000114</p>
+            <p><strong>Branch:- </strong> Noida, Sector - 18</p>
           </Modal.Body>
           <Modal.Footer>
             <Button variant="secondary" onClick={handleClose}>

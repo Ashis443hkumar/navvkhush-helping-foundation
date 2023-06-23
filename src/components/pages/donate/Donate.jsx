@@ -59,14 +59,14 @@ export default function Donate() {
                 <p className="or_breack">Or</p>
                 <p>Pay what you want</p>
               </div>
+
               <div className="ddd">
                 <input type="text" placeholder="1899" class="subscribe-input" />
-
                 <div className="subscribe-btntt" onClick={() =>navigate("/DonateBillAddress")} >
                   <HeroButton title="Donate " />
                 </div>
-
               </div>
+
               <p className="max-amount" > (Min. amount Rs. 50) </p>
             </div>
             </Col>
@@ -106,9 +106,11 @@ export default function Donate() {
                 <p className="or_breack">Or</p>
                 <p>Pay what you want</p>
               </div>
-              <div className="ddd">
-                  <input type="text" placeholder="1899" class="subscribe-input" />
-                  <button class="subscribe-btn">Donate</button>
+             <div className="ddd">
+                <input type="text" placeholder="1899" class="subscribe-input" />
+                <div className="subscribe-btntt" onClick={() =>navigate("/DonateBillAddress")} >
+                  <HeroButton title="Donate " />
+                </div>
               </div>
               <p className="max-amount" > (Min. amount Rs. 50) </p>
             </div>
@@ -141,8 +143,10 @@ export default function Donate() {
                 <p>Pay what you want</p>
               </div>
               <div className="ddd">
-                  <input type="text" placeholder="1899" class="subscribe-input" />
-                  <button class="subscribe-btn">Donate</button>
+                <input type="text" placeholder="1899" class="subscribe-input" />
+                <div className="subscribe-btntt" onClick={() =>navigate("/DonateBillAddress")} >
+                  <HeroButton title="Donate " />
+                </div>
               </div>
               <p className="max-amount" > (Min. amount Rs. 50) </p>
             </div>
@@ -162,8 +166,10 @@ export default function Donate() {
                 <p>Pay what you want</p>
               </div>
               <div className="ddd">
-                  <input type="text" placeholder="1899" class="subscribe-input" />
-                  <button class="subscribe-btn">Donate</button>
+                <input type="text" placeholder="1899" class="subscribe-input" />
+                <div className="subscribe-btntt" onClick={() =>navigate("/DonateBillAddress")} >
+                  <HeroButton title="Donate " />
+                </div>
               </div>
               <p className="max-amount" > (Min. amount Rs. 50) </p>
             </div>
@@ -178,14 +184,14 @@ export default function Donate() {
           <Row>
            <Col xs={12} lg={6} md={6}> 
             <div className="sponsor">
-              <div className="dd mt-5 pt-5">
-                <p>Choose from above options</p>
-                <p className="or_breack">Or</p>
-                <p>Pay what you want</p>
+              <div className=" mt-5 pt-5">
+                <p>As an AI language model, I don't have the capability to accept payments or engage in financial transactions. My purpose is to provide information, answer questions, and assist with various tasks to the best of my abilities. If you have any specific questions or need assistance with something, feel free to ask!</p>
               </div>
               <div className="ddd">
-                  <input type="text" placeholder="1899" class="subscribe-input" />
-                  <button class="subscribe-btn">Donate</button>
+                <input type="text" placeholder="1899" class="subscribe-input" />
+                <div className="subscribe-btntt" onClick={() =>navigate("/DonateBillAddress")} >
+                  <HeroButton title="Donate " />
+                </div>
               </div>
               <p className="max-amount" > (Min. amount Rs. 50) </p>
             </div>
