@@ -1,4 +1,4 @@
-const Testimonial_data = [
+const Slide_Data = [
   {
     id: 1,
     image: "https://cdn.pixabay.com/photo/2022/03/10/11/03/eastern-grey-kangaroo-7059640__340.jpg",
@@ -51,4 +51,4 @@ const Testimonial_data = [
   },
 ]
 
-export default Testimonial_data
+export default Slide_Data

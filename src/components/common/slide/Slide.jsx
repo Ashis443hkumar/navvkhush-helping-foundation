@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react"
 
 // Import Swiper React components
 import 'swiper/css';
@@ -12,8 +12,13 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
  
+import Slide_Data from "./Slide_Data"
+
+
 
 export default function Slide() {
+
+  const [data, setData] = useState(Slide_Data)
   return (
     <div className="slide">
       <Swiper  
@@ -49,10 +54,26 @@ export default function Slide() {
       onSwiper={(swiper) => console.log(swiper)}
       onSlideChange={() => console.log('slide change')}
     >
-    {/* <div class="swiper-button-prev"></div> */}
+      {
+        data.map((value) =>{
+          return(
+            <SwiperSlide>
+            <div className="slide_image">
+              <img src={value.image} alt=""  />
+            </div>
+          </SwiperSlide>
+          )
+        })
+      }
+
+{/* 
+      <SwiperSlide>
+        <div className="slide_image">
+          <img src="https://media.licdn.com/dms/image/D4D22AQHRXtEn5pBZpg/feedshare-shrink_1280/0/1685684249868?e=1688601600&v=beta&t=-7e-oBFp2ubl9jAWutSHfCvIChcY94Ok2ljCYpc-l-k" alt=""  />
+        </div>
+      </SwiperSlide>
 
       <SwiperSlide>
-
         <div className="slide_image">
           <img src="https://media.licdn.com/dms/image/D4D22AQHRXtEn5pBZpg/feedshare-shrink_1280/0/1685684249868?e=1688601600&v=beta&t=-7e-oBFp2ubl9jAWutSHfCvIChcY94Ok2ljCYpc-l-k" alt=""  />
         </div>
@@ -76,12 +97,7 @@ export default function Slide() {
         <div className="slide_image">
           <img src="https://media.licdn.com/dms/image/D4D22AQHRXtEn5pBZpg/feedshare-shrink_1280/0/1685684249868?e=1688601600&v=beta&t=-7e-oBFp2ubl9jAWutSHfCvIChcY94Ok2ljCYpc-l-k" alt=""  />
         </div>
-      </SwiperSlide>
-      <SwiperSlide>
-        <div className="slide_image">
-          <img src="https://media.licdn.com/dms/image/D4D22AQHRXtEn5pBZpg/feedshare-shrink_1280/0/1685684249868?e=1688601600&v=beta&t=-7e-oBFp2ubl9jAWutSHfCvIChcY94Ok2ljCYpc-l-k" alt=""  />
-        </div>
-      </SwiperSlide>
+      </SwiperSlide> */}
 
     </Swiper>
     {/* <div class="swiper-button-next"></div> */}

@@ -9,6 +9,8 @@ import Footer from "./components/common/footer/Footer"
 import DonateButton from "./components/common/DonateButton"
 
 
+
+
 // route file import
 import {Routes, Route} from "react-router-dom"
 
@@ -50,11 +52,17 @@ import Donate from "./components/pages/donate/Donate"
 import DonateBillAddress from "./components/pages/donate/model/DonateBillAddress"
 
 
+// trail 
 import Portfolio from "./Portfolio/Portfolio"
+import Testimonial from "./Testimonial/Testimonial"
+import Slide from "./components/common/slide/Slide"
+
 
 export default function App() {
   return (
     <>
+      
+     {/* <Testimonial/> */}
       <Head/>
       <Header/>
       {/* <Portfolio/> */}
@@ -93,8 +101,6 @@ export default function App() {
       <Route path="/contact" element={<Contact/>} />
       <Route path="/donate" element={<Donate/>} />
       <Route path="/DonateBillAddress" element={<DonateBillAddress/>} />
-
-
 
 
       </Routes>

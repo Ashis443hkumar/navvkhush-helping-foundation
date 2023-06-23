@@ -1,12 +1,12 @@
 import React from "react"
-import TestimonialApi from "./TestimonialApi"
+import Testimonial_data from "./Testimonial_data"
 
 const Slide = ({ id, image, design, name, offcer, post, date, desc, valueIndex, index }) => {
   let position = "nextSlide"
   if (valueIndex === index) {
     position = "activeSlide"
   }
-  if (valueIndex === index - 1 || (index === 0 && valueIndex === TestimonialApi.length - 1)) {
+  if (valueIndex === index - 1 || (index === 0 && valueIndex === Testimonial_data.length - 1)) {
     position = "lastSlide"
   }
 
@@ -40,19 +40,7 @@ const Slide = ({ id, image, design, name, offcer, post, date, desc, valueIndex, 
         </div>
       </article>
 
-      {/*
-	    <img src='https://rainbowit.net/html/inbio/assets/images/testimonial/final-home--4th.png' alt='' />
-        <span className='primary_color'>NCD - DESIGN</span>
-        <h2>Mevine Thoda</h2>
-        <label>Marketing Officer</label>
-        
-        <i class='fal fa-quote-right'></i>
-        <i class='fas fa-arrow-left'></i>
-        <i class='fas fa-arrow-right'></i>
-        <h1>CEO - Marketing</h1>
-        <h3>Thoda Department - Mar 4, 2018 - Aug 30, 2021</h3>
-        <p>Marcent Of Vanice and treatment. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante. Ut tincidunt est ac dolor aliquam sodales phasellus smauris</p>
-     */}
+ 
     </>
   )
 }
