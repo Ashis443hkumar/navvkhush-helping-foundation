@@ -40,12 +40,10 @@ export default function Header() {
               <NavDropdown.Item ><NavLink to="/legal">Legal Status</NavLink> </NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item ><NavLink to="/annual">Annual Reaports </NavLink> </NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item ><NavLink to="/socialVenture">Social Venture </NavLink> </NavDropdown.Item>
+   
               <NavDropdown.Divider />
               <NavDropdown.Item ><NavLink to="/navvkhushTeam">NavvkhushTeam </NavLink> </NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item ><NavLink to="/awardsRecognition">AwardsRecognition </NavLink> </NavDropdown.Item>
+             
             </NavDropdown>
             
              {/* Our programs  */}

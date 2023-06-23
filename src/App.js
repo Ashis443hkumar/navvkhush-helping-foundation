@@ -23,9 +23,7 @@ import Introduction from "./components/pages/abouts/Introduction"
 import AimObjective from "./components/pages/abouts/AimObjective"
 import LegalStatus from "./components/pages/abouts/LegalStatus"
 import AnnualReaports from "./components/pages/abouts/AnnualReaports"
-import SocialVenture from "./components/pages/abouts/SocialVenture"
 import NavvkhushTeam from "./components/pages/abouts/NavvkhushTeam"
-import AwardsRecognition from "./components/pages/abouts/AwardsRecognition"
 
 // program 
 import Program from "./components/pages/programs/Program"
@@ -72,9 +70,7 @@ export default function App() {
         <Route path="/aim" element={<AimObjective/>} />
         <Route path="/legal" element={<LegalStatus/>} />
         <Route path="/annual" element={<AnnualReaports/>} />
-        <Route path="/socialVenture" element={<SocialVenture/>} />
         <Route path="/navvkhushTeam" element={<NavvkhushTeam/>} />
-        <Route path="/awardsRecognition" element={<AwardsRecognition/>} />
      </Route>
 
 
