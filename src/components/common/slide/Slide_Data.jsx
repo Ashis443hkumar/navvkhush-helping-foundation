@@ -1,7 +1,7 @@
 const Slide_Data = [
   {
     id: 1,
-    image: "https://cdn.pixabay.com/photo/2022/03/10/11/03/eastern-grey-kangaroo-7059640__340.jpg",
+    image: "https://media.licdn.com/dms/image/D4D22AQEzuZhI7v14LA/feedshare-shrink_800/0/1685347814068?e=1687996800&v=beta&t=KRU-rnTzny0v36_QSutfG29OwnlX78q0pVGNwlEeFfc",
     design: "NCD - DESIGN",
     name: "Mevine Thoda",
     offcer: "Marketing Officer",
@@ -11,7 +11,7 @@ const Slide_Data = [
   },
   {
     id: 2,
-    image: "https://cdn.pixabay.com/photo/2022/03/10/11/03/eastern-grey-kangaroo-7059640__340.jpg",
+    image: "https://media.licdn.com/dms/image/D4D22AQHAsOOzTRxo5A/feedshare-shrink_1280/0/1685347815329?e=1687996800&v=beta&t=FbVgn4PsnClcXeDFDgmCZhSho0K7Iiex9ukn_ugXIDk",
     design: "Default name",
     name: "Davei Luace",
     offcer: "Chief Operating Manager",
@@ -21,7 +21,7 @@ const Slide_Data = [
   },
   {
     id: 3,
-    image: "https://cdn.pixabay.com/photo/2022/03/10/11/03/eastern-grey-kangaroo-7059640__340.jpg",
+    image: "https://media.licdn.com/dms/image/D4D22AQFFnkX20jbX_g/feedshare-shrink_2048_1536/0/1685791142446?e=1688601600&v=beta&t=xnH8WAO_d7XCIVDUFYifqFtF75dX4yFLWz50Zl1f6rw",
     design: "Rainbow-Themes",
     name: "Nevine Acotanza",
     offcer: "Chief Operating Officer",
@@ -31,7 +31,7 @@ const Slide_Data = [
   },
   {
     id: 4,
-    image: "https://cdn.pixabay.com/photo/2022/03/10/11/03/eastern-grey-kangaroo-7059640__340.jpg",
+    image: "https://media.licdn.com/dms/image/D4D22AQFPMLsC2PbbBQ/feedshare-shrink_2048_1536/0/1685347815512?e=1687996800&v=beta&t=QkSFVUoIwmW9JJrk2UxfjhizKLsMnWur8MdSWSZLCs4",
     design: "Bound - Trolola",
     name: "Jone Duone Joe",
     offcer: "Operating Officer",
@@ -41,7 +41,7 @@ const Slide_Data = [
   },
   {
     id: 5,
-    image: "https://cdn.pixabay.com/photo/2022/03/10/11/03/eastern-grey-kangaroo-7059640__340.jpg",
+    image: "https://media.licdn.com/dms/image/D4D22AQGp8U8i5cST0g/feedshare-shrink_1280/0/1685947253150?e=1688601600&v=beta&t=NjwjBkhRDHkjnmSwOea4PNV1AP4xWU2zUs-PDEQu-PA",
     design: "Glassfisom",
     name: "Nevine Dhawan",
     offcer: "CEO Of Officer",

@@ -12,8 +12,6 @@ import Slide from "../../common/slide/Slide";
 export default function Butterfly() {
   return (
     <>
-
-
       <section className="butteryFlay_section">
         <Container>
           <Heading title="BUTTERFLY - CHILD WELFARE AND EDUCATION" />

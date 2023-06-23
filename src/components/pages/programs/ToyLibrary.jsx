@@ -15,7 +15,7 @@ export default function ToyLibrary() {
     <>
         <section className="butteryFlay_section">
         <Container>
-          <Heading title="LAKSHYAM TOY LIBRARY" />
+          <Heading title="Navvkhush TOY LIBRARY" />
           <Row className="mt-5">
             <Col xs={12} md={6} lg={6}>
               
