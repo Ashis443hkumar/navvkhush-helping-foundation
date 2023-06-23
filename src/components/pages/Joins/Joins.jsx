@@ -54,7 +54,7 @@ export default function Joins() {
            </ul>
          </Col>
          <Col xs={12} lg={6} md={6}>
-         <Image src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/intern-pic.png" className="w-100" rounded  />
+         <Image src="https://media.licdn.com/dms/image/D4D22AQHRXtEn5pBZpg/feedshare-shrink_1280/0/1685684249868?e=1688601600&v=beta&t=-7e-oBFp2ubl9jAWutSHfCvIChcY94Ok2ljCYpc-l-k" className="w-100" rounded  />
               
          </Col>
        </Row>
@@ -112,15 +112,13 @@ export default function Joins() {
             <Card.Text>
               NGOs in building and construction focus on sustainable practices, community development, housing projects, and 
             </Card.Text>
-          </Card.Body>
-         </Card>
+           </Card.Body>
+          </Card>
          </Col>
-       </Row>
-       <div className=" applay_intership_form" onClick={() =>navigate("/Intership")}>
-              <HeroButton title="Applay Now" />
-       </div>
-
-     
+         </Row>
+        <div className=" applay_intership_form" onClick={() =>navigate("/Intership")}>
+           <HeroButton title="Applay Now" />
+        </div>
 
        </Container>
       </section>
@@ -169,7 +167,6 @@ export default function Joins() {
              <li>Corporate volunteer programs are initiatives established by companies to encourage their employees to engage in volunteer activities and contribute to the community. These programs offer employees the opportunity to participate in various volunteer projects and make a positive impact on social and environmental issues. Here's some information regarding corporate volunteer programs: </li>
            </ul>
          </Col>
-
        </Row>
       </Container>
    </section>
