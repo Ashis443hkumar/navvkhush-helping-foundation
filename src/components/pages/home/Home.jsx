@@ -151,28 +151,25 @@ export default function Home() {
 
 
      {/* Our impact */}
+     {/* Our impact */}
      <section class="home_impact py-4">
       <Container>
         <Heading title="Our impact" />
          <Row className="">
            <Col xs={12} md={6} lg={6}>
-              <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/our-impact.png" className="w-100"  alt="" />
+              <img src="https://tse2.mm.bing.net/th?id=OIP.YMn9z9mTM8Wqnp6vfSq5AwHaE6&pid=Api&P=0&h=180" className="w-100"  alt="" />
            </Col>
            <Col xs={12} md={6} lg={5}>
-             <div className="our_reach">
-              <h4>Our Reach</h4>
-              <span> <strong>13</strong> States</span>
-             </div>
              <article className="achimed_date">
                 <Row>
-                  <Col lg={6} md={12} xs={12} className="d_flex mt-4 border_left_sine_date " >
+                  <Col lg={6} md={12} xs={12} className="d_flex border_left_sine_date " >
                     <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/our-impact-1.png" style={{width:"42px", height:"42px", marginRight:"12px"}} alt="" />
                     <div className="content_desc">
                       <h4>1779</h4>
                       <p>Number of Children Educated </p>
                     </div>
                   </Col>
-                  <Col lg={6} md={12} xs={12} className="d_flex mt-4 border_left_sine_date" >
+                  <Col lg={6} md={12} xs={12} className="d_flex  border_left_sine_date" >
                     <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/our-impact-2.png" style={{width:"42px", height:"42px", marginRight:"12px"}} alt="" />
                     <div className="content_desc">
                       <h4>3000 +</h4>
@@ -197,61 +194,44 @@ export default function Home() {
                   </Col>
                 </Row>
              </article>
+           </Col>
+         </Row>
 
-             <div className="mt-0 pt-3 khefhfhj">
-                 <Row className="">
-                   <Col xs={12} md={6} lg={6} className="d_flex  boder_right_desc">
-                      <Row  className="border_bottom">
-                        <Col lg={12} className="d_flex ">
-                          <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/our-impact-5.png" className="" style={{width:"42px", height:"42px", marginRight:"12px"}} alt=""/>
-                          <p className="">47,000 children from 75 Govt. schools transformed through our initiatives.</p>
-                      </Col>
-                      <Col lg={12} className="d_flex ">
-                          <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/our-impact-5.png" className="" style={{width:"42px", height:"42px", marginRight:"12px"}} alt=""/>
-                          <p className="">2,000 street children enrolled in schools, transforming their lives.</p>
-                      </Col>
-                      <Col lg={12} className="d_flex ">
-                          <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/our-impact-5.png" className="" style={{width:"42px", height:"42px", marginRight:"12px"}} alt=""/>
-                          <p className="">23,000 children across diverse NGOs experienced transformative benefits.</p>
-                      </Col>
-                     
-                      </Row>
-                   </Col>
-
-                   <Col xs={12} md={6} lg={6} className="d_flex boder_right_desc border_left_impact">
-                      <Row className="border_bottom">
-                      <Col lg={12} className="d_flex ">
-                          <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/our-impact-5.png" className="" style={{width:"42px", height:"42px", marginRight:"12px"}} alt=""/>
-                          <p className="">Empowering women through one lakh sanitary pads distributed.</p>
-                      </Col>
-                      <Col lg={12} className="d_flex ">
-                          <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/our-impact-5.png" className="" style={{width:"42px", height:"42px", marginRight:"12px"}} alt=""/>
-                          <p className="">4,000 women empowered, creating positive change.</p>
-                      </Col>
-                      <Col lg={12} className="d_flex ">
-                          <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/our-impact-5.png" className="" style={{width:"42px", height:"42px", marginRight:"12px"}} alt=""/>
-                          <p className="">We are proud to announce the collection of 2.5 lakh books and toys, providing joy and educational resources to children in need.</p>
-                      </Col>
-                    
-                      </Row>
-                   </Col>
-                 </Row>
-             </div>
-             <Row style={{borderTop:"1px solid #000"}} className="sttrytr_center" >
-               <Col md={6} lg={6}  className="d_flex pt-3 sttrytr_center" >
+            <Row className="mt-4">
+              <Col lg={3}  className="d_flex impact_content ">
+                  <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/our-impact-5.png" className="" style={{width:"42px", height:"42px", marginRight:"12px"}} alt=""/>
+                  <p className="">47,000 children from 75 Govt. schools transformed through our initiatives.</p>
+              </Col>
+              <Col lg={3}  className="d_flex impact_content ">
+                  <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/our-impact-5.png" className="" style={{width:"42px", height:"42px", marginRight:"12px"}} alt=""/>
+                  <p className="">2,000 street children enrolled in schools, transforming their lives.</p>
+              </Col>
+              <Col lg={3}  className="d_flex impact_content ">
+                  <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/our-impact-5.png" className="" style={{width:"42px", height:"42px", marginRight:"12px"}} alt=""/>
+                  <p className="">23,000 children across diverse NGOs experienced transformative benefits.</p>
+              </Col>
+              
+              <Col lg={3}  className="d_flex impact_content ">
+                  <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/our-impact-5.png" className="" style={{width:"42px", height:"42px", marginRight:"12px"}} alt=""/>
+                  <p className="">Empowering women through one lakh sanitary pads distributed.</p>
+              </Col>
+              <Col lg={3}  className="d_flex impact_content ">
+                  <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/our-impact-5.png" className="" style={{width:"42px", height:"42px", marginRight:"12px"}} alt=""/>
+                  <p className="">4,000 women empowered, creating positive change.</p>
+              </Col>
+              <Col lg={3}  className="d_flex impact_content ">
+                  <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/our-impact-5.png" className="" style={{width:"42px", height:"42px", marginRight:"12px"}} alt=""/>
+                  <p className="">We are proud to announce the collection of 2.5 lakh books and toys, providing joy and educational resources to children in need.</p>
+              </Col>
+              <Col md={6} lg={3}  className="d_flex impact_content" >
                  <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/solar-girl.png" style={{width:"42px", height:"42px", marginRight:"12px"}} alt=""/>
                  <p>2 lakh individuals transformed through impactful community development initiatives</p>
                </Col>
-               <Col md={6} lg={6} className="d_flex pt-3 sttrytr_center" >
+               <Col md={6} lg={3} className="d_flex impact_content" >
                  <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/waster-converted.png" alt="" style={{width:"42px", height:"42px", marginRight:"12px"}} />
                  <p>23,000 kg of waste transformed into beautiful handicrafts.</p>
                </Col>
-             </Row>
-           </Col>
-           <Container>
-            
-           </Container>
-         </Row>
+          </Row>
       </Container>
      </section>
 
