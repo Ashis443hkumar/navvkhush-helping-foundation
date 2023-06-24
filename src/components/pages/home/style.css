@@ -58,6 +58,8 @@
 }
 
 /* Our impact  */
+.home_impact{
+}
 .our_reach{
   border-left: 2px solid red;
   padding-left: 10px;
@@ -94,15 +96,17 @@
   border-left: 1px solid #000;
   padding-left: 20px;
 }
-.khefhfhj{
+
+/* .impact_content */
+.impact_content{
+  background-color: #3898EC;
   text-align: start;
+  padding: 30px 20px;
+
 }
-.boder_right_desc .border_bottom p{
-  text-align: start;
-}
-.sttrytr_center{
-  text-align: start;
-  color: red;
+.impact_content:hover{
+  background-color: crimson;
+  color: #fff;
 }
 
 
