@@ -27,9 +27,6 @@ import 'swiper/css/pagination';
 export default function Home() {
   return (
      <>
-  
-
-
       <section className="home_about">
         <Container className="">
         <Heading title="about Us" subtitle="" />
@@ -75,6 +72,83 @@ export default function Home() {
         </Row>
       </Container>
      </section>
+
+
+     <section className="">
+       <Container>
+         <Heading title="How Could you  help?" />
+        <Row>
+         <Col xs={12} lg={3} md={3} className="py-5"> 
+         <Card className="text-center" >
+          <Image src="https://media.licdn.com/dms/image/D4D22AQFVJN16Qov_mQ/feedshare-shrink_1280/0/1685684251181?e=1688601600&v=beta&t=fl7-ZYWId6EktJ4BrGEpMu6M2xPiA2Bc1qcA-ASrvKI"  className=" imagesad" />
+          <Card.Body>
+            <Card.Title>Expertise Skill</Card.Title>
+            <Card.Text>
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </Card.Text>
+          </Card.Body>
+        </Card>
+         </Col>
+         <Col xs={12} lg={3} md={3} className="py-5"> 
+         <Card className="text-center" >
+          <Image src="https://media.licdn.com/dms/image/D4D22AQFVJN16Qov_mQ/feedshare-shrink_1280/0/1685684251181?e=1688601600&v=beta&t=fl7-ZYWId6EktJ4BrGEpMu6M2xPiA2Bc1qcA-ASrvKI"  className=" imagesad" />
+          <Card.Body>
+            <Card.Title>Expertise Skill</Card.Title>
+            <Card.Text>
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </Card.Text>
+          </Card.Body>
+        </Card>
+         </Col>
+         <Col xs={12} lg={3} md={3} className="py-5"> 
+         <Card className="text-center" >
+          <Image src="https://media.licdn.com/dms/image/D4D22AQFVJN16Qov_mQ/feedshare-shrink_1280/0/1685684251181?e=1688601600&v=beta&t=fl7-ZYWId6EktJ4BrGEpMu6M2xPiA2Bc1qcA-ASrvKI"  className=" imagesad" />
+          <Card.Body>
+            <Card.Title>Expertise Skill</Card.Title>
+            <Card.Text>
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </Card.Text>
+          </Card.Body>
+        </Card>
+         </Col>
+         <Col xs={12} lg={3} md={3} className="py-5"> 
+         <Card className="text-center" >
+          <Image src="https://media.licdn.com/dms/image/D4D22AQFVJN16Qov_mQ/feedshare-shrink_1280/0/1685684251181?e=1688601600&v=beta&t=fl7-ZYWId6EktJ4BrGEpMu6M2xPiA2Bc1qcA-ASrvKI"  className=" imagesad" />
+          <Card.Body>
+            <Card.Title>Expertise Skill</Card.Title>
+            <Card.Text>
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </Card.Text>
+          </Card.Body>
+        </Card>
+         </Col>
+        </Row>
+       </Container>
+      </section>
+
+      <section className="donate_banner">
+       <Container>
+        <Row>
+         <Col xs={12} lg={6} md={6}> 
+           <Image src="https://media.licdn.com/dms/image/D4D22AQFVJN16Qov_mQ/feedshare-shrink_1280/0/1685684251181?e=1688601600&v=beta&t=fl7-ZYWId6EktJ4BrGEpMu6M2xPiA2Bc1qcA-ASrvKI"  className="w-100" />
+         </Col>
+         <Col xs={12} lg={6} md={6} > 
+           <div>
+           <h4>We Are <br/> Nonprofit Team</h4>
+           <p> Some quick example text to build on the card title and make up the
+             bulk of the card's content.</p>
+           <Button variant="primary" className="my-2">Donate Now</Button>
+           </div>
+         </Col>
+
+        </Row>
+       </Container>
+      </section>
+
 
      {/* Our impact */}
      <section class="home_impact py-4">
