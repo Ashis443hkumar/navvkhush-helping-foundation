@@ -151,7 +151,6 @@ export default function Home() {
 
 
      {/* Our impact */}
-     {/* Our impact */}
      <section class="home_impact py-4">
       <Container>
         <Heading title="Our impact" />
