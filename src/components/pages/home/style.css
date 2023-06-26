@@ -35,7 +35,8 @@
   margin-bottom: -10px;
 }
 .donate_banner{
-  background-color: #ff7675
+  /* background-color: #ff7675; */
+  background-color: #231834;;
 }
 .donate_banner h4{
   color: #fff;
@@ -102,8 +103,8 @@
 .impact_box{
   background-color: crimson;
 }
+
 .impact_content{
-  /* background-color: #3898EC; */
   text-align: start;
   padding: 30px 20px;
   color: white;
@@ -274,7 +275,23 @@
   border: 1px solid rgb(99 102 241);
 
 }
+.tesimonial{
+  background-color: #3f4c6b;
+  padding-bottom: 30px;
+}
+.tesimonial .heroHeading{
+  display: flex;
+  flex-direction: column-reverse;
 
+}
+.tesimonial .heroHeading h1{
+  color: #fff;
+}
+.tesimonial .heroHeading p{
+  font-size: 24px;
+  padding-bottom: -40px;
+  font-weight: 500;
+}
 
 
 

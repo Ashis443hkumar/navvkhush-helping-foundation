@@ -22,6 +22,7 @@ import { Swiper, SwiperSlide, Autoplay } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
+import Testimonial from "./Testimonial";
 
 
 export default function Home() {
@@ -444,8 +445,7 @@ export default function Home() {
          <Sliding/>
        </section>
 
-       
-
+       <Testimonial/>
 
 
      {/* SHOP FOR A CAUSE card */}
