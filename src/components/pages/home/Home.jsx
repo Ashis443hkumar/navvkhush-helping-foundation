@@ -38,11 +38,11 @@ export default function Home() {
      <section className="home_program">
         <Container className="">
         <Heading title="OUR PROGRAMS"/>
-        <Row className="">
+        <Row className="py-3">
           <Col xs={12} md={8} lg={6} className="home_program_left">
           <Row >
             <Col xs={12} md={6} lg={5} className="rounded" >
-               <Image src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/prg-3-1-1.png"  />
+               <Image src="https://thumbs.dreamstime.com/b/child-learn-logo-design-kid-education-icon-illustration-element-vector-177466500.jpg"  className="w-100" />
             </Col>
             <Col xs={12} md={6} lg={7}>
               <h5>Child Education</h5>
@@ -51,7 +51,7 @@ export default function Home() {
           </Row>
           <Row className="mt-4">
             <Col xs={12} md={6} lg={5}  className="rounded">
-               <Image src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/toy-1.png"  />
+               <Image src="https://qph.fs.quoracdn.net/main-qimg-0a400f0e7cc4be25ad380edab941abe5"  className="w-100 h-100"  />
             </Col>
             <Col xs={12} md={6} lg={7}>
               <h5>Fashion Designing Course</h5>
@@ -60,7 +60,7 @@ export default function Home() {
           </Row>
           <Row className="mt-4">
             <Col xs={12} md={6} lg={5}  className="rounded">
-              <Image src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/rooh-1.png"  />
+              <Image src="https://tse1.mm.bing.net/th?id=OIP.Fz1gXjuYKcuU1sFnbsMxYgHaEp&pid=Api&P=0&h=180"  className="w-100 h-100"  />
             </Col>
             <Col xs={12} md={6} lg={7}>
               <h5>Women Empowerment Education</h5>
@@ -199,8 +199,14 @@ export default function Home() {
              </article>
            </Col>
          </Row>
+         
+      </Container>
+     </section>
+
+     <section className="impact_box">
+     <Container>
          {/* 2nd row */}
-          <Row className="mt-4">
+        <Row className="mt-4">
           <Col lg={3}  className="d_flex impact_content ">
               <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/our-impact-5.png" className="" style={{width:"42px", height:"42px", marginRight:"12px"}} alt=""/>
               <p className="">47,000 children from 75 Govt. schools transformed through our initiatives.</p>
@@ -236,7 +242,7 @@ export default function Home() {
           </Col>
         </Row>
       </Container>
-     </section>
+      </section>
 
      <Sdg/>
 
@@ -296,7 +302,7 @@ export default function Home() {
         </Row>
        </Container>
       </section>
-
+{/* 
       <section className="donate_banner">
        <Container>
         <Row>
@@ -314,20 +320,12 @@ export default function Home() {
 
         </Row>
        </Container>
-      </section>
+      </section> */}
 
-
-   
-   
-   
-   
-   
-   
-   
    
    
      {/* STORIES OF CHANGE */}
-     <section className="home_stori_Chnage" >
+     {/* <section className="home_stori_Chnage" >
       <Container className="py-2 mt-0">
        <Heading title="STORIES OF CHANGE"  />
         <Row>
@@ -357,7 +355,7 @@ export default function Home() {
 
         </Row>
       </Container>
-     </section>
+     </section> */}
 
      <section className="home_volunterr_banner">
        <Container>
@@ -499,13 +497,7 @@ export default function Home() {
          <Sliding/>
        </section>
 
-   
 
-       {/* Sliding FEATURED IN*/}
-        <section className="sliding_RECOGNITION py-4">
-         <Heading title="FEATURED IN" />
-         <Sliding/>
-       </section>  
 
      {/* SHOP FOR A CAUSE card */}
      <section className="home_card mt-5 ">
