@@ -141,17 +141,6 @@ export default function Media(){
         </Row>
        </Container>
       </section>
-
-
-
-
-
-
-
-
-     
-
-
       
     </>
   );
