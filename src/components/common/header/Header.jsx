@@ -63,7 +63,7 @@ export default function Header() {
             <NavDropdown title="Career" id="collasible-nav-dropdown" className="dropdown_menu" >
               <NavDropdown.Item ><NavLink to="/celebritySuppor">Gallery</NavLink></NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item ><NavLink to="/media">Media</NavLink></NavDropdown.Item>
+              <NavDropdown.Item ><NavLink to="/media">Projects</NavLink></NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item ><NavLink to="/Intership">Intership</NavLink></NavDropdown.Item>
               <NavDropdown.Divider />

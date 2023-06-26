@@ -66,28 +66,21 @@ export default function Education() {
         </Container>
       </section>
 
-      <section className="buttry_flowChat">
-        <Container>
-          <Row className="mt-5">
-            <Col xs={12} md={6} lg={6} className="lowChat_title" >
-              <h4>Flow chart of activities carried under our program:</h4>
-            <Row>
-              <Col xs={12} lg={6} md={6} className="card_border"> 
-                <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/Butterfly-prog-Flowchart.jpg" alt="" className="w-100" />
-              </Col>
-            </Row>
-            </Col>
-            <Col xs={12} md={6} lg={6} className="lowChat_title" >
-              <h4>Program Expenses:</h4>
-            <Row>
-              <Col xs={12} lg={6} md={6}  className="card_border"> 
-                <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/Butterfly-prog-Flowchart.jpg" alt="" className="w-100" />
-              </Col>
-            </Row>
-            </Col>
-          </Row>
-        </Container>
-      </section>
+      {/* <section className="head_section">
+       <Container>
+         <Heading title="Echild Education Provide -ccsdo" />
+        <Row>
+         <Col xs={12} lg={3} md={3}> 
+           
+         </Col>
+         <Col xs={12} lg={3} md={3}> </Col>
+        </Row>
+       </Container>
+      </section> */}
+
+
+
+
       <Sdg/>
 
         {/* STORIES OF CHANGE */}
