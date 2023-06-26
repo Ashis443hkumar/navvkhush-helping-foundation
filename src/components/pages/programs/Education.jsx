@@ -9,7 +9,7 @@ import Ratio from 'react-bootstrap/Ratio';
 import Carousel from 'react-bootstrap/Carousel';
 import Slide from "../../common/slide/Slide";
 
-export default function Butterfly() {
+export default function Education() {
   return (
     <>
       <section className="butteryFlay_section">

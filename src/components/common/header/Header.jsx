@@ -48,15 +48,15 @@ export default function Header() {
             
              {/* Our programs  */}
             <NavDropdown title="Our Program" id="collasible-nav-dropdown" className="ml-4 dropdown_menu">
-              <NavDropdown.Item ><NavLink to="/butterfly">buttryfly</NavLink></NavDropdown.Item>
+              <NavDropdown.Item ><NavLink to="/childEducation">CHILD EDUCATION</NavLink></NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item ><NavLink to="/toyLibrary">toy libarary</NavLink> </NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item ><NavLink to="/rooh">Rooh</NavLink></NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item ><NavLink to="/successStores">Success Stories</NavLink> </NavDropdown.Item>
+              <NavDropdown.Item ><NavLink to="/fashion">Fashion Designing Course</NavLink> </NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item ><NavLink to="/events">Events</NavLink></NavDropdown.Item>
+              <NavDropdown.Item ><NavLink to="/womenEmpower">Women Empowerment Education</NavLink></NavDropdown.Item>
             </NavDropdown>
 
             {/* Celebrity & Media */}

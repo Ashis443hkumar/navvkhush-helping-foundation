@@ -45,7 +45,8 @@ export default function Home() {
                <Image src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/prg-3-1-1.png"  />
             </Col>
             <Col xs={12} md={6} lg={7}>
-              <p>Education for All: Our program ensures equal access to quality education for underprivileged children, empowering them with knowledge and skills for a better future. <Link to="./introduction" className="home_read_more" >...Read More</Link>  </p>
+              <h5>Child Education</h5>
+              <p>In the enchanting realm of education, the most precious gems are the minds of children. <Link to="./childEducation" className="home_read_more" >...Read More</Link>  </p>
             </Col>
           </Row>
           <Row className="mt-4">
@@ -53,7 +54,8 @@ export default function Home() {
                <Image src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/toy-1.png"  />
             </Col>
             <Col xs={12} md={6} lg={7}>
-              <p>Health and Wellness: We provide healthcare services, including medical check-ups, immunizations, and health education, promoting the well-being of individuals and communities. <Link to="./introduction" className="home_read_more" >...Read More</Link>  </p>
+              <h5>Fashion Designing Course</h5>
+              <p>Health and Wellness: We provide healthcare services, including medical check-ups, immunizations, and health education, promoting the well-being of individuals and communities. <Link to="./fashion" className="home_read_more" >...Read More</Link>  </p>
             </Col>
           </Row>
           <Row className="mt-4">
@@ -61,7 +63,8 @@ export default function Home() {
               <Image src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/rooh-1.png"  />
             </Col>
             <Col xs={12} md={6} lg={7}>
-              <p>Sustainable Development: Our program focuses on environmental conservation, renewable energy, and community development projects to create a sustainable and thriving future for all. <Link to="./introduction" className="home_read_more" >...Read More</Link> </p>
+              <h5>Women Empowerment Education</h5>
+              <p>Sustainable Development: Our program focuses on environmental conservation, renewable energy, and community development projects to create a sustainable and thriving future for all. <Link to="./womenEmpower" className="home_read_more" >...Read More</Link> </p>
             </Col>
           </Row>
           </Col>
@@ -314,6 +317,15 @@ export default function Home() {
       </section>
 
 
+   
+   
+   
+   
+   
+   
+   
+   
+   
      {/* STORIES OF CHANGE */}
      <section className="home_stori_Chnage" >
       <Container className="py-2 mt-0">

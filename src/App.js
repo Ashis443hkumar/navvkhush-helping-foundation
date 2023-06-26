@@ -30,11 +30,11 @@ import NavvkhushTeam from "./components/pages/abouts/NavvkhushTeam"
 // program 
 import Program from "./components/pages/programs/Program"
 // Dropdown menu
-import Butterfly from "./components/pages/programs/Butterfly"
+import Education from "./components/pages/programs/Education"
 import Rooh from "./components/pages/programs/Rooh"
-import Events from "./components/pages/programs/Events"
+import WomenEmpower from "./components/pages/programs/WomenEmpower"
 import ToyLibrary from "./components/pages/programs/ToyLibrary"
-import SuccessStores from "./components/pages/programs/SuccessStores"
+import Fashion from "./components/pages/programs/Fashion"
 
 // Celebrity % Meida
 import Celebrity from "./components/pages/celebrityMedia/Celebrity"
@@ -83,11 +83,11 @@ export default function App() {
 
 
      <Route path="/" element={<Program/>} >
-        <Route path="/butterfly" element={<Butterfly/>} />
+        <Route path="/childEducation" element={<Education/>} />
         <Route path="/rooh" element={<Rooh/>} />
-        <Route path="/events" element={<Events/>} />
+        <Route path="/womenEmpower" element={<WomenEmpower/>} />
         <Route path="/toyLibrary" element={<ToyLibrary/>} />
-        <Route path="/successStores" element={<SuccessStores/>} />
+        <Route path="/fashion" element={<Fashion/>} />
      </Route>  
 
      <Route path="/" element={<Celebrity/>}>

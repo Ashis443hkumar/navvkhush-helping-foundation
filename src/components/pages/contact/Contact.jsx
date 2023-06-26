@@ -47,10 +47,10 @@ export default function Contact(){
                 <div class="contact_info">
                     <p>
                       <i class="fa fa-quote-left fg"></i> 
-                         A man's true wealth is the good he does in this world. 
+                       "  A man's true wealth is the good he does in this world. 
                       <i class="fa fa-quote-right fg"></i>
                     </p>
-                    <p>Just A Little Help Can Make Their Hearts Happier!</p>
+                    <p>Just A Little Help Can Make Their Hearts Happier! "</p>
  
                     <HeroButton buttonTitle="Donate Now" />
                 </div>

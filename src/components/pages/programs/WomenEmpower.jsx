@@ -8,7 +8,7 @@ import Sdg from "../home/Sdg";
 import Ratio from 'react-bootstrap/Ratio';
 import Carousel from 'react-bootstrap/Carousel';
 
-export default function Events() {
+export default function WomenEmpower() {
   return (
     <>
         <section className="butteryFlay_section">

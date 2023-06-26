@@ -9,7 +9,7 @@ import Card from 'react-bootstrap/Card';
 import { Link } from "react-router-dom";
 import Slide from "../../common/slide/Slide";
 
-export default function SuccessStores() {
+export default function Fashion() {
   return (
     <>
     {/* OUR PROGRAMS */}
