@@ -506,7 +506,7 @@ export default function Home() {
         <Row >
         <Col xs={12} md={3} lg={3} className="home_card_space">
         <Card >
-          <Card.Img variant="top" src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/shop-1.png" />
+          <Card.Img variant="top" src="https://5.imimg.com/data5/VV/OO/BW/SELLER-22984048/whatsapp-image-2019-09-30-at-12-20-30-pm-500x500.jpeg" />
           <Card.Body>
             <Card.Title>Doll Pencils</Card.Title>
             <Card.Text>
@@ -518,7 +518,7 @@ export default function Home() {
          </Col>
          <Col xs={12} md={3} lg={3} className="home_card_space">
         <Card >
-          <Card.Img variant="top" src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/shop-2.png" />
+          <Card.Img variant="top" src="https://tse3.mm.bing.net/th?id=OIP.6rG_ickR9aKXZcRxxyRrrQHaFj&pid=Api&P=0&h=180" />
           <Card.Body>
             <Card.Title>Doll Pencils</Card.Title>
             <Card.Text>
@@ -532,7 +532,7 @@ export default function Home() {
 
         <Col xs={12} md={3} lg={3} className="home_card_space">
          <Card >
-          <Card.Img variant="top" src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/shop-3.png" />
+          <Card.Img variant="top" src="https://tse1.mm.bing.net/th?id=OIP.0gu1lKZsxJwLszS3vVBPaQHaEK&pid=Api&P=0&h=180" />
           <Card.Body>
             <Card.Title>Card Title</Card.Title>
             <Card.Text>
@@ -546,7 +546,7 @@ export default function Home() {
 
          <Col xs={12} md={3} lg={3} className="home_card_space">
          <Card >
-          <Card.Img variant="top" src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/shop-4.png" />
+          <Card.Img variant="top" src="https://tse4.mm.bing.net/th?id=OIP.0sUWp683XffYm-2ueffgJwHaFM&pid=Api&P=0&h=180" />
           <Card.Body>
             <Card.Title>Card Title</Card.Title>
             <Card.Text>
