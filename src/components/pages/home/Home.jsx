@@ -508,11 +508,11 @@ export default function Home() {
         <Card >
           <Card.Img variant="top" src="https://5.imimg.com/data5/VV/OO/BW/SELLER-22984048/whatsapp-image-2019-09-30-at-12-20-30-pm-500x500.jpeg" />
           <Card.Body>
-            <Card.Title>Doll Pencils</Card.Title>
+            <Card.Title>Doll Potlis</Card.Title>
             <Card.Text>
               <p>Some quick example text to build on the Doll Pencils and make up the bulk of the card's content..</p>
             </Card.Text>
-            <p>Price: Rs689</p>
+            <p>Price: Rs 49</p>
           </Card.Body>
          </Card>
          </Col>
@@ -525,7 +525,7 @@ export default function Home() {
               Some quick example text to build on the Doll Pencils and make up the
               bulk of the card's content.
             </Card.Text>
-            <p>Price: Rs689</p>
+            <p>Price: Rs 99</p>
           </Card.Body>
          </Card>
          </Col>
@@ -534,12 +534,12 @@ export default function Home() {
          <Card >
           <Card.Img variant="top" src="https://tse1.mm.bing.net/th?id=OIP.0gu1lKZsxJwLszS3vVBPaQHaEK&pid=Api&P=0&h=180" />
           <Card.Body>
-            <Card.Title>Card Title</Card.Title>
+            <Card.Title>Doll Bangles</Card.Title>
             <Card.Text>
               Some quick example text to build on the card title and make up the
               bulk of the card's content.
             </Card.Text>
-            <p>Price: Rs689</p>
+            <p>Price: Rs 129</p>
           </Card.Body>
          </Card>
          </Col>
@@ -548,12 +548,12 @@ export default function Home() {
          <Card >
           <Card.Img variant="top" src="https://tse4.mm.bing.net/th?id=OIP.0sUWp683XffYm-2ueffgJwHaFM&pid=Api&P=0&h=180" />
           <Card.Body>
-            <Card.Title>Card Title</Card.Title>
+            <Card.Title>Doll Pencils</Card.Title>
             <Card.Text>
               Some quick example text to build on the card title and make up the
               bulk of the card's content.
             </Card.Text>
-            <p>Price: Rs689</p>
+            <p>Price: Rs 149</p>
           </Card.Body>
          </Card>
          </Col>
