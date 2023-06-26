@@ -74,13 +74,14 @@ export default function Home() {
      </section>
 
 
+     {/* How Could you  help? */}
      <section className="">
-       <Container>
+      <Container>
          <Heading title="How Could you  help?" />
         <Row>
          <Col xs={12} lg={3} md={3} className="py-5"> 
          <Card className="text-center" >
-          <Image src="https://media.licdn.com/dms/image/D4D22AQFVJN16Qov_mQ/feedshare-shrink_1280/0/1685684251181?e=1688601600&v=beta&t=fl7-ZYWId6EktJ4BrGEpMu6M2xPiA2Bc1qcA-ASrvKI"  className=" imagesad" />
+          <Image src="https://thumbs.dreamstime.com/b/poor-people-pakistan-poor-child-lack-education-poor-people-pakistan-poor-child-lack-education-161130962.jpg"  className=" imagesad" />
           <Card.Body>
             <Card.Title>Expertise Skill</Card.Title>
             <Card.Text>
@@ -92,7 +93,7 @@ export default function Home() {
          </Col>
          <Col xs={12} lg={3} md={3} className="py-5"> 
          <Card className="text-center" >
-          <Image src="https://media.licdn.com/dms/image/D4D22AQFVJN16Qov_mQ/feedshare-shrink_1280/0/1685684251181?e=1688601600&v=beta&t=fl7-ZYWId6EktJ4BrGEpMu6M2xPiA2Bc1qcA-ASrvKI"  className=" imagesad" />
+          <Image src="https://tse3.mm.bing.net/th?id=OIP.Q495w2wvVkbY-NJE3FCcuQAAAA&pid=Api&P=0&h=180"  className=" imagesad" />
           <Card.Body>
             <Card.Title>Expertise Skill</Card.Title>
             <Card.Text>
@@ -104,7 +105,7 @@ export default function Home() {
          </Col>
          <Col xs={12} lg={3} md={3} className="py-5"> 
          <Card className="text-center" >
-          <Image src="https://media.licdn.com/dms/image/D4D22AQFVJN16Qov_mQ/feedshare-shrink_1280/0/1685684251181?e=1688601600&v=beta&t=fl7-ZYWId6EktJ4BrGEpMu6M2xPiA2Bc1qcA-ASrvKI"  className=" imagesad" />
+          <Image src="https://tse1.mm.bing.net/th?id=OIP.llK8VJ41qxfWHOwDkNjpQgHaEK&pid=Api&P=0&h=180"  className=" imagesad" />
           <Card.Body>
             <Card.Title>Expertise Skill</Card.Title>
             <Card.Text>
@@ -116,7 +117,7 @@ export default function Home() {
          </Col>
          <Col xs={12} lg={3} md={3} className="py-5"> 
          <Card className="text-center" >
-          <Image src="https://media.licdn.com/dms/image/D4D22AQFVJN16Qov_mQ/feedshare-shrink_1280/0/1685684251181?e=1688601600&v=beta&t=fl7-ZYWId6EktJ4BrGEpMu6M2xPiA2Bc1qcA-ASrvKI"  className=" imagesad" />
+          <Image src="https://tse4.explicit.bing.net/th?id=OIP.Gj2QIpiwB5ROpLbfVv89_gHaLH&pid=Api&P=0&h=180"  className=" imagesad" />
           <Card.Body>
             <Card.Title>Expertise Skill</Card.Title>
             <Card.Text>
@@ -195,46 +196,123 @@ export default function Home() {
              </article>
            </Col>
          </Row>
-
-            <Row className="mt-4">
-              <Col lg={3}  className="d_flex impact_content ">
-                  <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/our-impact-5.png" className="" style={{width:"42px", height:"42px", marginRight:"12px"}} alt=""/>
-                  <p className="">47,000 children from 75 Govt. schools transformed through our initiatives.</p>
-              </Col>
-              <Col lg={3}  className="d_flex impact_content ">
-                  <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/our-impact-5.png" className="" style={{width:"42px", height:"42px", marginRight:"12px"}} alt=""/>
-                  <p className="">2,000 street children enrolled in schools, transforming their lives.</p>
-              </Col>
-              <Col lg={3}  className="d_flex impact_content ">
-                  <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/our-impact-5.png" className="" style={{width:"42px", height:"42px", marginRight:"12px"}} alt=""/>
-                  <p className="">23,000 children across diverse NGOs experienced transformative benefits.</p>
-              </Col>
-              
-              <Col lg={3}  className="d_flex impact_content ">
-                  <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/our-impact-5.png" className="" style={{width:"42px", height:"42px", marginRight:"12px"}} alt=""/>
-                  <p className="">Empowering women through one lakh sanitary pads distributed.</p>
-              </Col>
-              <Col lg={3}  className="d_flex impact_content ">
-                  <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/our-impact-5.png" className="" style={{width:"42px", height:"42px", marginRight:"12px"}} alt=""/>
-                  <p className="">4,000 women empowered, creating positive change.</p>
-              </Col>
-              <Col lg={3}  className="d_flex impact_content ">
-                  <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/our-impact-5.png" className="" style={{width:"42px", height:"42px", marginRight:"12px"}} alt=""/>
-                  <p className="">We are proud to announce the collection of 2.5 lakh books and toys, providing joy and educational resources to children in need.</p>
-              </Col>
-              <Col md={6} lg={3}  className="d_flex impact_content" >
-                 <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/solar-girl.png" style={{width:"42px", height:"42px", marginRight:"12px"}} alt=""/>
-                 <p>2 lakh individuals transformed through impactful community development initiatives</p>
-               </Col>
-               <Col md={6} lg={3} className="d_flex impact_content" >
-                 <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/waster-converted.png" alt="" style={{width:"42px", height:"42px", marginRight:"12px"}} />
-                 <p>23,000 kg of waste transformed into beautiful handicrafts.</p>
-               </Col>
-          </Row>
+         {/* 2nd row */}
+          <Row className="mt-4">
+          <Col lg={3}  className="d_flex impact_content ">
+              <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/our-impact-5.png" className="" style={{width:"42px", height:"42px", marginRight:"12px"}} alt=""/>
+              <p className="">47,000 children from 75 Govt. schools transformed through our initiatives.</p>
+          </Col>
+          <Col lg={3}  className="d_flex impact_content ">
+              <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/our-impact-5.png" className="" style={{width:"42px", height:"42px", marginRight:"12px"}} alt=""/>
+              <p className="">2,000 street children enrolled in schools, transforming their lives.</p>
+          </Col>
+          <Col lg={3}  className="d_flex impact_content ">
+              <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/our-impact-5.png" className="" style={{width:"42px", height:"42px", marginRight:"12px"}} alt=""/>
+              <p className="">23,000 children across diverse NGOs experienced transformative benefits.</p>
+          </Col>
+          
+          <Col lg={3}  className="d_flex impact_content ">
+              <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/our-impact-5.png" className="" style={{width:"42px", height:"42px", marginRight:"12px"}} alt=""/>
+              <p className="">Empowering women through one lakh sanitary pads distributed.</p>
+          </Col>
+          <Col lg={3}  className="d_flex impact_content ">
+              <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/our-impact-5.png" className="" style={{width:"42px", height:"42px", marginRight:"12px"}} alt=""/>
+              <p className="">4,000 women empowered, creating positive change.</p>
+          </Col>
+          <Col lg={3}  className="d_flex impact_content ">
+              <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/our-impact-5.png" className="" style={{width:"42px", height:"42px", marginRight:"12px"}} alt=""/>
+              <p className="">We are proud to announce the collection of 2.5 lakh books and toys, providing joy and educational resources to children in need.</p>
+          </Col>
+          <Col md={6} lg={3}  className="d_flex impact_content" >
+              <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/solar-girl.png" style={{width:"42px", height:"42px", marginRight:"12px"}} alt=""/>
+              <p>2 lakh individuals transformed through impactful community development initiatives</p>
+            </Col>
+          <Col md={6} lg={3} className="d_flex impact_content" >
+              <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/waster-converted.png" alt="" style={{width:"42px", height:"42px", marginRight:"12px"}} />
+              <p>23,000 kg of waste transformed into beautiful handicrafts.</p>
+          </Col>
+        </Row>
       </Container>
      </section>
 
      <Sdg/>
+
+     {/* donate_them */}
+     <section className="donate_them">
+       <Container>
+         <Heading title="Donate For them" />
+        <Row>
+         <Col xs={12} lg={3} md={3} className="py-5"> 
+         <Card className="text-center" >
+          <Image src="https://media.licdn.com/dms/image/D4D22AQFVJN16Qov_mQ/feedshare-shrink_1280/0/1685684251181?e=1688601600&v=beta&t=fl7-ZYWId6EktJ4BrGEpMu6M2xPiA2Bc1qcA-ASrvKI"  className=" imagesad" />
+          <Card.Body>
+            <Card.Title>Ration </Card.Title>
+            <Card.Text>
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </Card.Text>
+          </Card.Body>
+        </Card>
+         </Col>
+         <Col xs={12} lg={3} md={3} className="py-5"> 
+         <Card className="text-center" >
+          <Image src="https://media.licdn.com/dms/image/D4D22AQFVJN16Qov_mQ/feedshare-shrink_1280/0/1685684251181?e=1688601600&v=beta&t=fl7-ZYWId6EktJ4BrGEpMu6M2xPiA2Bc1qcA-ASrvKI"  className=" imagesad" />
+          <Card.Body>
+            <Card.Title>School Bag</Card.Title>
+            <Card.Text>
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </Card.Text>
+          </Card.Body>
+        </Card>
+         </Col>
+         <Col xs={12} lg={3} md={3} className="py-5"> 
+         <Card className="text-center" >
+          <Image src="https://media.licdn.com/dms/image/D4D22AQFVJN16Qov_mQ/feedshare-shrink_1280/0/1685684251181?e=1688601600&v=beta&t=fl7-ZYWId6EktJ4BrGEpMu6M2xPiA2Bc1qcA-ASrvKI"  className=" imagesad" />
+          <Card.Body>
+            <Card.Title>Expertise Skill</Card.Title>
+            <Card.Text>
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </Card.Text>
+          </Card.Body>
+        </Card>
+         </Col>
+         <Col xs={12} lg={3} md={3} className="py-5"> 
+         <Card className="text-center" >
+          <Image src="https://media.licdn.com/dms/image/D4D22AQFVJN16Qov_mQ/feedshare-shrink_1280/0/1685684251181?e=1688601600&v=beta&t=fl7-ZYWId6EktJ4BrGEpMu6M2xPiA2Bc1qcA-ASrvKI"  className=" imagesad" />
+          <Card.Body>
+            <Card.Title>Expertise Skill</Card.Title>
+            <Card.Text>
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </Card.Text>
+          </Card.Body>
+        </Card>
+         </Col>
+        </Row>
+       </Container>
+      </section>
+
+      <section className="donate_banner">
+       <Container>
+        <Row>
+         <Col xs={12} lg={6} md={6}> 
+           <Image src="https://media.licdn.com/dms/image/D4D22AQFVJN16Qov_mQ/feedshare-shrink_1280/0/1685684251181?e=1688601600&v=beta&t=fl7-ZYWId6EktJ4BrGEpMu6M2xPiA2Bc1qcA-ASrvKI"  className="w-100" />
+         </Col>
+         <Col xs={12} lg={6} md={6} > 
+           <div>
+           <h4>We Are <br/> Nonprofit Team</h4>
+           <p> Some quick example text to build on the card title and make up the
+             bulk of the card's content.</p>
+           <Button variant="primary" className="my-2">Donate Now</Button>
+           </div>
+         </Col>
+
+        </Row>
+       </Container>
+      </section>
+
 
      {/* STORIES OF CHANGE */}
      <section className="home_stori_Chnage" >
