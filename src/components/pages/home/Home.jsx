@@ -47,7 +47,7 @@ export default function Home() {
             </Col>
             <Col xs={12} md={6} lg={7}>
               <h5>Child Education</h5>
-              <p>In the enchanting realm of education, the most precious gems are the minds of children. <Link to="./childEducation" className="home_read_more" >...Read More</Link>  </p>
+              <p>In the enchanting realm of education, the most precious gems are the minds of children. Every child holds within them an insatiable thirst for knowledge, a boundless imagination, and an inherent curiosity that yearns to explore the world.  <Link to="./childEducation" className="home_read_more" >...Read More</Link>  </p>
             </Col>
           </Row>
           <Row className="mt-4">
@@ -139,14 +139,15 @@ export default function Home() {
        <Container>
         <Row>
          <Col xs={12} lg={6} md={6}> 
-           <Image src="https://media.licdn.com/dms/image/D4D22AQFVJN16Qov_mQ/feedshare-shrink_1280/0/1685684251181?e=1688601600&v=beta&t=fl7-ZYWId6EktJ4BrGEpMu6M2xPiA2Bc1qcA-ASrvKI"  className="w-100" />
+           <Image src="https://tse4.mm.bing.net/th?id=OIP.9ALkOL68o0h3Z6jtSGgCNgHaE4&pid=Api&P=0&h=180"  className="w-100" />
          </Col>
          <Col xs={12} lg={6} md={6} > 
-           <div>
-           <h4>We Are <br/> Nonprofit Team</h4>
-           <p> Some quick example text to build on the card title and make up the
-             bulk of the card's content.</p>
-           <Button variant="primary" className="my-2">Donate Now</Button>
+           <div className="py-5">
+           <h4>We Are <br/>  <span className="Nonprofit">Nonprofit</span> Team</h4>
+           <p className="mb-4"> We are a dedicated nonprofit team, united in our mission to empower communities, uplift lives, and create a positive impact that lasts for generations to come.</p>
+           <Link to="/donate" className="mt-4">
+              <HeroButton title="Donate Now" />
+           </Link>
            </div>
          </Col>
 
@@ -205,11 +206,11 @@ export default function Home() {
      </section>
 
      <section className="impact_box">
-     <Container>
+      <Container>
          {/* 2nd row */}
         <Row className="mt-4">
           <Col lg={3}  className="d_flex impact_content ">
-              <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/our-impact-5.png" className="" style={{width:"42px", height:"42px", marginRight:"12px"}} alt=""/>
+              <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/our-impact-5.png" className="text-white" style={{width:"42px", height:"42px", marginRight:"12px"}} alt=""/>
               <p className="">47,000 children from 75 Govt. schools transformed through our initiatives.</p>
           </Col>
           <Col lg={3}  className="d_flex impact_content ">
@@ -227,7 +228,7 @@ export default function Home() {
           </Col>
           <Col lg={3}  className="d_flex impact_content ">
               <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/our-impact-5.png" className="" style={{width:"42px", height:"42px", marginRight:"12px"}} alt=""/>
-              <p className="">4,000 women empowered, creating positive change.</p>
+              <p className="">4,000 empowered women, creating positive change and making a lasting impact on their communities and beyond.</p>
           </Col>
           <Col lg={3}  className="d_flex impact_content ">
               <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/our-impact-5.png" className="" style={{width:"42px", height:"42px", marginRight:"12px"}} alt=""/>
@@ -439,13 +440,14 @@ export default function Home() {
         <p className="text-center my-4">VIEW ALL VIDEOS</p>
      </section>
 
+     <Testimonial/>
+
      {/* Sliding ASSOCIATION AND PARTNERS */}
        <section className="sliding">
          <Heading title="ASSOCIATION AND PARTNERS" />
          <Sliding/>
        </section>
 
-       <Testimonial/>
 
 
      {/* SHOP FOR A CAUSE card */}

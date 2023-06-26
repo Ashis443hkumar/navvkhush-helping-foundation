@@ -4,7 +4,7 @@
 .home_read_more{
   color: red;
   text-decoration: none;
-  font-size: 19px;
+  font-size: 14px;
 }
 
 /* .home_program  */
@@ -34,15 +34,24 @@
   margin-top: 10px;
   margin-bottom: -10px;
 }
+
+
+/* .donate_banner */
 .donate_banner{
-  /* background-color: #ff7675; */
-  background-color: #231834;;
+  background-color: #ff7675;
 }
 .donate_banner h4{
   color: #fff;
   font-size: 38px;
   padding: 5px 0;
 
+}
+.donate_banner p{
+  font-size: 19px;
+  margin-bottom: 5px;
+}
+.Nonprofit{
+  color: #231834;
 }
 
 /* home_volunterr_banner */
@@ -59,8 +68,7 @@
 }
 
 /* Our impact  */
-.home_impact{
-}
+
 .our_reach{
   border-left: 2px solid red;
   padding-left: 10px;
@@ -76,7 +84,6 @@
 .our_reach strong{
   color: red;
 }
-
 .achimed_date{
   margin-left: 30px;
   margin-top: 20px;
@@ -98,23 +105,23 @@
   padding-left: 20px;
 }
 
-
 /* .impact_content */
 .impact_box{
-  background-color: crimson;
+  /* background-color: #231834; */
+  background-color: #3f4c6b;
+  padding: 30px 0;
 }
-
 .impact_content{
   text-align: start;
   padding: 30px 20px;
   color: white;
-
+}
+.impact_content p{
 }
 .impact_content:hover{
   background-color: #ff7675;
   color: #fff;
 }
-
 
 
 /* our achiment  */
@@ -275,8 +282,11 @@
   border: 1px solid rgb(99 102 241);
 
 }
+
+/* .tesimonial  */
 .tesimonial{
-  background-color: #3f4c6b;
+  background-color: #231834;
+
   padding-bottom: 30px;
 }
 .tesimonial .heroHeading{
@@ -288,7 +298,8 @@
   color: #fff;
 }
 .tesimonial .heroHeading p{
-  font-size: 24px;
+  color: #fff;
+  font-size: 17px;
   padding-bottom: -40px;
   font-weight: 500;
 }
