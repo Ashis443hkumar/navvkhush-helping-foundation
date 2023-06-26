@@ -64,7 +64,7 @@ export default function Home() {
             </Col>
             <Col xs={12} md={6} lg={7}>
               <h5>Women Empowerment Education</h5>
-              <p>Sustainable Development: Our program focuses on environmental conservation, renewable energy, and community development projects to create a sustainable and thriving future for all. <Link to="./womenEmpower" className="home_read_more" >...Read More</Link> </p>
+              <p>In a world where barriers are being broken and glass ceilings shattered, the pursuit of women`s empowerment has become more crucial than ever.  <Link to="./womenEmpower" className="home_read_more" >...Read More</Link> </p>
             </Col>
           </Row>
           </Col>
