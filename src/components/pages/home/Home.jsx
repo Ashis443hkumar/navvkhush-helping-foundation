@@ -302,60 +302,7 @@ export default function Home() {
         </Row>
        </Container>
       </section>
-{/* 
-      <section className="donate_banner">
-       <Container>
-        <Row>
-         <Col xs={12} lg={6} md={6}> 
-           <Image src="https://media.licdn.com/dms/image/D4D22AQFVJN16Qov_mQ/feedshare-shrink_1280/0/1685684251181?e=1688601600&v=beta&t=fl7-ZYWId6EktJ4BrGEpMu6M2xPiA2Bc1qcA-ASrvKI"  className="w-100" />
-         </Col>
-         <Col xs={12} lg={6} md={6} > 
-           <div>
-           <h4>We Are <br/> Nonprofit Team</h4>
-           <p> Some quick example text to build on the card title and make up the
-             bulk of the card's content.</p>
-           <Button variant="primary" className="my-2">Donate Now</Button>
-           </div>
-         </Col>
 
-        </Row>
-       </Container>
-      </section> */}
-
-   
-   
-     {/* STORIES OF CHANGE */}
-     {/* <section className="home_stori_Chnage" >
-      <Container className="py-2 mt-0">
-       <Heading title="STORIES OF CHANGE"  />
-        <Row>
-          <Col xs={12} md={12} lg={12} className="">
-            <p>Our organization collects inspiring stories of individuals and communities who have experienced positive transformation. These stories highlight the impact of our programs, showcasing personal growth, improved livelihoods, and social progress. They serve as a testament to the power of collective action and the potential for change in even the most challenging circumstances.</p>
-         
-          </Col>
-           <Col lg={12}>
-             <Carousel slide={true} interval={2000}>
-              <Carousel.Item>
-                <img
-                  className="d-block w-100"
-                  src="https://media.licdn.com/dms/image/D4D22AQFFnkX20jbX_g/feedshare-shrink_2048_1536/0/1685791142446?e=1688601600&v=beta&t=xnH8WAO_d7XCIVDUFYifqFtF75dX4yFLWz50Zl1f6rw"  alt="First slide"  />
-              </Carousel.Item>
-              <Carousel.Item>
-                <img
-                  className="d-block w-100"
-                  src="https://media.licdn.com/dms/image/D4D22AQEwnNriCK-PIw/feedshare-shrink_1280/0/1686051614484?e=1689206400&v=beta&t=acq3cwoloExK0iBeeFuH6HyLfLr4EUuZZl_s6fiaorQ"  alt="Second slide" />
-              </Carousel.Item>
-              <Carousel.Item>
-                <img
-                  className="d-block w-100"
-                  src="https://media.licdn.com/dms/image/D4D22AQHRXtEn5pBZpg/feedshare-shrink_1280/0/1685684249868?e=1688601600&v=beta&t=-7e-oBFp2ubl9jAWutSHfCvIChcY94Ok2ljCYpc-l-k" alt="Third slide" />
-              </Carousel.Item>
-            </Carousel>
-          </Col>
-
-        </Row>
-      </Container>
-     </section> */}
 
      <section className="home_volunterr_banner">
        <Container>
@@ -496,6 +443,8 @@ export default function Home() {
          <Heading title="ASSOCIATION AND PARTNERS" />
          <Sliding/>
        </section>
+
+       
 
 
 
