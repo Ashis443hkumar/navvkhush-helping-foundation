@@ -28,7 +28,7 @@ export default function ToyLibrary() {
     
             </Col>
             <Col xs={12} md={6} lg={6}>
-              <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/Toy-Library-Main-Picture.jpg" alt="" />
+              <img src="https://www.thescottishsun.co.uk/wp-content/uploads/sites/2/2020/08/NINTCHDBPICT000597130938.jpg" alt="" />
             </Col>
           </Row>
         </Container>
