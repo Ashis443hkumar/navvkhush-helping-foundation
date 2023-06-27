@@ -23,11 +23,6 @@ import Heading from "../../common/Heading";
 export default function Demo(){
   return(
     <>
-  
-
-
-
-
     <div className="tesimonial">
     <Heading subtitle="TESTIMONIALS" title="Explore the experience"  />
 
@@ -136,30 +131,26 @@ export default function Demo(){
           <Card.Text>
           “Providing expensive courses free of cost to women could be a great opportunity in order to making women independent & confident. Great work !.”
           </Card.Text>
-         <Card.Title>Renu Devi</Card.Title>
+         <Card.Title>Priyanka</Card.Title>
          <p>Stitching Teacher</p>
        </Card.Body>
        </Card>
       </SwiperSlide>
+
       <SwiperSlide>
        <Card style={{ width: '22rem' }} className="testi_content" >
         <Card.Body className="text-center">
           <Card.Text>
           “Providing expensive courses free of cost to women could be a great opportunity in order to making women independent & confident. Great work !.”
           </Card.Text>
-         <Card.Title>Renu Devi</Card.Title>
-         <p>Stitching Teacher</p>
+         <Card.Title>Aakanksha</Card.Title>
+         <p>Fashion Designing Traineer</p>
        </Card.Body>
        </Card>
       </SwiperSlide>
 
-    
     </Swiper>
- 
     </div>
-      
-
-       
    
 
     </>
