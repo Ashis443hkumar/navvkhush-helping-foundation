@@ -1,9 +1,7 @@
 import React, { useState, useEffect } from "react"
-
 // Import Swiper React components
 import 'swiper/css';
 import "./slide.css"
-
 
 // Import Swiper styles
 import { Navigation, Autoplay,  Scrollbar } from 'swiper';
@@ -15,16 +13,16 @@ import 'swiper/css/pagination';
 import Slide_Data from "./Slide_Data"
 
 
-
 export default function Slide() {
 
   const [data, setData] = useState(Slide_Data)
+
   return (
     <div className="slide">
       <Swiper  
         // install Swiper modules
       modules={[Navigation, Autoplay, Scrollbar]}
-      spaceBetween={30}
+      spaceBetween={20}
       slidesPerView={3}
       navigation
       autoplay={{
@@ -38,15 +36,15 @@ export default function Slide() {
         },
         "@0.75": {
           slidesPerView: 2,
-          spaceBetween: 20,
+          spaceBetween: 10,
         },
         "@1.00": {
           slidesPerView: 2,
-          spaceBetween: 40,
+          spaceBetween: 20,
         },
         "@1.50": {
           slidesPerView: 3,
-          spaceBetween: 50,
+          spaceBetween: 20,
         },
       }}
       pagination={{ clickable: true }}
@@ -59,48 +57,14 @@ export default function Slide() {
           return(
             <SwiperSlide>
             <div className="slide_image">
-              <img src={value.image} alt=""  />
+              <img src={value.image} alt="" className="w-100" />
             </div>
           </SwiperSlide>
           )
         })
       }
 
-{/* 
-      <SwiperSlide>
-        <div className="slide_image">
-          <img src="https://media.licdn.com/dms/image/D4D22AQHRXtEn5pBZpg/feedshare-shrink_1280/0/1685684249868?e=1688601600&v=beta&t=-7e-oBFp2ubl9jAWutSHfCvIChcY94Ok2ljCYpc-l-k" alt=""  />
-        </div>
-      </SwiperSlide>
-
-      <SwiperSlide>
-        <div className="slide_image">
-          <img src="https://media.licdn.com/dms/image/D4D22AQHRXtEn5pBZpg/feedshare-shrink_1280/0/1685684249868?e=1688601600&v=beta&t=-7e-oBFp2ubl9jAWutSHfCvIChcY94Ok2ljCYpc-l-k" alt=""  />
-        </div>
-      </SwiperSlide>
-      <SwiperSlide>
-        <div className="slide_image">
-          <img src="https://media.licdn.com/dms/image/D4D22AQHRXtEn5pBZpg/feedshare-shrink_1280/0/1685684249868?e=1688601600&v=beta&t=-7e-oBFp2ubl9jAWutSHfCvIChcY94Ok2ljCYpc-l-k" alt=""  />
-        </div>
-      </SwiperSlide>
-      <SwiperSlide>
-        <div className="slide_image">
-          <img src="https://media.licdn.com/dms/image/D4D22AQHRXtEn5pBZpg/feedshare-shrink_1280/0/1685684249868?e=1688601600&v=beta&t=-7e-oBFp2ubl9jAWutSHfCvIChcY94Ok2ljCYpc-l-k" alt=""  />
-        </div>
-      </SwiperSlide>
-      <SwiperSlide>
-        <div className="slide_image">
-          <img src="https://media.licdn.com/dms/image/D4D22AQHRXtEn5pBZpg/feedshare-shrink_1280/0/1685684249868?e=1688601600&v=beta&t=-7e-oBFp2ubl9jAWutSHfCvIChcY94Ok2ljCYpc-l-k" alt=""  />
-        </div>
-      </SwiperSlide>
-      <SwiperSlide>
-        <div className="slide_image">
-          <img src="https://media.licdn.com/dms/image/D4D22AQHRXtEn5pBZpg/feedshare-shrink_1280/0/1685684249868?e=1688601600&v=beta&t=-7e-oBFp2ubl9jAWutSHfCvIChcY94Ok2ljCYpc-l-k" alt=""  />
-        </div>
-      </SwiperSlide> */}
-
     </Swiper>
-    {/* <div class="swiper-button-next"></div> */}
 
     </div>
   );

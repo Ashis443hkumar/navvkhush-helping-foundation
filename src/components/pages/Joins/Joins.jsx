@@ -8,9 +8,6 @@ import Heading from "../../common/Heading";
 import Card from 'react-bootstrap/Card';
 import "./style.css"
 import {NavLink,useNavigate, Link} from "react-router-dom"
-
-
-
 import Button from 'react-bootstrap/Button';
 import Slide from "../../common/slide/Slide";
 import HeroButton from "../../common/heroButton/HeroButton";
