@@ -249,7 +249,7 @@ export default function Introduction() {
        </section>
 
        {/* SOCIAL VENTURES */}
-       <section className="mb-5">
+       {/* <section className="mb-5">
         <Container>
          <Heading title="SOCIAL VENTURES" subtitle="Lakshyam actively engages in impactful social ventures addressing education, healthcare, skill development, women empowerment, and community development. Through innovative approaches, we create sustainable solutions, empower communities, and foster holistic development. Our initiatives aim to bring positive change and build a more inclusive society for all" />
         <Row>
@@ -278,7 +278,7 @@ export default function Introduction() {
         
         </Row>
        </Container>
-      </section>
+      </section> */}
 
       <section className="home_volunterr_banner">
        <Container>
