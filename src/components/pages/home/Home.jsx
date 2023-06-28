@@ -31,7 +31,7 @@ export default function Home() {
       <section className="home_about">
         <Container className="">
         <Heading title="about Us" subtitle="" />
-        <p>CCSDO strives to empower women with dignity and independence through economic and social support, working towards reducing violence and discrimination. Their achievements include education, counseling, and financial empowerment for women and children, as well as collaborations with government projects and employment opportunities. Join CCSDO in creating a more just and equal society.<Link to="./introduction" className="home_read_more" >....Read More</Link> </p>
+        <p>CCSDO strives to empower women with dignity and independence through economic and social support, working towards reducing violence and discrimination. Their achievements include education, counseling, and financial empowerment for women and children, as well as collaborations with government projects and employment opportunities. Join CCSDO in creating a more just and equal society.<Link to="./introduction" className="home_read_more" >...Read More</Link> </p>
        </Container>
       </section>
 

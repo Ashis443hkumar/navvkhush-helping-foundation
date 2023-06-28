@@ -101,11 +101,16 @@ export default function Introduction() {
                  <h4>Registrations/Exemption under various Acts</h4>
                  <p>Registration: Lakshyam is a registered non-governmental organization (NGO) under the relevant laws and regulations of the country. We have obtained the necessary registrations and certifications to operate legally as a nonprofit organization.</p>
                  <h4>Other Important Registration</h4>
-                 <p>Niti Ayog Unique Id – DL/2013/0059507</p>
-                 <p>Guide Star Registration No. – 4540</p>
-                 <p>CAF Certificate No. – 127/N-53/2015-2016</p>
-                 <p>MSME No.: JH2000005860</p>
-                 <p>CSR Number : 00007758</p>
+                 <p><stong>E-Mail</stong>INFO@THECRIMECONTROL.COM</p>
+                 <p><stong>Date of Establishment:- </stong>15TH OCT 2020</p>
+                 <p><stong>Registration No:- </stong>2325</p>
+                 <p><stong>MSME No:- </stong>UDYAM-DL-02-0045921</p>
+                 <p><stong>PAN:- </stong>AACTC7828E</p>
+                 <p><stong>NGO Darpan No:- </stong>DL/2021/0300598</p>
+                 <p><stong>TAN:- </stong>DELC23076E</p>
+                 <p><stong>80G:- </stong>AACTC7828EF20222</p>
+                 <p><stong>12A:- </stong>AACTC7828EE20216</p>
+
               </Col>
               <Col lg={6} col={6} className="">
                  <h4>Donations/voluntary contributions are exempt under section :</h4>
@@ -113,12 +118,7 @@ export default function Introduction() {
 
                  <p>We ensure compliance with all legal requirements and maintain transparency in our operations to uphold the trust and confidence of our stakeholders and supporters.</p>
 
-                 <p>Permanent Income Tax No. is AAATL9638D</p>
-                 <p>We are also eligible to receive foreign funding from the Ministry of External Affairs by FCRA No. is 231661694.</p>
-                 <p>Income Tax Certificate – PDF File Link</p>
-                 <p>Registration Certificate – PDF File Link</p>
-                 <p>PAN Details of the Organization – PDF File Link</p>
-                 <p>FCRA Certificate – PDF File Link</p>
+               
                </Col>
 
             </Row>
