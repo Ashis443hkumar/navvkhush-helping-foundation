@@ -59,7 +59,7 @@ import Slide from "./components/common/slide/Slide"
 
 import WhomenProjects from "./components/pages/celebrityMedia/project/WhomenProjects"
 import ChildProject from "./components/pages/celebrityMedia/project/ChildProject"
-// import MinistyProjects from "./components/pages/celebrityMedia/project/MinistyProjects"
+import MinistryProjects from "./components/pages/celebrityMedia/project/MinistryProjects"
 import Sankalp from "./components/pages/celebrityMedia/project/Sankalp"
 
 
@@ -112,7 +112,7 @@ export default function App() {
       {/* projects details  */}
       <Route path="/joinsg" element={<WhomenProjects/>} />
       <Route path="/ChildProject" element={<ChildProject/>} />
-      {/* <Route path="/MinistyProjects" element={<MinistyProjects/>} /> */}
+      <Route path="/MinistyProjects" element={<MinistryProjects/>} />
       <Route path="/sankalp" element={<Sankalp/>} />
 
 

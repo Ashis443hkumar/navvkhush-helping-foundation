@@ -19,15 +19,32 @@
  
 }
 /* projects */
-.ujuydcuyuyi{
-  background-color: crimson;
+.project_box{
+ 
+  background-color: rgba(155, 17, 82, 0.8);
+  text-align: center;
+  padding: 40px  0%;
+  color: #ffff;
+}
+.project_box a{
+  text-decoration: none;
+  color: #ffff;
+  background-color: cornflowerblue;
+  padding: 8px 30px;
+}
+.project_box1{
+  background-color: rgba(80, 8, 204, 0.8);
+  color: #ffff;
+  text-align: center;
+}
+.project_box1 a{
+  text-decoration: none;
+  position: absolute;
+  bottom: 20px;
+  left: 40%;
+  color: #fff;
 }
 
-.eretert{
-  width: 100%;
-  height: auto;
-  background-color: blue;
-}
 
 /* media pages */
 .tabs_section{

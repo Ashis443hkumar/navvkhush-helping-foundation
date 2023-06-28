@@ -16,57 +16,46 @@ export default function Media(){
     <>
       <section className="">
        <Container>
-         <Heading title="Running Projects" />
+         <Heading title="Running Projects  " />
         <Row>
-         <Col xs={12} lg={4} md={4}> 
-         <Card >
+
+         <Col xs={12} lg={4} md={4} > 
+         <Card className="project_box">
           <Card.Body>
-            <Card.Title  className="text-center"> WOMEN  EMPOWERMENT</Card.Title>
-            {/* <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle> */}
-            <Card.Text>
-              <ul>
-                <li>Fashion Designing Course for women.</li>
-                <li>absolutely free of cost.</li>
-                <li>Stitching Course.</li>
-              </ul>
-            </Card.Text>
+            <Card.Title  className="text-center pb-4"> WOMEN  EMPOWERMENT</Card.Title>         
              <Link to="/joinsg" >Click Me</Link>
            </Card.Body>
           </Card>
          </Col>
-         <Col xs={12} lg={4} md={4}> 
-         <Card >
-          <Card.Body>
-            <Card.Title  className="text-center"> PROJECT NIPUN UNDER MINISTRY OF HOUSING AND URBAN AFFAIRS 
-             IMPLEMENTED BY - CCSDO</Card.Title>
-            {/* <Card.Subtitle className="mb-2 text-muted"></Card.Subtitle> */}
-            <Card.Text>
-              <ul>
-                <li>RPL (Recognition of prior learning) Programme  for Construction Workers.</li>
-                <li>Project Implementing Agencies (PIAs) Construction Sector Skill Council.</li>
-                <li>RPL at Construction sites.</li>
-              </ul>
-            
-            </Card.Text>
-            <Link to="/MinistyProjects">Click Me</Link>
-          </Card.Body>
-        </Card>
-         </Col>
-         <Col xs={12} lg={4} md={4}> 
-         <Card >
-          <Card.Body>
-            <Card.Title  className="text-center">CHILD EDUCATION </Card.Title>
-            <Card.Text>
-              <ul>
-                <li> Opening  School  for underpriviledged children so they can gain quality education.</li>
-                <li>Summer Camp for children.</li>
-              </ul>
 
-            </Card.Text>
+       <Col xs={12} lg={4} md={4}> 
+         <Card className="project_box">
+          <Card.Body>
+            <Card.Title  className="text-center pb-4">CHILD EDUCATION </Card.Title>
             <Link to="/ChildProject">Click Me</Link>
           </Card.Body>
         </Card>
+      </Col>
+
+        <Col xs={12} lg={4} md={4}> 
+         <Card className="project_box">
+          <Card.Body>
+            <Card.Title  className="text-center pb-4">Sankalp Project -100 ladies</Card.Title>
+            <Link to="/sankalp">Click Me</Link>
+          </Card.Body>
+         </Card>
+        </Col>
+
+        <Col xs={12} lg={6} md={6} className="mt-5"> 
+         <Card className="project_box">
+          <Card.Body>
+            <Card.Title  className="text-center pb-3"> PROJECT NIPUN UNDER MINISTRY OF HOUSING AND URBAN AFFAIRS 
+             IMPLEMENTED BY - CCSDO</Card.Title>
+            <Link to="/MinistyProjects">Click Me</Link>
+          </Card.Body>
+          </Card>
          </Col>
+
         </Row>
        </Container>
       </section>
@@ -76,68 +65,47 @@ export default function Media(){
        <Container>
          <Heading title="Upcomming Projects" />
         <Row className="text-center">
-         <Col xs={12} lg={3} md={3}> 
-         <Card style={{ height: '14rem' }}>
-          <Card.Body>
-            <Card.Title  className="text-start"> CSR Project with Apparel Made-ups and Home Furnishing Sector Skill Council </Card.Title>
-            {/* <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle> */}
-            {/* <Card.Text>
-              <ul>
-                <li>Fashion Designing Course for women.</li>
-                <li>absolutely free of cost.</li>
-                <li>Stitching Course.</li>
-              </ul>
-            </Card.Text> */}
-            <Card.Link href="#">Card Link</Card.Link>
-          </Card.Body>
-        </Card>
-         </Col>
-         <Col xs={12} lg={3} md={3}> 
-         <Card style={{ height: '14rem' }}>
-          <Card.Body>
-            <Card.Title className="text-start"> Sfurti Scheme – Regeneration of Traditional Industries sponsored by MSME </Card.Title>
-            {/* <Card.Subtitle className="mb-2 text-muted"></Card.Subtitle> */}
-            {/* <Card.Text>
-              <ul>
-                <li>RPL (Recognition of prior learning) Programme  for Construction Workers.</li>
-                <li>Project Implementing Agencies (PIAs) Construction Sector Skill Council.</li>
-                <li>RPL at Construction sites.</li>
-              </ul>
-            </Card.Text> */}
-            <Card.Link href="#">Card Link</Card.Link>
-          </Card.Body>
-        </Card>
-         </Col>
-         <Col xs={12} lg={3} md={3}> 
-         <Card style={{ height: '14rem' }}>
-          <Card.Body>
-            <Card.Title  className="text-start">Capacity Building Program sponsored by (Social Justice Empowerment Ministry) NIESBUD for Specially abled Persons</Card.Title>
-            {/* <Card.Text>
-              <ul>
-                <li> Opening  School  for underpriviledged children so they can gain quality education.</li>
-                <li>Summer Camp for children.</li>
-              </ul>
 
-            </Card.Text> */}
-            <Card.Link href="#">Card Link</Card.Link>
-          </Card.Body>
-        </Card>
-         </Col>
-         <Col xs={12} lg={3} md={3}> 
-         <Card style={{ height: '14rem' }}>
+         <Col xs={12} lg={3} md={3} > 
+         <Card style={{ height: '14rem' }} className="project_box1">
           <Card.Body>
-            <Card.Title  className="text-start">RPL with Paint & Coating  Sector Skill Council </Card.Title>
-            {/* <Card.Text>
-              <ul>
-                <li> Opening  School  for underpriviledged children so they can gain quality education.</li>
-                <li>Summer Camp for children.</li>
-              </ul>
+            <Card.Title  className="pt-4"> CSR Project with Apparel Made-ups and Home Furnishing Sector Skill Council </Card.Title>
+           
+            <Card.Link href="#">Card Link</Card.Link>
+          </Card.Body>
+         </Card>
+         </Col>
 
-            </Card.Text> */}
+         <Col xs={12} lg={3} md={3}> 
+         <Card style={{ height: '14rem' }} className="project_box1">
+          <Card.Body>
+            <Card.Title className="pt-4" >
+               Sfurti Scheme – Regeneration of Traditional Industries sponsored by MSME 
+            </Card.Title>
             <Card.Link href="#">Card Link</Card.Link>
           </Card.Body>
         </Card>
          </Col>
+
+         <Col xs={12} lg={3} md={3}> 
+         <Card style={{ height: '14rem' }} className="project_box1">
+          <Card.Body>
+            <Card.Title  className="">
+              Capacity Building Program sponsored by (Social Justice Empowerment Ministry) NIESBUD for Specially abled Persons 
+            </Card.Title>
+            <Card.Link href="#">Card Link</Card.Link>
+          </Card.Body>
+        </Card>
+       </Col>
+
+       <Col xs={12} lg={3} md={3}> 
+         <Card style={{ height: '14rem' }} className="project_box1">
+          <Card.Body>
+            <Card.Title  className="pt-5">RPL with Paint & Coating  Sector Skill Council </Card.Title>
+            <Card.Link href="#">Card Link</Card.Link>
+          </Card.Body>
+        </Card>
+       </Col>
 
         </Row>
        </Container>

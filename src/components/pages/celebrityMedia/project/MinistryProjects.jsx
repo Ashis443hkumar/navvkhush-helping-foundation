@@ -7,10 +7,10 @@ import Image from 'react-bootstrap/Image';
 import Heading from "../../../common/Heading";
 
 
-export default function MinistyProjects(){
+export default function MinistryProjects(){
   return(
     <>
-     <section className="head_section">
+     <section className="">
        <Container>
        <Heading  title="PROJECT NIPUN UNDER MINISTRY OF HOUSING AND URBAN AFFAIRS IMPLEMENTED BY - CCSDO" />
         <Row> 
