@@ -21,40 +21,32 @@ import HeroButton from "../../common/heroButton/HeroButton";
 export default function LegalStatus() {
   return (
     <>
-     <section className="">
+      <section className="">
           <Container>
             <Heading title="LEGAL STATUS"/>
             <Row>
                <Col lg={6} col={6} className="">
                  <h4>Registrations/Exemption under various Acts</h4>
-                 <p>Registration: Navvkhush is a registered non-governmental organization (NGO) under the relevant laws and regulations of the country. We have obtained the necessary registrations and certifications to operate legally as a nonprofit organization.</p>
+                 <p>Registration: Lakshyam is a registered non-governmental organization (NGO) under the relevant laws and regulations of the country. We have obtained the necessary registrations and certifications to operate legally as a nonprofit organization.</p>
                  <h4>Other Important Registration</h4>
-                 <p> <strong>Name of organisation:- </strong> NAVVKHUSH HELPING FOUNDATION, CCSDO</p>
-                 <p><strong>Address:- </strong> 21/41-42, KALYAN PURI, NEW DELHI, DELHI, 110091</p>
-                 <p><strong>Contact No:- </strong> 8287372178, 9311281717</p>
-                 <p><strong>E-Mail:- </strong>INFO@THECRIMECONTROL.COM </p>
-                 <p><strong>Date of Establishment:- </strong> 15TH OCT 2020</p>
-                 <p><strong>Registration No:- </strong> 2325</p>
-                 <p><strong>MSME No.:- </strong> UDYAM-DL-02-0045921</p>
-                 <p><strong>PAN:- </strong> AACTC7828E</p>
-                 <p><strong>NGO Darpan No:- </strong> DL/2021/0300598</p>
-                 <p><strong>TAN:- </strong>DELC23076E </p>
-                 <p><strong>80G:- </strong> AACTC7828EF20222</p>
-                 <p><strong>12A:- </strong> AACTC7828EE20216</p>
-                 <p><strong>TP ID:- </strong> TP160040</p>
+                 <p><stong>E-Mail:- </stong>INFO@THECRIMECONTROL.COM</p>
+                 <p><stong>Date of Establishment:- </stong>15TH OCT 2020</p>
+                 <p><stong>Registration No:- </stong>2325</p>
+                 <p><stong>MSME No:- </stong>UDYAM-DL-02-0045921</p>
+                 <p><stong>PAN:- </stong>AACTC7828E</p>
+                 <p><stong>NGO Darpan No:- </stong>DL/2021/0300598</p>
+                 <p><stong>TAN:- </stong>DELC23076E</p>
+                 <p><stong>80G:- </stong>AACTC7828EF20222</p>
+                 <p><stong>12A:- </stong>AACTC7828EE20216</p>
+
               </Col>
               <Col lg={6} col={6} className="">
                  <h4>Donations/voluntary contributions are exempt under section :</h4>
-                 <p>Tax Exemption: Navvkhush has been granted tax-exempt status by the appropriate authorities. Donations and contributions made to our organization are eligible for tax benefits as per the prevailing tax laws and regulations.</p>
+                 <p>Tax Exemption: Lakshyam has been granted tax-exempt status by the appropriate authorities. Donations and contributions made to our organization are eligible for tax benefits as per the prevailing tax laws and regulations.</p>
 
                  <p>We ensure compliance with all legal requirements and maintain transparency in our operations to uphold the trust and confidence of our stakeholders and supporters.</p>
 
-                 <p>Permanent Income Tax No. is AAATL9638D</p>
-                 <p>We are also eligible to receive foreign funding from the Ministry of External Affairs by FCRA No. is 231661694.</p>
-                 <p>Income Tax Certificate – PDF File Link</p>
-                 <p>Registration Certificate – PDF File Link</p>
-                 <p>PAN Details of the Organization – PDF File Link</p>
-                 <p>FCRA Certificate – PDF File Link</p>
+               
                </Col>
 
             </Row>
