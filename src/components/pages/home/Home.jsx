@@ -523,8 +523,10 @@ export default function Home() {
          </Col>
          <Col xs={12} lg={6} md={6} className="text-end ">
          <div className="subcribe_box">
-          <input placeholder="Enter your email" type="email" name="email" id="email-address"/>
-          <button type="submit">Subscribe</button>
+           <form action="">
+           <input placeholder="Enter your email" type="email" name="email" id="email-address"/>
+           <button type="submit">Subscribe</button>
+           </form>
         </div>
          </Col>
         </Row>

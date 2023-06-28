@@ -57,6 +57,12 @@ import Portfolio from "./Portfolio/Portfolio"
 import Testimonial from "./Testimonial/Testimonial"
 import Slide from "./components/common/slide/Slide"
 
+import WhomenProjects from "./components/pages/celebrityMedia/project/WhomenProjects"
+import ChildProject from "./components/pages/celebrityMedia/project/ChildProject"
+// import MinistyProjects from "./components/pages/celebrityMedia/project/MinistyProjects"
+import Sankalp from "./components/pages/celebrityMedia/project/Sankalp"
+
+
 
 export default function App() {
   return (
@@ -66,6 +72,7 @@ export default function App() {
       <Head/>
       <Header/>
       {/* <Portfolio/> */}
+      {/* <WhomenProjects/> */}
       <DonateButton/>
 
       <Routes>
@@ -101,6 +108,14 @@ export default function App() {
       <Route path="/contact" element={<Contact/>} />
       <Route path="/donate" element={<Donate/>} />
       <Route path="/DonateBillAddress" element={<DonateBillAddress/>} />
+
+      {/* projects details  */}
+      <Route path="/joinsg" element={<WhomenProjects/>} />
+      <Route path="/ChildProject" element={<ChildProject/>} />
+      {/* <Route path="/MinistyProjects" element={<MinistyProjects/>} /> */}
+      <Route path="/sankalp" element={<Sankalp/>} />
+
+
 
 
       </Routes>

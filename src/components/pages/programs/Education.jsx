@@ -31,7 +31,6 @@ export default function Education() {
             </Col>
           </Row>
         </Container>
-
       </section>
 
       <section className="buttryimapct">
@@ -40,6 +39,7 @@ export default function Education() {
           <Row className="mt-5">
             <Col xs={12} md={3} lg={3} className="buttryimapct_desc" >
               <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/our-impact-5.png" alt=""/>
+              {/* <i class="fa-solid fa-children" style={{width:"82px", height:"82px", marginRight:"12px"}} ></i> */}
               <div className="">
                 <p>58,000 children from 75 Govt. schools benefitted</p>
               </div>

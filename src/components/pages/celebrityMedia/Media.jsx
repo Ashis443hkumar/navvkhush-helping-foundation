@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useState} from "react";
 import Heading from "../../common/Heading";
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
@@ -6,13 +6,14 @@ import Row from 'react-bootstrap/Row';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card'
 import Slide from "../../common/slide/Slide";
-import Tab from 'react-bootstrap/Tab';
-import Tabs from 'react-bootstrap/Tabs';
+
+import {Link} from "react-router-dom"
+import Button from 'react-bootstrap/Button';
 
 export default function Media(){
+
   return (
     <>
-
       <section className="">
        <Container>
          <Heading title="Running Projects" />
@@ -29,9 +30,9 @@ export default function Media(){
                 <li>Stitching Course.</li>
               </ul>
             </Card.Text>
-            <Card.Link href="#">Card Link</Card.Link>
-          </Card.Body>
-        </Card>
+             <Link to="/joinsg" >Click Me</Link>
+           </Card.Body>
+          </Card>
          </Col>
          <Col xs={12} lg={4} md={4}> 
          <Card >
@@ -47,7 +48,7 @@ export default function Media(){
               </ul>
             
             </Card.Text>
-            <Card.Link href="#">Card Link</Card.Link>
+            <Link to="/MinistyProjects">Click Me</Link>
           </Card.Body>
         </Card>
          </Col>
@@ -62,7 +63,7 @@ export default function Media(){
               </ul>
 
             </Card.Text>
-            <Card.Link href="#">Card Link</Card.Link>
+            <Link to="/ChildProject">Click Me</Link>
           </Card.Body>
         </Card>
          </Col>
