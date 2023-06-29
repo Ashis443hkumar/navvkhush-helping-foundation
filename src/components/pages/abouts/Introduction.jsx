@@ -465,7 +465,7 @@ export default function Introduction() {
           <Row className="row mt-5 advisor_row parlad_godara">
             <div className="col-md-3">
               <img
-                src="https://media.licdn.com/dms/image/D4D22AQENIy-UORHqAw/feedshare-shrink_800/0/1685000870580?e=1687996800&v=beta&t=VtimxBu8lnsNHUvJdSEwA2bxMf0FhtWld_9fiYUF7H4"
+                src="https://media.licdn.com/dms/image/D4D22AQENIy-UORHqAw/feedshare-shrink_800/0/1685000870580?e=1691020800&v=beta&t=RWL8WLaboS2qJiD1DQUD6QVUH3j5wwlPFZcUUch2Aj4"
                 class="card-img-top w-100"
                 alt=""
               />
