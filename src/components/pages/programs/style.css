@@ -60,3 +60,16 @@
 .other_event{
   background-color: #eeee;
 }
+/* faishan_design */
+.faishan_design img{
+  width: 100%;
+  height: 200px;
+}
+.successStories ul li{
+  list-style: none;
+  text-align: start;
+  padding: 3px 0;
+  padding-left: -130px;
+  margin-left: -20px;
+
+}
