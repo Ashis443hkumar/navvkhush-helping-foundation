@@ -13,20 +13,19 @@ export default function WomenEmpower() {
     <>
         <section className="butteryFlay_section">
         <Container>
-          <Heading title="BUTTERFLY - CHILD WELFARE AND EDUCATION" />
+          <Heading title="WOMEN EMPOWERMENT " />
           <Row className="mt-5">
             <Col xs={12} md={6} lg={6}>
-              
-              <p>Child Protection: The Butterfly program prioritizes the safety and protection of children, working to prevent child abuse, neglect, and exploitation.</p>
-              <p>Quality Education: We ensure access to quality education for children, focusing on improving school infrastructure, providing learning materials, and enhancing teaching methodologies.</p>
-              <p>Health and Nutrition: Our program emphasizes the importance of good health and nutrition for children, providing medical check-ups, hygiene education, and nutritious meals.</p>
-              <p>Emotional Support: We offer counseling and emotional support to children, addressing their psychological well-being and helping them overcome trauma or difficult circumstances.</p>
-              <p>Skill Development: The Butterfly program equips children with essential life skills, vocational training, and entrepreneurship education to enhance their future prospects.</p>
-              <p>Parental and Community Engagement: We actively involve parents and the community in supporting children's welfare and education, fostering a strong support network.</p>
-    
+              <p>This project aims to explore the concept of women empowerment and its significance in promoting gender equality and creating opportunities for women. It focuses on the social, economic, and political aspects of women's empowerment and presents strategies and initiatives that can contribute to empowering women in various spheres of life. The project includes research, analysis of case studies, and recommendations for individuals, organizations, and policymakers to foster an environment conducive to women's empowerment.</p>
+
+              <ul>
+                <li>Provide an overview of the concept of women empowerment and its importance in achieving gender equality.</li>
+                <li>Highlight the historical context and challenges faced by women in various societies.</li>
+              </ul>
+       
             </Col>
             <Col xs={12} md={6} lg={6}>
-              <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/Butterfly-Main-Picture.jpg" alt="" />
+              <img src="https://media.licdn.com/dms/image/D4D22AQHRXtEn5pBZpg/feedshare-shrink_1280/0/1685684249868?e=1691020800&v=beta&t=SEtBdUbzHNWImtBMgDoSYrtL3m_coszOcFt7SPfy1XE" alt="" />
             </Col>
           </Row>
         </Container>
@@ -65,28 +64,8 @@ export default function WomenEmpower() {
         </Container>
       </section>
 
-      <section className="buttry_flowChat">
-        <Container>
-          <Row className="mt-5">
-            <Col xs={12} md={6} lg={6} className="lowChat_title" >
-              <h4>Flow chart of activities carried under our program:</h4>
-            <Row>
-              <Col xs={12} lg={6} md={6} className="card_border"> 
-                <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/Butterfly-prog-Flowchart.jpg" alt="" className="w-100" />
-              </Col>
-            </Row>
-            </Col>
-            <Col xs={12} md={6} lg={6} className="lowChat_title" >
-              <h4>Program Expenses:</h4>
-            <Row>
-              <Col xs={12} lg={6} md={6}  className="card_border"> 
-                <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/Butterfly-prog-Flowchart.jpg" alt="" className="w-100" />
-              </Col>
-            </Row>
-            </Col>
-          </Row>
-        </Container>
-      </section>
+  
+
       <Sdg/>
 
         {/* STORIES OF CHANGE */}

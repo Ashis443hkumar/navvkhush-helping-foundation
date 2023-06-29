@@ -66,18 +66,6 @@ export default function Education() {
         </Container>
       </section>
 
-      {/* <section className="head_section">
-       <Container>
-         <Heading title="Echild Education Provide -ccsdo" />
-        <Row>
-         <Col xs={12} lg={3} md={3}> 
-           
-         </Col>
-         <Col xs={12} lg={3} md={3}> </Col>
-        </Row>
-       </Container>
-      </section> */}
-
 
 
 
