@@ -71,7 +71,7 @@ export default function Home() {
           </Col>
 
           <Col xs={12} md={4} lg={6}>
-             <Image src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/our-program-4.png" className="w-100" />
+             <Image src="https://media.licdn.com/dms/image/D4D22AQG_NKMiVS-mdQ/feedshare-shrink_1280/0/1688031173304?e=1691020800&v=beta&t=vysFHJaew2A-yNn6xYjpQvj9cuxVyyEkpkplQMuPTv0" className="w-100" />
           </Col>
         </Row>
       </Container>
@@ -162,7 +162,7 @@ export default function Home() {
         <Heading title="Our impact" />
          <Row className="">
            <Col xs={12} md={6} lg={6}>
-              <img src="https://tse2.mm.bing.net/th?id=OIP.YMn9z9mTM8Wqnp6vfSq5AwHaE6&pid=Api&P=0&h=180" className="w-100"  alt="" />
+              <img src="https://media.licdn.com/dms/image/D4D22AQEsSpFyskX7dw/feedshare-shrink_2048_1536/0/1688031173281?e=1691020800&v=beta&t=l4tgrs-UkF8ojNI5kRQXn3qFV8_Wuv558PKUH4IyRK4" className="w-100"  alt="" />
            </Col>
            <Col xs={12} md={6} lg={5}>
              <article className="achimed_date">
@@ -322,7 +322,7 @@ export default function Home() {
       <Container className="">
         <Row style={{display:'flex', textAline:"center" }}>
           <Col xs={12} md={6} lg={8} className="">
-             <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/girls.png" alt="" class="w-100" />
+             <img src="https://media.licdn.com/dms/image/D4D22AQEet5ZENJMzkw/feedshare-shrink_2048_1536/0/1688031174066?e=1691020800&v=beta&t=Iyu8KNUDVKPKaGZ3brK3HicUJ8M9Mn_ak6jMgZ1kymM" alt="" class="w-100" />
           </Col>
           <Col xs={12} md={6} lg={4} className="home_child_content">
            <p> Make a difference in a child's life. Contribute to our noble cause by sponsoring a child with a monthly donation of just Rs. 1000. Your support can provide education, healthcare, and a brighter future for a deserving child.</p>

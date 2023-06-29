@@ -25,7 +25,7 @@ export default function WomenEmpower() {
        
             </Col>
             <Col xs={12} md={6} lg={6}>
-              <img src="https://media.licdn.com/dms/image/D4D22AQHRXtEn5pBZpg/feedshare-shrink_1280/0/1685684249868?e=1691020800&v=beta&t=SEtBdUbzHNWImtBMgDoSYrtL3m_coszOcFt7SPfy1XE" alt="" />
+              <img src="https://media.licdn.com/dms/image/D4D22AQHMaqsxM6iuEA/feedshare-shrink_2048_1536/0/1688031173344?e=1691020800&v=beta&t=SSyGEfaUW8StmXP59EwTBdFRySEy0E1PcrnE8WsIPCg" alt="" />
             </Col>
           </Row>
         </Container>

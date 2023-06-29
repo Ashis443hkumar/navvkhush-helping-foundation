@@ -27,7 +27,7 @@ export default function Education() {
     
             </Col>
             <Col xs={12} md={6} lg={6}>
-              <img src="https://media.licdn.com/dms/image/D4D22AQE48T7hvtofXA/feedshare-shrink_2048_1536/0/1686051614306?e=1691020800&v=beta&t=tvAz3iLN-qicVSCQyCuUWGTbTmeRVUq41t4nt8ByiF8" alt="" />
+              <img src="https://media.licdn.com/dms/image/D4D22AQE_FOIBiMO6-A/feedshare-shrink_2048_1536/0/1688031173111?e=1691020800&v=beta&t=2ZBMry6dYPzBpiI0H0rl1xNby7VVRovNhhkm1HPkxz0" alt="" />
             </Col>
           </Row>
         </Container>
@@ -65,7 +65,6 @@ export default function Education() {
           </Row>
         </Container>
       </section>
-
 
 
 
