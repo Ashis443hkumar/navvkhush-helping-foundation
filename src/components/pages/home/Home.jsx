@@ -23,6 +23,7 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import Testimonial from "./Testimonial";
+import VolunteerCom from "../VolunteerCom";
 
 
 export default function Home() {
@@ -301,21 +302,11 @@ export default function Home() {
        </Container>
       </section>
 
+      <VolunteerCom/>
 
-     <section className="home_volunterr_banner">
-       <Container>
-        <Row >
-         <Col xs={12} lg={8} md={8}>
-           <h4 className="text-white">Start with helping one poor person and pave way for the bigger changes!</h4>
-         </Col>
-         <Col xs={12} lg={4} md={4} className="text-end ">
-           <Link to="/volunteer">
-              <HeroButton title="Become a volunteer" />
-           </Link>
-         </Col>
-        </Row>
-       </Container>
-      </section>
+    
+
+
 
      {/* home banner */}
      <section className="home_child_banner" >

@@ -14,7 +14,7 @@ export default function Education() {
     <>
       <section className="butteryFlay_section">
         <Container>
-          <Heading title="BUTTERFLY - CHILD WELFARE AND EDUCATION" />
+          <Heading title=" CHILD WELFARE AND EDUCATION" />
           <Row className="mt-5">
             <Col xs={12} md={6} lg={6}>
               
