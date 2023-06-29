@@ -89,8 +89,7 @@ export default function Home() {
           <Card.Body>
             <Card.Title>Expertise Skill</Card.Title>
             <Card.Text>
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+            Utilize my expertise in [specific skill or field] to contribute valuable insights, innovative solutions, and drive positive outcomes in projects, organizations, and initiatives.
             </Card.Text>
           </Card.Body>
         </Card>
@@ -99,10 +98,9 @@ export default function Home() {
          <Card className="text-center" >
           <Image src="https://tse3.mm.bing.net/th?id=OIP.Q495w2wvVkbY-NJE3FCcuQAAAA&pid=Api&P=0&h=180"  className=" imagesad" />
           <Card.Body>
-            <Card.Title>Expertise Skill</Card.Title>
+            <Card.Title>In-kind Donations</Card.Title>
             <Card.Text>
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+            NGOs often require various resources to carry out their work effectively. Donate in-kind items such as office supplies, educational materials, computers, or furniture.
             </Card.Text>
           </Card.Body>
         </Card>
@@ -111,22 +109,24 @@ export default function Home() {
          <Card className="text-center" >
           <Image src="https://tse1.mm.bing.net/th?id=OIP.llK8VJ41qxfWHOwDkNjpQgHaEK&pid=Api&P=0&h=180"  className=" imagesad" />
           <Card.Body>
-            <Card.Title>Expertise Skill</Card.Title>
-            <Card.Text>
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </Card.Text>
+            <Card.Title>Spread Awareness</Card.Title>
+            <Card.Text  className="py-2">
+            Write articles or blogs, give presentations, or participate in community events to educate others about the cause and the NGO's work.
+           </Card.Text>
           </Card.Body>
         </Card>
          </Col>
          <Col xs={12} lg={3} md={3} className="py-5"> 
          <Card className="text-center" >
           <Image src="https://tse4.explicit.bing.net/th?id=OIP.Gj2QIpiwB5ROpLbfVv89_gHaLH&pid=Api&P=0&h=180"  className=" imagesad" />
-          <Card.Body>
-            <Card.Title>Expertise Skill</Card.Title>
-            <Card.Text>
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+          <Card.Body >
+            <Card.Title> Skills-based Support</Card.Title>
+            <Card.Text className="">
+            Offer your professional skills or knowledge to the NGO. This could include providing legal advice, accounting services, event planning, or strategic planning.
+
+            {/* Assist with program development, monitoring and evaluation, or creating educational materials.
+
+            Conduct workshops or training sessions to empower staff or beneficiaries with new skills. */}
             </Card.Text>
           </Card.Body>
         </Card>
@@ -258,9 +258,8 @@ export default function Home() {
           <Image src="https://tse1.mm.bing.net/th?id=OIP.Sh-iQt1v2Uu36zG7C2sZ8QHaEK&pid=Api&P=0&h=180"  className=" imagesad" />
           <Card.Body>
             <Card.Title>Ration </Card.Title>
-            <Card.Text>
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+            <Card.Text className="py-3">
+            Support NGOs by donating rations to help alleviate hunger and provide essential food supplies to those in need. Your contribution can make a significant impact in ensuring access to nutritious meals for vulnerable communities.
             </Card.Text>
           </Card.Body>
         </Card>
@@ -270,9 +269,8 @@ export default function Home() {
           <Image src="https://tse2.mm.bing.net/th?id=OIP.xBN3vc05X7gLqtN90ei4RAHaIq&pid=Api&P=0&h=180"  className=" imagesad" />
           <Card.Body>
             <Card.Title>School Bag</Card.Title>
-            <Card.Text>
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+            <Card.Text className="py-2">
+            Make a difference in a child's education by donating school bags to NGOs. Your contribution can provide underprivileged children with the necessary tools for learning and empower them to pursue their education with dignity and enthusiasm.
             </Card.Text>
           </Card.Body>
         </Card>
@@ -283,8 +281,7 @@ export default function Home() {
           <Card.Body>
             <Card.Title>Stationary</Card.Title>
             <Card.Text>
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+            Empower students with the gift of education by donating stationery to NGOs. By providing essential supplies such as pens, pencils, notebooks, and art materials, you can support their learning journey and inspire creativity, opening doors to a brighter future.
             </Card.Text>
           </Card.Body>
         </Card>
@@ -295,8 +292,7 @@ export default function Home() {
           <Card.Body>
             <Card.Title>Sewing Machine</Card.Title>
             <Card.Text>
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+            Empower individuals with the skill of sewing by donating sewing machines to NGOs. Your contribution can enable aspiring entrepreneurs and artisans to create livelihood opportunities, enhance their skills, and support sustainable economic development in their communities.
             </Card.Text>
           </Card.Body>
         </Card>
