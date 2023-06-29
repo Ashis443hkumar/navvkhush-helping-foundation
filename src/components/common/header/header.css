@@ -1,8 +1,14 @@
 
+.header{
+  position: sticky;
+  top: 0%;
+  z-index: 9999;
+}
 .navigation{
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
 .navigation .home{
   margin-right: 15px;
