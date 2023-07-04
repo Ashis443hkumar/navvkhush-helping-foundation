@@ -37,9 +37,9 @@ export default function Contact(){
                   <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message"></textarea>
                 </div>
 
-                <div class="submit_btn">
-                   {/* <HeroButton buttonTitle="Submit" /> */}
-                   {/* <HeroButton title="" /> */}
+                <div class="submit_btnm text-center">
+                   <HeroButton title="Submit" />
+
                 </div>
                </form>
              </div>
@@ -47,12 +47,13 @@ export default function Contact(){
                 <div class="contact_info">
                     <p>
                       <i class="fa fa-quote-left fg"></i> 
-                       "  A man's true wealth is the good he does in this world. 
+                       "   True wealth lies in doing  good.  A little help can bring 
                       <i class="fa fa-quote-right fg"></i>
                     </p>
-                    <p>Just A Little Help Can Make Their Hearts Happier! "</p>
+                    <p>immense happiness  and joy to others' hearts. Spread kindness! "</p>
  
-                    <HeroButton buttonTitle="Donate Now" />
+                    <HeroButton title="Donate Now" />
+                    
                 </div>
              </div>
            </div>
