@@ -1,7 +1,7 @@
 const Slide_Data = [
   {
     id: 1,
-    image: "https://media.licdn.com/dms/image/D4D22AQEzuZhI7v14LA/feedshare-shrink_800/0/1685347814068?e=1687996800&v=beta&t=KRU-rnTzny0v36_QSutfG29OwnlX78q0pVGNwlEeFfc",
+    image: "https://media.licdn.com/dms/image/D4D22AQFw7E9ECPwxvw/feedshare-shrink_1280/0/1688031172384?e=1691625600&v=beta&t=np9wSiji1IvBA6Ljv2ChrSwx1tWzliNTbfpA2Hpysns",
     design: "NCD - DESIGN",
     name: "Mevine Thoda",
     offcer: "Marketing Officer",
@@ -11,7 +11,7 @@ const Slide_Data = [
   },
   {
     id: 2,
-    image: "https://media.licdn.com/dms/image/D4D22AQHAsOOzTRxo5A/feedshare-shrink_1280/0/1685347815329?e=1687996800&v=beta&t=FbVgn4PsnClcXeDFDgmCZhSho0K7Iiex9ukn_ugXIDk",
+    image: "https://media.licdn.com/dms/image/D4D22AQE_FOIBiMO6-A/feedshare-shrink_2048_1536/0/1688031173111?e=1691625600&v=beta&t=SEFQbbyIAL_h4cwQ82nLjHpd1ZOHFf03s23v-aaYiYA",
     design: "Default name",
     name: "Davei Luace",
     offcer: "Chief Operating Manager",
@@ -21,7 +21,7 @@ const Slide_Data = [
   },
   {
     id: 3,
-    image: "https://media.licdn.com/dms/image/D4D22AQFFnkX20jbX_g/feedshare-shrink_2048_1536/0/1685791142446?e=1688601600&v=beta&t=xnH8WAO_d7XCIVDUFYifqFtF75dX4yFLWz50Zl1f6rw",
+    image: "https://media.licdn.com/dms/image/D4D22AQG_NKMiVS-mdQ/feedshare-shrink_1280/0/1688031173304?e=1691625600&v=beta&t=Iz7HPNLOBzEnfOdGZKZhC8NIle3EtRrN7vk0x0eKFMM",
     design: "Rainbow-Themes",
     name: "Nevine Acotanza",
     offcer: "Chief Operating Officer",
@@ -31,7 +31,7 @@ const Slide_Data = [
   },
   {
     id: 4,
-    image: "https://media.licdn.com/dms/image/D4D22AQFPMLsC2PbbBQ/feedshare-shrink_2048_1536/0/1685347815512?e=1687996800&v=beta&t=QkSFVUoIwmW9JJrk2UxfjhizKLsMnWur8MdSWSZLCs4",
+    image: "https://media.licdn.com/dms/image/D4D22AQE48T7hvtofXA/feedshare-shrink_2048_1536/0/1686051614306?e=1691625600&v=beta&t=ZxZha5Wgh8CYSWzthlFbRP33qJX_b8utTWDHiSuoTf4",
     design: "Bound - Trolola",
     name: "Jone Duone Joe",
     offcer: "Operating Officer",
@@ -41,7 +41,27 @@ const Slide_Data = [
   },
   {
     id: 5,
-    image: "https://media.licdn.com/dms/image/D4D22AQGp8U8i5cST0g/feedshare-shrink_1280/0/1685947253150?e=1688601600&v=beta&t=NjwjBkhRDHkjnmSwOea4PNV1AP4xWU2zUs-PDEQu-PA",
+    image: "https://media.licdn.com/dms/image/D4D22AQHk9DQCAZUMcw/feedshare-shrink_1280/0/1685947256233?e=1691625600&v=beta&t=IyklEvB0RDk3d7pMdi6ldvYUEAKevWftwljhmtqfkpw",
+    design: "Glassfisom",
+    name: "Nevine Dhawan",
+    offcer: "CEO Of Officer",
+    post: "Android App Design",
+    date: "Fiver - Mar 4, 2015 - Aug 30, 2021",
+    desc: "No more question for design. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante. Ut tincidunt est ac dolor aliquam sodales phasellus smauris	.",
+  },
+  {
+    id: 6,
+    image: "https://media.licdn.com/dms/image/D4D22AQHMaqsxM6iuEA/feedshare-shrink_2048_1536/0/1688031173344?e=1691625600&v=beta&t=gVIWVZBzkoT7Tz-E_tVpysVrHgAlW6snOyUwp2mrqDc",
+    design: "Glassfisom",
+    name: "Nevine Dhawan",
+    offcer: "CEO Of Officer",
+    post: "Android App Design",
+    date: "Fiver - Mar 4, 2015 - Aug 30, 2021",
+    desc: "No more question for design. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante. Ut tincidunt est ac dolor aliquam sodales phasellus smauris	.",
+  },
+  {
+    id: 7,
+    image: "https://media.licdn.com/dms/image/D4D22AQHma8i3KDK_ww/feedshare-shrink_1280/0/1688031172264?e=1691625600&v=beta&t=Rz2SLnKeCt1yBG8OjA6Br7s9dLO9qIEm5KW4v40ZKZQ",
     design: "Glassfisom",
     name: "Nevine Dhawan",
     offcer: "CEO Of Officer",
