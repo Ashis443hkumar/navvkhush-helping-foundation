@@ -21,6 +21,7 @@ import Advrisoy from "./Advrisoy";
 import SocialVenture from "./SocialVenture";
 import FounderMessage from "./FounderMessage";
 import Award from "./Award";
+import LegalComp from "./LegalComp";
  
 
 export default function Introduction() {
@@ -99,35 +100,7 @@ export default function Introduction() {
 
         <FounderMessage/>
 
-
-        <section className="">
-          <Container>
-            <Heading title="LEGAL STATUS"/>
-            <Row>
-               <Col lg={6} col={6} className="">
-                 <h4>Registrations/Exemption under various Acts</h4>
-                 <p>Registration: Lakshyam is a registered non-governmental organization (NGO) under the relevant laws and regulations of the country. We have obtained the necessary registrations and certifications to operate legally as a nonprofit organization.</p>
-                 <h4>Other Important Registration</h4>
-                 <p><stong>E-Mail</stong>INFO@THECRIMECONTROL.COM</p>
-                 <p><stong>Date of Establishment:- </stong>15TH OCT 2020</p>
-                 <p><stong>Registration No:- </stong>2325</p>
-                 <p><stong>MSME No:- </stong>UDYAM-DL-02-0045921</p>
-                 <p><stong>PAN:- </stong>AACTC7828E</p>
-                 <p><stong>NGO Darpan No:- </stong>DL/2021/0300598</p>
-                 <p><stong>TAN:- </stong>DELC23076E</p>
-                 <p><stong>80G:- </stong>AACTC7828EF20222</p>
-                 <p><stong>12A:- </stong>AACTC7828EE20216</p>
-
-              </Col>
-              <Col lg={6} col={6} className="">
-                 <h4>Donations/voluntary contributions are exempt under section :</h4>
-                 <p>Tax Exemption: Lakshyam has been granted tax-exempt status by the appropriate authorities. Donations and contributions made to our organization are eligible for tax benefits as per the prevailing tax laws and regulations.</p>
-
-                 <p>We ensure compliance with all legal requirements and maintain transparency in our operations to uphold the trust and confidence of our stakeholders and supporters.</p>
-               </Col>
-            </Row>
-          </Container>
-        </section>
+        <LegalComp/>
 
         <Award/>
 

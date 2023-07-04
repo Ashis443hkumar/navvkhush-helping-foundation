@@ -2,6 +2,7 @@
 .slide_video img{
   width: 100%;
   height: 300px;
+  object-fit: cover;
 }
 .title{
   text-align: center;

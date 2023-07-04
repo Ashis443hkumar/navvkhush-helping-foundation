@@ -10,6 +10,7 @@ import Image from 'react-bootstrap/Image';
 import Card from 'react-bootstrap/Card';
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
+import SlideVideo from "./SlideVideo";
 
 
 export default function Award(){
@@ -76,6 +77,7 @@ export default function Award(){
 
             </Row>
         </Container>
+        <SlideVideo/>
        </section>
 
 

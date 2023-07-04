@@ -18,22 +18,22 @@ export default function SocialVenture(){
         <Row>
          <Col xs={12} lg={6} md={6}>
          <Card >
-          <Card.Img variant="top" className="volunteer_image" src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/travel.png" />
+          <Card.Img variant="top" className="volunteer_image" src="https://tse1.mm.bing.net/th?id=OIP.nBKsTmo9QpgAWMgCOP8lLwHaDQ&pid=Api&P=0&h=180" />
           <Card.Body className="text-center">
-            <Card.Title>Travel Change</Card.Title>
+            <Card.Title>Driving Change Through Entrepreneurship</Card.Title>
             <Card.Text>
-            To know more about Travel4change, our social enterprise offering volunteer programs and immersive travel packages, visit our website. Our unique approach allows volunteers to actively participate in community projects, enabling them to deeply experience and understand the local culture while making a meaningful and sustainable impact. Explore our programs and join us in creating positive change in communities in need.
+            To learn more about Travel4Change, our social enterprise that offers volunteer programs and immersive travel packages, please visit our website. Our distinct approach empowers volunteers to actively engage in community projects, providing them with a profound understanding and experience of the local culture, while making a significant and long-lasting impact. Discover our programs and join us in making a positive and sustainable difference in communities that require support.
             </Card.Text>
           </Card.Body>
          </Card>  
          </Col>
          <Col xs={12} lg={6} md={6}>
          <Card  className="text-center" >
-          <Card.Img  className="volunteer_image"  variant="top" src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/travel.png"  />
+          <Card.Img  className="volunteer_image"  variant="top" src="https://tse3.mm.bing.net/th?id=OIP.kH30YlRbH9rz5k9ESwTZQAHaFC&pid=Api&P=0&h=180"  />
           <Card.Body className="text-center">
-            <Card.Title>Travel Change</Card.Title>
+            <Card.Title>Collaboration, and Impact Investing</Card.Title>
             <Card.Text>
-            To know more about Holy Cow Foundation, the NGO dedicated to creating a healthy habitat for abandoned and distressed animals in India, please visit our website. We focus on animal welfare, particularly for cattle, and provide guidance to Gaushalas (cow shelters) to adopt sustainable models that ensure a safe and nurturing environment for the animals, along with efficient management practices. Explore our initiatives and join us in supporting this urgent cause.
+             For more information about Holy Cow Foundation, the NGO committed to establishing a healthy and secure habitat for abandoned and distressed animals in India, kindly visit our website. Our primary focus is on animal welfare, specifically for cattle, and we offer guidance to Gaushalas (cow shelters) to implement sustainable models that guarantee a nurturing and safe environment for these animals, alongside efficient management practices. Discover our initiatives and join us in extending support to this critical cause.
             </Card.Text>
           </Card.Body>
          </Card>  
