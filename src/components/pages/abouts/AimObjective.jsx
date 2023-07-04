@@ -44,6 +44,43 @@ export default function AimObjective() {
             </Row>
           </Container>
         </section>
+        <section className="my-5">
+          <Container>
+            <Row>
+             <Col xs={12} md={4} lg={4}  >
+               <Card className="text-center py-3 px-4"  style={{background:"#ff6b6b"}}>
+                <Card.Body>
+                  <Card.Title className="text-white">Our Vision</Card.Title>
+                  <Card.Text>
+                  Our unwavering commitment is to foster a world where every woman and child is treated with dignity and respect. We advocate for their rights, provide support, and work towards creating inclusive communities that value and uphold their well-being, equality, and empowerment.
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+             </Col>
+             <Col xs={12} md={4} lg={4}  >
+               <Card className="text-center py-3 px-4" style={{background:"#00d2d3"}}>
+                <Card.Body>
+                  <Card.Title className="text-white">Our Mission </Card.Title>
+                  <Card.Text>
+                  We empower women and children through skills development, education programs, training, and employment opportunities. By equipping them with knowledge, tools, and resources, we enable them to lead self-reliant lives, break the cycle of poverty, and achieve their full potential in society.
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+             </Col>
+             <Col xs={12} md={4} lg={4} >
+               <Card className="text-center py-3 px-4"   style={{background:"#ea8685"}}>
+                <Card.Body>
+                  <Card.Title className="text-white">Objectives</Card.Title>
+                  <Card.Text>
+                  Our core vision drives our passionate work, promoting skill training and employment opportunities for individuals. We strive to raise funds from diverse sources to support our mission, ensuring sustainability and expanding our impact in creating positive change in the community.
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+             </Col>
+
+            </Row>
+          </Container>
+        </section>
 
         <LegalComp/>
 

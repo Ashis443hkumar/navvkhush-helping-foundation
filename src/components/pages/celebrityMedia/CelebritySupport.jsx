@@ -20,27 +20,29 @@ export default function CelebritySupport(){
         <Row>
          <Col xs={12} lg={3} md={4} className="mt-3"> 
          <Card >
-           <Card.Img variant="top" src="https://media.licdn.com/dms/image/D4D22AQE-DQ-7SX1GxQ/feedshare-shrink_800/0/1685347814729?e=1687996800&v=beta&t=645O5lHXnq_oPGtnUnZDgYmby7pQ74vyHAcJbAuvfZc" />
+           <Card.Img variant="top" src="https://media.licdn.com/dms/image/D4D22AQG_NKMiVS-mdQ/feedshare-shrink_1280/0/1688031173304?e=1691625600&v=beta&t=Iz7HPNLOBzEnfOdGZKZhC8NIle3EtRrN7vk0x0eKFMM" />
+         </Card>
+         </Col>
+
+       
+         <Col xs={12} lg={3} md={4} className="mt-3"> 
+         <Card >
+           <Card.Img variant="top" src="https://media.licdn.com/dms/image/D4D22AQEsSpFyskX7dw/feedshare-shrink_2048_1536/0/1688031173281?e=1691625600&v=beta&t=x1Pc-zzC5e5ZsPiAe8EaygLg_Xv9OyROaNSJWQt4Jc4" />
          </Card>
          </Col>
          <Col xs={12} lg={3} md={4} className="mt-3"> 
          <Card >
-           <Card.Img variant="top" src="https://media.licdn.com/dms/image/D4D22AQEZtDlVSgzKtw/feedshare-shrink_2048_1536/0/1685347815259?e=1687996800&v=beta&t=YDl3YlqInEvjfp5XZnyVHOTP9DKI04q8R_zMiITivF0" />
+           <Card.Img variant="top" src="https://media.licdn.com/dms/image/D4D22AQE_FOIBiMO6-A/feedshare-shrink_2048_1536/0/1688031173111?e=1691625600&v=beta&t=SEFQbbyIAL_h4cwQ82nLjHpd1ZOHFf03s23v-aaYiYA" />
          </Card>
          </Col>
          <Col xs={12} lg={3} md={4} className="mt-3"> 
          <Card >
-           <Card.Img variant="top" src="https://media.licdn.com/dms/image/D4D22AQEzuZhI7v14LA/feedshare-shrink_800/0/1685347814068?e=1687996800&v=beta&t=KRU-rnTzny0v36_QSutfG29OwnlX78q0pVGNwlEeFfc" />
+           <Card.Img variant="top" src="https://media.licdn.com/dms/image/D4D22AQFowmZVJW17Tw/feedshare-shrink_800/0/1688031172439?e=1691625600&v=beta&t=5-fIgosFaRnpVc-tDH6wp0EH_qVS4VLS-4l1PqNb_B4" />
          </Card>
          </Col>
          <Col xs={12} lg={3} md={4} className="mt-3"> 
          <Card >
-           <Card.Img variant="top" src="https://media.licdn.com/dms/image/D4D22AQEgiH85sRoROA/feedshare-shrink_800/0/1685347814529?e=1687996800&v=beta&t=19il7yfqbNq9qnmFordDjTKR7ZTsa_mqSXR_EIuMWJM" />
-         </Card>
-         </Col>
-         <Col xs={12} lg={3} md={4} className="mt-3"> 
-         <Card >
-           <Card.Img variant="top" src="https://media.licdn.com/dms/image/D4D22AQFPMLsC2PbbBQ/feedshare-shrink_2048_1536/0/1685347815512?e=1687996800&v=beta&t=QkSFVUoIwmW9JJrk2UxfjhizKLsMnWur8MdSWSZLCs4" />
+           <Card.Img variant="top" src="https://media.licdn.com/dms/image/D4D22AQHppGNDiXxRDA/feedshare-shrink_2048_1536/0/1688031173293?e=1691625600&v=beta&t=ZGTi6IH1kuJ0R6780RkeY75qJKQqv-Tj8d7e_gN8VtE" />
          </Card>
          </Col>
          <Col xs={12} lg={3} md={4} className="mt-3"> 
@@ -50,7 +52,7 @@ export default function CelebritySupport(){
          </Col>
          <Col xs={12} lg={3} md={4} className="mt-3"> 
          <Card >
-           <Card.Img variant="top" src="https://media.licdn.com/dms/image/D4D22AQHAsOOzTRxo5A/feedshare-shrink_1280/0/1685347815329?e=1687996800&v=beta&t=FbVgn4PsnClcXeDFDgmCZhSho0K7Iiex9ukn_ugXIDk" />
+           <Card.Img variant="top" src="https://media.licdn.com/dms/image/D4D22AQHMaqsxM6iuEA/feedshare-shrink_2048_1536/0/1688031173344?e=1691625600&v=beta&t=gVIWVZBzkoT7Tz-E_tVpysVrHgAlW6snOyUwp2mrqDc" />
          </Card>
          </Col>
          <Col xs={12} lg={3} md={4} className="mt-3"> 
@@ -70,12 +72,12 @@ export default function CelebritySupport(){
          </Col>
          <Col xs={12} lg={3} md={4} className="mt-3"> 
          <Card >
-           <Card.Img variant="top" src="https://media.licdn.com/dms/image/D4D22AQFVJN16Qov_mQ/feedshare-shrink_1280/0/1685684251181?e=1688601600&v=beta&t=fl7-ZYWId6EktJ4BrGEpMu6M2xPiA2Bc1qcA-ASrvKI" />
+           <Card.Img variant="top" src="https://media.licdn.com/dms/image/D4D22AQHma8i3KDK_ww/feedshare-shrink_1280/0/1688031172264?e=1691625600&v=beta&t=Rz2SLnKeCt1yBG8OjA6Br7s9dLO9qIEm5KW4v40ZKZQ" />
          </Card>
          </Col>
          <Col xs={12} lg={3} md={4} className="mt-3"> 
          <Card >
-           <Card.Img variant="top" src="https://media.licdn.com/dms/image/D4D22AQEU3DgPR6cdtA/feedshare-shrink_1280/0/1685684251209?e=1688601600&v=beta&t=poqxMjSiDIUtwlkGjX_1rznD_vSBa2ijwHnHKeDeGuk" />
+           <Card.Img variant="top" src="https://media.licdn.com/dms/image/D4D22AQEet5ZENJMzkw/feedshare-shrink_2048_1536/0/1688031174066?e=1691625600&v=beta&t=MkLmRd12jhSaD2nahCyA2dJczQlBShFlZlrN_KMxInQ" />
          </Card>
          </Col>
 
