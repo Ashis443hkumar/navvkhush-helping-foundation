@@ -113,7 +113,7 @@ export default function Introduction() {
         <Row>
         </Row>
        </Container>
-       {/* <Slide/>    */}
+       <Slide/>   
 
       </section>
       <SocialVenture/>

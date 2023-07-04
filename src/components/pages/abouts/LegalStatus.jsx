@@ -111,7 +111,7 @@ export default function LegalStatus() {
         <Row>
         </Row>
        </Container>
-       {/* <Slide/>    */}
+       <Slide/>   
 
       </section>
 

@@ -67,7 +67,7 @@ export default function AimObjective() {
         <Row>
         </Row>
        </Container>
-       {/* <Slide/>    */}
+       <Slide/>   
 
       </section>
 
