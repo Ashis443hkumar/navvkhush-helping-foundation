@@ -3,7 +3,7 @@ import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Heading from "../../common/Heading";
-import Slide from "../../common/slide/Slide";
+// import Slide from "../../common/slide/Slide";
 import Sdg from "../home/Sdg";
 
 
@@ -71,7 +71,7 @@ export default function Rooh() {
           </Col>
         </Row>
         </Container>
-        <Slide/>
+        {/* <Slide/> */}
      </section>
 
       </section>

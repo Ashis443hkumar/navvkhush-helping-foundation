@@ -7,7 +7,7 @@ import Heading from "../../common/Heading";
 import Sdg from "../home/Sdg";
 import Ratio from 'react-bootstrap/Ratio';
 import Carousel from 'react-bootstrap/Carousel';
-import Slide from "../../common/slide/Slide";
+// import Slide from "../../common/slide/Slide";
 
 export default function Education() {
   return (
@@ -81,7 +81,7 @@ export default function Education() {
           </Col>
         </Row>
         </Container>
-        <Slide/>
+        {/* <Slide/> */}
      </section>
 
      <section className="home_stori_Chnage my-4" >
@@ -93,7 +93,7 @@ export default function Education() {
           </Col>
         </Row>
         </Container>
-        <Slide/>
+        {/* <Slide/> */}
 
      </section>
 
