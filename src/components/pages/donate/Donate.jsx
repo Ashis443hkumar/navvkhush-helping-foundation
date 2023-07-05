@@ -154,31 +154,8 @@ export default function Donate() {
             <Col xs={12} lg={6} md={6}>
               <img src="https://media.licdn.com/dms/image/D4D22AQG769umklDoGQ/feedshare-shrink_1280/0/1685684250599?e=1688601600&v=beta&t=TC5ZDv-HiJuzRRKhZjfHeRqp3b3HxNXsKqsl6BDtbww" className="w-100 mb-2" alt="" />
             </Col>
-         </Row>
-          </Tab>
-          {/* <Tab eventKey="contact" title="SUPPORT NAVKHUSH - YI MEMBERS">
-          <Row>
-           <Col xs={12} lg={6} md={6}> 
-            <div className="sponsor">
-            <div className="dd py-5 mt-5">
-                <p>Choose from above options</p>
-                <p className="or_breack">Or</p>
-                <p>Pay what you want</p>
-              </div>
-              <div className="ddd">
-                <input type="text" placeholder="1899" class="subscribe-input" />
-                <div className="subscribe-btntt" onClick={() =>navigate("/DonateBillAddress")} >
-                  <HeroButton title="Donate " />
-                </div>
-              </div>
-              <p className="max-amount" > (Min. amount Rs. 50) </p>
-            </div>
-            </Col>
-            <Col xs={12} lg={6} md={6}>
-              <img src="https://www.lakshyam.co.in/wp-content/uploads/2022/01/Support-Lakshyam-Yi-Members.jpeg" className="w-100 mb-2" alt="" />
-            </Col>
-         </Row>
-          </Tab> */}
+          </Row>
+         </Tab>
 
           <Tab eventKey="profile" title="PAY WHAT YOU WANT">
           <Row>

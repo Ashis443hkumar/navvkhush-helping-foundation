@@ -23,7 +23,7 @@ export default function Model(){
     <>
 
       <Container>
-        <h1>Other ways to donate</h1>
+        <h3>Other ways to donate</h3>
        <Row>
          <Col xs={12} lg={3} md={3} > 
           <Button variant="" onClick={handleShow}>
@@ -49,37 +49,14 @@ export default function Model(){
         </Modal>
       </Col>
         
-        <Col xs={12} lg={3} md={3} > 
-          <Button variant="" onClick={handleShoww}>
-           <img src="https://www.lakshyam.co.in/wp-content/uploads/2021/12/donate-1.png" alt="" />
-           <p> paytm Transfer </p>
-         </Button>
-           <Modal  showw={showw} onHide={handleCloset} >
-          <Modal.Header closeButton >
-            <Modal.Title>paytm Transfer</Modal.Title>
-          </Modal.Header>
-          <Modal.Body>
-            <p><strong>Name : </strong>  Lakshyam</p>
-            <p><strong>Account :</strong> 915010013423887</p>
-            <p><strong>Bank Name :</strong> Axis</p>
-          </Modal.Body>
-          <Modal.Footer>
-            <Button variant="secondary" onClick={handleCloset}>
-              Close
-            </Button>
-          </Modal.Footer>
-         </Modal>
-        </Col>
-      
-   
          
          <Col xs={12} lg={12} md={12}>
           <h4>Guidelines</h4>
           <ul>
             <li>As per Indian Tax Laws, it is mandatory to have full name and address of the contributor else it will be treated as anonymous and will be subject to taxation.</li>
-            <li>In case you have a foreign address, we will need your passport copy as advised by the FCRA, 2010.</li>
-            <li>For any queries, write to us on support@lakshyam.co.in or call on 011-40747172</li>
-            <li>All Indian contributions made to LAKSHYAM are eligible for tax deduction of 50% u/s 80G of the Income Tax Act 1961.</li>
+            <li>In case you have a foreign address, we will need your passport copy as advised.</li>
+            <li>For any queries, write to us on info@thecrimecontrol.com or call on +91 9971725342</li>
+            <li>All Indian contributions made to navvkhush are eligible for tax deduction.</li>
           </ul>
          </Col>
 
