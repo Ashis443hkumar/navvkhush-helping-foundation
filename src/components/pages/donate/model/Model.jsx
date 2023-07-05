@@ -22,7 +22,7 @@ export default function Model(){
   return(
     <>
 
-      <Container>
+      <Container className="mt-5 py-5">
         <h3>Other ways to donate</h3>
        <Row>
          <Col xs={12} lg={3} md={3} > 
