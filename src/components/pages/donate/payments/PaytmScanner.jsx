@@ -111,6 +111,8 @@ export default function PaytmScanner() {
                   </Col>
                 </Row>
 
+
+hiii
                 <Row>
                   <p className="border_bottomm"></p>
                   <Col xs={12} lg={12} md={12} className="d_flex_center">
