@@ -7,6 +7,8 @@ import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 
 import "./style.css"
+import HeroButton from '../../../common/heroButton/HeroButton';
+import { Link } from 'react-router-dom';
 
 export default function PaytmScanner() {
   return (
@@ -57,10 +59,12 @@ export default function PaytmScanner() {
                     </div>
                   </Col>
                 </Row>
+
                   {/* debitcard option */}
-                <p className="paytm_title pt-3">Cards, UPI & More</p>
+                <p className="paytm_title pt-3 ">Cards, UPI & More</p>
                 <Row className="multiple_payment_option">
-                  <Col lg={12} className="border_bottom">
+                   <Link to="/debitcard">
+                    <Col lg={12} className="border_bottom">
                       <div className="card_title">
                        <i class="fa-solid fa-credit-card"></i>
                        <span>Card</span>
@@ -71,7 +75,8 @@ export default function PaytmScanner() {
                         <i class="fa-brands fa-cc-mastercard mr-2"></i>
                         <span> & more </span>
                       </div>
-                  </Col>
+                   </Col>
+                  </Link>
                   <Col lg={12} className="border_bottom">
                       <div className="card_title">
                        <i class="fa-solid fa-qrcode"></i>
@@ -110,7 +115,14 @@ export default function PaytmScanner() {
                   <p className="border_bottomm"></p>
                   <Col xs={12} lg={12} md={12} className="d_flex_center">
                     <p>Account</p>
-                    <p>sequred by <i class="fa-solid fa-wallet"></i></p>
+                    <p>secured by <i class="fa-solid fa-wallet"></i> <span className="span" >Razorpay</span></p>
+                  </Col>
+                  <Col xs={12} lg={12} md={12} className="d_flex_center select_pay">
+                    <div className="">
+                     <p className="indianrupees">₹ 789</p>
+                     <p className="viewdetails">view Details</p>
+                    </div>
+                    <HeroButton title="Pay Now" />
                   </Col>
                 </Row>
 

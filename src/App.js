@@ -47,6 +47,8 @@ import Contact from './components/pages/contact/Contact';
 import Donate from './components/pages/donate/Donate';
 import DonateBillAddress from './components/pages/donate/model/DonateBillAddress';
 import PaytmScanner from './components/pages/donate/payments/PaytmScanner';
+import DebitCard from './components/pages/donate/payments/DebitCard';
+
 
 // trail
 import Portfolio from './Portfolio/Portfolio';
@@ -107,6 +109,8 @@ export default function App() {
         <Route path="/sankalp" element={<Sankalp />} />
 
         <Route path="/paytmscanner" element={<PaytmScanner />} />
+        <Route path="/debitcard" element={<DebitCard />} />
+       
       </Routes>
       <Footer />
     </>
