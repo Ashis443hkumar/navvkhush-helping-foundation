@@ -6,6 +6,7 @@ import Col from 'react-bootstrap/Col';
 import Form from 'react-bootstrap/Form';
 import InputGroup from 'react-bootstrap/InputGroup';
 import Row from 'react-bootstrap/Row';
+import { Link } from "react-router-dom";
 
 function DonateBillAddress() {
   const [validated, setValidated] = useState(false);
@@ -120,7 +121,10 @@ function DonateBillAddress() {
         />
       </Form.Group> */}
       <div className="donate_bill_applay">
-         <Button className="textTcenter col-lg-2" type="submit">Pay Now</Button>
+         <Link to="/paytmscanner">
+            <Button className="textTcenter col-lg-2" type="submit">Pay Now</Button>
+           
+         </Link>
       </div>
     </Form>
         </Col>
