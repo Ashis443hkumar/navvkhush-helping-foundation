@@ -9,7 +9,7 @@ import Modal from 'react-bootstrap/Modal';
 
 import "./style.css"
 import HeroButton from '../../../common/heroButton/HeroButton';
-import { Link, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 
 export default function PaytmScanner() {
@@ -68,7 +68,7 @@ export default function PaytmScanner() {
 
                   {/* debitcard option */}
                 <p className="paytm_title pt-3 ">Cards, UPI & More</p>
-                <Row className="multiple_payment_option">
+                <Row className="multiple_payment_option"> 
 
 
                 <Nav className="donate" onClick={() =>navigate("/debitcard")}>
@@ -85,11 +85,7 @@ export default function PaytmScanner() {
                         <span> & more </span>
                       </div>
                    </Col>
-               </Nav>
-
-
-
-                 
+                </Nav>
 
                   <Col lg={12} className="border_bottom">
                       <div className="card_title">
