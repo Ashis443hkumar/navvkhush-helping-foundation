@@ -107,8 +107,7 @@ export default function PaytmScanner() {
                 </Row>
 
                 <Row>
-                <p className="border_bottomm"></p>
-
+                  <p className="border_bottomm"></p>
                   <Col xs={12} lg={12} md={12} className="d_flex_center">
                     <p>Account</p>
                     <p>sequred by <i class="fa-solid fa-wallet"></i></p>
