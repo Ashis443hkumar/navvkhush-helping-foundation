@@ -2,15 +2,21 @@ import React from 'react';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
+import Nav from 'react-bootstrap/Nav';
 
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 
 import "./style.css"
 import HeroButton from '../../../common/heroButton/HeroButton';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
+
 
 export default function PaytmScanner() {
+   
+  const navigate = useNavigate()
+   
+
   return (
     <>
       <section className="">
@@ -63,8 +69,11 @@ export default function PaytmScanner() {
                   {/* debitcard option */}
                 <p className="paytm_title pt-3 ">Cards, UPI & More</p>
                 <Row className="multiple_payment_option">
-                   <Link to="/debitcard">
-                    <Col lg={12} className="border_bottom">
+
+
+                <Nav className="donate" onClick={() =>navigate("/debitcard")}>
+                   {/* <HeroButton title="Contact Us" /> */}
+                   <Col lg={12} className="border_bottom">
                       <div className="card_title">
                        <i class="fa-solid fa-credit-card"></i>
                        <span>Card</span>
@@ -76,7 +85,12 @@ export default function PaytmScanner() {
                         <span> & more </span>
                       </div>
                    </Col>
-                  </Link>
+               </Nav>
+
+
+
+                 
+
                   <Col lg={12} className="border_bottom">
                       <div className="card_title">
                        <i class="fa-solid fa-qrcode"></i>
@@ -110,9 +124,6 @@ export default function PaytmScanner() {
                       </div>
                   </Col>
                 </Row>
-
-
-hiii
                 <Row>
                   <p className="border_bottomm"></p>
                   <Col xs={12} lg={12} md={12} className="d_flex_center">
