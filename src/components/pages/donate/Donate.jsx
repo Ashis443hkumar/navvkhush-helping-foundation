@@ -71,7 +71,7 @@ export default function Donate() {
             </div>
             </Col>
             <Col xs={12} lg={6} md={6}>
-              <img src="https://www.lakshyam.co.in/wp-content/uploads/2022/01/Sponsor-a-Child.png" className="w-100 mb-2" alt="" />
+              <img src="https://media.licdn.com/dms/image/D4D22AQG_NKMiVS-mdQ/feedshare-shrink_1280/0/1688031173304?e=1691625600&v=beta&t=Iz7HPNLOBzEnfOdGZKZhC8NIle3EtRrN7vk0x0eKFMM" className="w-100 mb-2" alt="" />
             </Col>
          </Row>
           </Tab>
@@ -116,7 +116,7 @@ export default function Donate() {
             </div>
             </Col>
             <Col xs={12} lg={6} md={6}>
-              <img src="https://www.lakshyam.co.in/wp-content/uploads/2022/01/Sponsor-a-Child.png" className="w-100 mb-2" alt="" />
+              <img src="https://media.licdn.com/dms/image/D4D22AQGp8U8i5cST0g/feedshare-shrink_1280/0/1685947253150?e=1688601600&v=beta&t=NjwjBkhRDHkjnmSwOea4PNV1AP4xWU2zUs-PDEQu-PA" className="w-100 mb-2" alt="" />
             </Col>
 
           </Row>
@@ -152,11 +152,11 @@ export default function Donate() {
             </div>
             </Col>
             <Col xs={12} lg={6} md={6}>
-              <img src="https://www.lakshyam.co.in/wp-content/uploads/2022/01/Toy-Library.png" className="w-100 mb-2" alt="" />
+              <img src="https://media.licdn.com/dms/image/D4D22AQG769umklDoGQ/feedshare-shrink_1280/0/1685684250599?e=1688601600&v=beta&t=TC5ZDv-HiJuzRRKhZjfHeRqp3b3HxNXsKqsl6BDtbww" className="w-100 mb-2" alt="" />
             </Col>
          </Row>
           </Tab>
-          <Tab eventKey="contact" title="SUPPORT NAVKHUSH - YI MEMBERS">
+          {/* <Tab eventKey="contact" title="SUPPORT NAVKHUSH - YI MEMBERS">
           <Row>
            <Col xs={12} lg={6} md={6}> 
             <div className="sponsor">
@@ -178,7 +178,7 @@ export default function Donate() {
               <img src="https://www.lakshyam.co.in/wp-content/uploads/2022/01/Support-Lakshyam-Yi-Members.jpeg" className="w-100 mb-2" alt="" />
             </Col>
          </Row>
-          </Tab>
+          </Tab> */}
 
           <Tab eventKey="profile" title="PAY WHAT YOU WANT">
           <Row>
@@ -197,7 +197,7 @@ export default function Donate() {
             </div>
             </Col>
             <Col xs={12} lg={6} md={6}>
-              <img src="https://www.lakshyam.co.in/wp-content/uploads/2022/01/Pay-What-You-Want.png" className="w-100 mb-2" alt="" />
+              <img src="https://media.licdn.com/dms/image/D4D22AQEet5ZENJMzkw/feedshare-shrink_2048_1536/0/1688031174066?e=1691625600&v=beta&t=MkLmRd12jhSaD2nahCyA2dJczQlBShFlZlrN_KMxInQ" className="w-100 mb-2" alt="" />
             </Col>
          </Row>
           </Tab>
