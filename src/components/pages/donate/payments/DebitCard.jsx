@@ -54,10 +54,13 @@ export default function DebitCard(){
        </Container>
       </section>
 
+      {/* all banks option  */}
+
       <section className="mt-2">
        <Container>
         <Row>
-         <Col xs={12} lg={6} md={6} className="mx-auto bg-secondary p-3"> 
+         <Col xs={12} lg={5} md={5} className="mx-auto bg-secondary p-3"> 
+         <p><strong>Select Select</strong></p>
         <Row>
          <Col xs={12} lg={4} md={4} className="bg-white p-4">
            HDFC Bank
@@ -69,7 +72,6 @@ export default function DebitCard(){
            HDFC Bank
          </Col>
         </Row>
-
         <Row className="" style={{borderTop:"1px solid #000"}}>
          <Col xs={12} lg={4} md={4} className="bg-white p-4">
            HDFC Bank
@@ -83,6 +85,7 @@ export default function DebitCard(){
         </Row>
         <Row className="mt-2">
          <Col xs={12} lg={12} md={12}> 
+         <p><strong>All Banks Select</strong></p>
          <Form.Select aria-label="Default select example">
           <option>Open this select menu</option>
           <option value="1">One</option>
@@ -91,12 +94,89 @@ export default function DebitCard(){
         </Form.Select>
          </Col>
         </Row>
-
-
          </Col>
         </Row>
-       
+       </Container>
+      </section>
 
+       {/* paytme option  */}
+      <section className="mt-4" >
+       <Container>
+        <Row>
+         <Col xs={12} lg={5} md={5} className="mx-auto bg-white p-3 " style={{ boxShadow: '1px 2px 9px #F4AAB9'}}> 
+        <Row style={{border:"1px solid #000"}}>
+        <Col xs={12} lg={12} md={12} className="d_flex_center bg-white"> 
+          <div className="phone_option d_flex_center">
+            <i class="fa-brands fa-google-plus xx3"></i>
+            <p>Phonepey</p>
+          </div>
+         <div className="ddddd">
+           rdfgdg
+         </div>
+         </Col>
+
+         <Col xs={12} lg={12} md={12} className="d_flex_center bg-white "  style={{borderTop:"1px solid #000"}}> 
+          <div className="phone_option d_flex_center">
+            <i class="fa-brands fa-google-plus xx3"></i>
+            <p>Phonepey</p>
+          </div>
+         <div className="ddddd">
+           rdfgdg
+         </div>
+         </Col>
+         <Col xs={12} lg={12} md={12} className="d_flex_center bg-white "  style={{borderTop:"1px solid #000"}}> 
+          <div className="phone_option d_flex_center">
+            <i class="fa-brands fa-google-plus xx3"></i>
+            <p>Phonepey</p>
+          </div>
+         <div className="ddddd">
+           rdfgdg
+         </div>
+         </Col>
+
+         <Col xs={12} lg={12} md={12} className="d_flex_center bg-white "  style={{borderTop:"1px solid #000"}}> 
+          <div className="phone_option d_flex_center">
+            <i class="fa-brands fa-google-plus xx3"></i>
+            <p>Phonepey</p>
+          </div>
+         <div className="ddddd">
+           rdfgdg
+         </div>
+         </Col>
+         <Col xs={12} lg={12} md={12} className="d_flex_center bg-white "  style={{borderTop:"1px solid #000"}}> 
+          <div className="phone_option d_flex_center">
+            <i class="fa-brands fa-google-plus xx3"></i>
+            <p>Phonepey</p>
+          </div>
+         <div className="ddddd">
+           rdfgdg
+         </div>
+         </Col>
+         <Col xs={12} lg={12} md={12} className="d_flex_center bg-white "  style={{borderTop:"1px solid #000"}}> 
+          <div className="phone_option d_flex_center">
+            <i class="fa-brands fa-google-plus xx3"></i>
+            <p>Phonepey</p>
+          </div>
+         <div className="ddddd">
+           rdfgdg
+         </div>
+         </Col>
+         <Col xs={12} lg={12} md={12} className="d_flex_center bg-white "  style={{borderTop:"1px solid #000"}}> 
+          <div className="phone_option d_flex_center">
+            <i class="fa-brands fa-google-plus xx3"></i>
+            <p>Phonepey</p>
+          </div>
+         <div className="ddddd">
+           rdfgdg
+         </div>
+         </Col>
+
+
+        </Row>
+         </Col>
+
+        
+        </Row>
        </Container>
       </section>
 
