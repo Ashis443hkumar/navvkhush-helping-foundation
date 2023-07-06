@@ -30,9 +30,11 @@ export default function PaytmScanner() {
             </Modal.Header>
 
             <Modal.Body>
+              <article className="paytm_options">
+
               <p className="paytm_title">Pay With UPI QR</p>
               <Container>
-                <Row className=" allpay_scanner">
+                <Row className="allpay_scanner">
                   <Col xs={12} lg={6} md={6}>
                     <img
                       src="https://tse4.mm.bing.net/th?id=OIP.jrRhYO3wMxKOQrtCUN2BzwHaHa&pid=Api&P=0&h=180"
@@ -120,7 +122,9 @@ export default function PaytmScanner() {
                       </div>
                   </Col>
                 </Row>
-                <Row>
+              </Container>
+              </article>
+              <Row>
                   <p className="border_bottomm"></p>
                   <Col xs={12} lg={12} md={12} className="d_flex_center">
                     <p>Account</p>
@@ -135,8 +139,6 @@ export default function PaytmScanner() {
                   </Col>
                 </Row>
 
-
-              </Container>
             </Modal.Body>
           </Modal.Dialog>
         </div>
