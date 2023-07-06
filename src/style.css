@@ -26,3 +26,7 @@
   justify-content: space-between;
   align-items: center;
 }
+.flex_direction{
+  display: flex;
+  flex-direction: column;
+}

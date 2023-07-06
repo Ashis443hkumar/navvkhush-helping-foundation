@@ -26,7 +26,15 @@ export default function PaytmScanner() {
         >
           <Modal.Dialog>
             <Modal.Header closeButton>
-              <Modal.Title>Modal title</Modal.Title>
+              <div className="d_flex">
+                <div className="ddggd">
+                  <i class="fa-brands fa-google-plus xx3"></i>
+                </div>
+                <div className="paymentoption">
+                 <p className="title" >Modal title</p>
+                 <p className="titledesc">Modal title</p>
+               </div>
+              </div>
             </Modal.Header>
 
             <Modal.Body>
