@@ -25,13 +25,13 @@ export default function PaytmScanner() {
           style={{ display: 'block', position: 'initial' }}
         >
           <Modal.Dialog>
-            <Modal.Header closeButton>
+            <Modal.Header closeButton className="ewrewreret">
               <div className="d_flex">
                 <div className="ddggd">
                   <i class="fa-brands fa-google-plus xx3"></i>
                 </div>
                 <div className="paymentoption">
-                 <p className="title" >Modal title</p>
+                 <p className="titlee" >Modal title</p>
                  <p className="titledesc">Modal title</p>
                </div>
               </div>
