@@ -48,6 +48,12 @@ import Donate from './components/pages/donate/Donate';
 import DonateBillAddress from './components/pages/donate/model/DonateBillAddress';
 import PaytmScanner from './components/pages/donate/payments/PaytmScanner';
 import DebitCard from './components/pages/donate/payments/DebitCard';
+import Wallet from './components/pages/donate/payments/Wallet';
+import Netbanking from './components/pages/donate/payments/Netbanking';
+
+
+
+
 
 
 // trail
@@ -109,7 +115,9 @@ export default function App() {
         <Route path="/sankalp" element={<Sankalp />} />
 
         <Route path="/paytmscanner" element={<PaytmScanner />} />
-        <Route path="/debitcard" element={<DebitCard />} />
+        <Route path="./debitcard" element={<DebitCard />} />
+        <Route path="/wallet" element={<Wallet />} />
+        <Route path="/netbanking" element={<Netbanking/>} />
        
       </Routes>
       <Footer />

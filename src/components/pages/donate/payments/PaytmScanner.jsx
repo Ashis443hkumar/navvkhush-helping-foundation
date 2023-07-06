@@ -9,7 +9,7 @@ import Modal from 'react-bootstrap/Modal';
 
 import "./style.css"
 import HeroButton from '../../../common/heroButton/HeroButton';
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import SelectOption from './SelectOption';
 
 
@@ -82,7 +82,7 @@ export default function PaytmScanner() {
                 <Row className="multiple_payment_option"> 
 
 
-                <Nav className="donate" onClick={() =>navigate("/debitcard")}>
+                <Nav className="donate" onClick={() =>navigate("./debitcard")}>
                    {/* <HeroButton title="Contact Us" /> */}
                    <Col lg={12} className="border_bottom">
                       <div className="card_title">
@@ -112,6 +112,7 @@ export default function PaytmScanner() {
                   </Col>
 
                   <Col lg={12} className="border_bottom">
+                    <Link to="/netbanking">
                       <div className="card_title">
                        <i class="fa-brands fa-internet-explorer"></i>
                        <span>Netbanking</span>
@@ -119,20 +120,25 @@ export default function PaytmScanner() {
                       <div className="mastercard-icon">
                         <p>All Indian Banks</p>
                       </div>
+                    </Link>
                   </Col>
 
                   <Col lg={12} className="border_bottom border-none">
+                    <Link to="/wallet">
                       <div className="card_title">
-                      <i class="fa-solid fa-wallet"></i>
-                       <span>Wallet</span>
+                          <i class="fa-solid fa-wallet"></i>
+                          <span>Wallet</span>
                       </div>
                       <div className="mastercard-icon">
-                        <p>PhonePay & More</p>
+                          <p>PhonePay & More</p>
                       </div>
+                    </Link>
+
                   </Col>
                 </Row>
               </Container>
               </article>
+
               <Row>
                   <p className="border_bottomm"></p>
                   <Col xs={12} lg={12} md={12} className="d_flex_center">
