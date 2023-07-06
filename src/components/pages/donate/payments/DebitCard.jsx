@@ -3,10 +3,7 @@ import React,{useState } from "react"
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
-import Image from 'react-bootstrap/Image';
 
-import Button from 'react-bootstrap/Button';
-import Modal from 'react-bootstrap/Modal';
 
 import Form from 'react-bootstrap/Form';
 
@@ -18,7 +15,7 @@ export default function DebitCard(){
        <Container>
         <Row >
          <Col xs={12} lg={5} md={5} className="mx-auto bg-secondary p-3">
-        <Row>
+        <Row className="text-start">
          <Col xs={12} lg={8} md={8}>
            <div className="card_desc">
              <label htmlFor="">Card Number</label>
@@ -31,7 +28,6 @@ export default function DebitCard(){
              <input type="text" placeholder="04/2028" />
            </div>
         </Col>
-
          <Row className="mt-3">
          <Col xs={12} lg={8} md={8}>
            <div className="card_desc">
@@ -40,7 +36,7 @@ export default function DebitCard(){
            </div>
          </Col>
          <Col xs={12} lg={4} md={4}> 
-           <div className="card_desc">
+           <div className="card_desc ">
              <label htmlFor="">CVV</label>
              <input type="text" placeholder="347" />
            </div>
@@ -49,7 +45,6 @@ export default function DebitCard(){
 
         </Row>
          </Col>
-         {/* <Col xs={12} lg={6} md={6}> </Col> */}
         </Row>
        </Container>
       </section>
