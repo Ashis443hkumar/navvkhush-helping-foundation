@@ -60,7 +60,7 @@ export default function DebitCard(){
        <Container>
         <Row>
          <Col xs={12} lg={5} md={5} className="mx-auto bg-secondary p-3"> 
-         <p><strong>Select Select</strong></p>
+         <p><strong>Select Bank</strong></p>
         <Row>
          <Col xs={12} lg={4} md={4} className="bg-white p-4">
            HDFC Bank
@@ -104,37 +104,47 @@ export default function DebitCard(){
        <Container>
         <Row>
          <Col xs={12} lg={5} md={5} className="mx-auto bg-white p-3 " style={{ boxShadow: '1px 2px 9px #F4AAB9'}}> 
-        <Row style={{border:"1px solid #000"}}>
+         <p><strong>Select Wallet</strong></p>
+        <Row style={{border:"1px solid #eee"}}>
         <Col xs={12} lg={12} md={12} className="d_flex_center bg-white"> 
           <div className="phone_option d_flex_center">
             <i class="fa-brands fa-google-plus xx3"></i>
-            <p>Phonepey</p>
+            <p>Phonepe</p>
           </div>
          <div className="ddddd">
            rdfgdg
          </div>
          </Col>
 
-         <Col xs={12} lg={12} md={12} className="d_flex_center bg-white "  style={{borderTop:"1px solid #000"}}> 
+         <Col xs={12} lg={12} md={12} className="d_flex_center bg-white "  style={{borderTop:"1px solid #eee"}}> 
           <div className="phone_option d_flex_center">
             <i class="fa-brands fa-google-plus xx3"></i>
-            <p>Phonepey</p>
+            <p>Google pay</p>
           </div>
          <div className="ddddd">
            rdfgdg
          </div>
          </Col>
-         <Col xs={12} lg={12} md={12} className="d_flex_center bg-white "  style={{borderTop:"1px solid #000"}}> 
+         <Col xs={12} lg={12} md={12} className="d_flex_center bg-white "  style={{borderTop:"1px solid #eee"}}> 
           <div className="phone_option d_flex_center">
             <i class="fa-brands fa-google-plus xx3"></i>
-            <p>Phonepey</p>
+            <p>Airtel payments banks</p>
           </div>
          <div className="ddddd">
            rdfgdg
          </div>
          </Col>
 
-         <Col xs={12} lg={12} md={12} className="d_flex_center bg-white "  style={{borderTop:"1px solid #000"}}> 
+         <Col xs={12} lg={12} md={12} className="d_flex_center bg-white "  style={{borderTop:"1px solid #eee"}}> 
+          <div className="phone_option d_flex_center">
+            <i class="fa-brands fa-google-plus xx3"></i>
+            <p>Jiomoney</p>
+          </div>
+         <div className="ddddd">
+           rdfgdg
+         </div>
+         </Col>
+         <Col xs={12} lg={12} md={12} className="d_flex_center bg-white "  style={{borderTop:"1px solid #eee"}}> 
           <div className="phone_option d_flex_center">
             <i class="fa-brands fa-google-plus xx3"></i>
             <p>Phonepey</p>
@@ -143,7 +153,7 @@ export default function DebitCard(){
            rdfgdg
          </div>
          </Col>
-         <Col xs={12} lg={12} md={12} className="d_flex_center bg-white "  style={{borderTop:"1px solid #000"}}> 
+         <Col xs={12} lg={12} md={12} className="d_flex_center bg-white "  style={{borderTop:"1px solid #eee"}}> 
           <div className="phone_option d_flex_center">
             <i class="fa-brands fa-google-plus xx3"></i>
             <p>Phonepey</p>
@@ -152,16 +162,7 @@ export default function DebitCard(){
            rdfgdg
          </div>
          </Col>
-         <Col xs={12} lg={12} md={12} className="d_flex_center bg-white "  style={{borderTop:"1px solid #000"}}> 
-          <div className="phone_option d_flex_center">
-            <i class="fa-brands fa-google-plus xx3"></i>
-            <p>Phonepey</p>
-          </div>
-         <div className="ddddd">
-           rdfgdg
-         </div>
-         </Col>
-         <Col xs={12} lg={12} md={12} className="d_flex_center bg-white "  style={{borderTop:"1px solid #000"}}> 
+         <Col xs={12} lg={12} md={12} className="d_flex_center bg-white "  style={{borderTop:"1px solid #eee"}}> 
           <div className="phone_option d_flex_center">
             <i class="fa-brands fa-google-plus xx3"></i>
             <p>Phonepey</p>
@@ -174,7 +175,6 @@ export default function DebitCard(){
 
         </Row>
          </Col>
-
         
         </Row>
        </Container>

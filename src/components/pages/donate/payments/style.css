@@ -117,3 +117,17 @@
 .card_desc::placeholder{
   padding: 10px;
 }
+/* paytm option */
+.phone_option {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.phone_option i{
+  font-size: 22px;
+  
+}
+.phone_option p{
+  margin-top: 15px;
+  margin-left: 5px;
+}
