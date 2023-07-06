@@ -82,7 +82,7 @@ export default function PaytmScanner() {
                 <Row className="multiple_payment_option"> 
 
 
-                <Nav className="donate" onClick={() =>navigate("./debitcard")}>
+                <Nav className="donate" onClick={() =>navigate("/debitcard")}>
                    {/* <HeroButton title="Contact Us" /> */}
                    <Col lg={12} className="border_bottom">
                       <div className="card_title">
@@ -139,7 +139,7 @@ export default function PaytmScanner() {
               </Container>
               </article>
 
-              <Row>
+                <Row>
                   <p className="border_bottomm"></p>
                   <Col xs={12} lg={12} md={12} className="d_flex_center">
                     <p>Account</p>
