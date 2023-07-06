@@ -82,10 +82,27 @@ export default function DebitCard(){
          <Col xs={12} lg={12} md={12}> 
          <p><strong>All Banks Select</strong></p>
          <Form.Select aria-label="Default select example">
-          <option>Open this select menu</option>
+          <option>All Banks Select</option>
           <option value="1">One</option>
           <option value="2">Two</option>
           <option value="3">Three</option>
+          <option value="1">One</option>
+          <option value="2">Two</option>
+          <option value="3">Three</option>
+          <option value="1">One</option>
+          <option value="2">Two</option>
+          <option value="3">Three</option>
+          <option value="1">One</option>
+          <option value="2">Two</option>
+          <option value="3">Three</option>
+          <option value="1">One</option>
+          <option value="2">Two</option>
+          <option value="3">Three</option>
+          <option value="1">One</option>
+          <option value="2">Two</option>
+          <option value="3">Three</option>
+
+
         </Form.Select>
          </Col>
         </Row>
@@ -107,7 +124,7 @@ export default function DebitCard(){
             <p>Phonepe</p>
           </div>
          <div className="ddddd">
-           rdfgdg
+          <i class="fa-solid fa-check"></i>
          </div>
          </Col>
 
@@ -117,7 +134,7 @@ export default function DebitCard(){
             <p>Google pay</p>
           </div>
          <div className="ddddd">
-           rdfgdg
+          <i class="fa-solid fa-check"></i>
          </div>
          </Col>
          <Col xs={12} lg={12} md={12} className="d_flex_center bg-white "  style={{borderTop:"1px solid #eee"}}> 
@@ -126,7 +143,7 @@ export default function DebitCard(){
             <p>Airtel payments banks</p>
           </div>
          <div className="ddddd">
-           rdfgdg
+          <i class="fa-solid fa-check"></i>
          </div>
          </Col>
 
@@ -136,7 +153,7 @@ export default function DebitCard(){
             <p>Jiomoney</p>
           </div>
          <div className="ddddd">
-           rdfgdg
+          <i class="fa-solid fa-check"></i>
          </div>
          </Col>
          <Col xs={12} lg={12} md={12} className="d_flex_center bg-white "  style={{borderTop:"1px solid #eee"}}> 
@@ -145,7 +162,7 @@ export default function DebitCard(){
             <p>Phonepey</p>
           </div>
          <div className="ddddd">
-           rdfgdg
+          <i class="fa-solid fa-check"></i>
          </div>
          </Col>
          <Col xs={12} lg={12} md={12} className="d_flex_center bg-white "  style={{borderTop:"1px solid #eee"}}> 
@@ -154,7 +171,7 @@ export default function DebitCard(){
             <p>Phonepey</p>
           </div>
          <div className="ddddd">
-           rdfgdg
+          <i class="fa-solid fa-check"></i>
          </div>
          </Col>
          <Col xs={12} lg={12} md={12} className="d_flex_center bg-white "  style={{borderTop:"1px solid #eee"}}> 
@@ -163,7 +180,7 @@ export default function DebitCard(){
             <p>Phonepey</p>
           </div>
          <div className="ddddd">
-           rdfgdg
+          <i class="fa-solid fa-check"></i>
          </div>
          </Col>
 

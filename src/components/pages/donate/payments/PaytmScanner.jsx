@@ -26,13 +26,13 @@ export default function PaytmScanner() {
         >
           <Modal.Dialog>
             <Modal.Header closeButton className="ewrewreret">
-              <div className="d_flex">
+              <div className="d_flex pb--4">
                 <div className="ddggd">
                   <i class="fa-brands fa-google-plus xx3"></i>
                 </div>
                 <div className="paymentoption">
-                 <p className="titlee" >Modal title</p>
-                 <p className="titledesc">Modal title</p>
+                 <p className="titlee" >Navvkhush Bharat</p>
+                 <p className="titledesc">Razorpay Trusted Business</p>
                </div>
               </div>
             </Modal.Header>
@@ -70,7 +70,7 @@ export default function PaytmScanner() {
                        <span>Wallet-mibikiwi</span>
                       </div>
                       <div>
-                        pay
+                      <i class="fa-solid fa-check"></i>
                       </div>
                     </div>
                   </Col>

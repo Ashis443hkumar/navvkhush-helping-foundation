@@ -1,21 +1,39 @@
 
 .ewrewreret{
   background-color: blue;
-}
-
-.paymentoption{
-  background-color: crimson;
-  display: flex;
-  flex-direction: column;
-}
-.paymentoption .title{
-  font-size: 19px;
+  padding: 4px 20px;
   text-align: start;
 }
-.paymentoption .titledesc{
-  font-size: 14px;
+.ewrewreret i{
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  object-fit: cover;
+  font-size: 28px;
+  text-align: center;
+  margin: 5px 0;
 }
-
+.paymentoption{
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  margin-left: 12px;
+  text-align: start;
+  
+}
+.paymentoption .title{
+  font-size: 17px;
+  text-align: start;
+  
+}
+.paymentoption .titledesc{
+  font-size: 13px;
+  margin-top: -10px;
+  background-color: #eeee;
+  padding: 2px 10px;
+  font-weight: 500;
+  color: #000;
+}
 
 .paytm_options{
   width: 100%;
