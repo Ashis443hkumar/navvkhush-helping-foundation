@@ -8,52 +8,95 @@ import Image from 'react-bootstrap/Image';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 
-export default function DebitCard(){
-  const [show, setShow] = useState(false);
+import Form from 'react-bootstrap/Form';
 
-  const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
+export default function DebitCard(){
+
   return(
     <>
      <section className="">
-     <Button variant="primary" onClick={handleShow}>
-        Launch demo modal
-      </Button>
-
-      <Modal show={show} onHide={handleClose}>
-        <Modal.Header closeButton>
-          <Modal.Title>Modal heading</Modal.Title>
-        </Modal.Header>
-        <Modal.Body>Woohoo, you are reading this text in a modal!</Modal.Body>
-        <Modal.Footer>
-          <Button variant="secondary" onClick={handleClose}>
-            Close
-          </Button>
-          <Button variant="primary" onClick={handleClose}>
-            Save Changes
-          </Button>
-        </Modal.Footer>
-      </Modal>
-
        <Container>
-         <p>Add New Card</p>
+        <Row >
+         <Col xs={12} lg={5} md={5} className="mx-auto bg-secondary p-3">
         <Row>
-         <Col xs={12} lg={8} md={8}> 
-         <span>Card Number</span>
-           <input type="number"/>
+         <Col xs={12} lg={8} md={8}>
+           <div className="card_desc">
+             <label htmlFor="">Card Number</label>
+             <input type="text" placeholder="3244 5544 45566" />
+           </div>
          </Col>
-         <Col xs={12} lg={4} md={4}>
-            <input type="number"/>
+         <Col xs={12} lg={4} md={4}> 
+           <div className="card_desc">
+             <label htmlFor="">Expiry </label>
+             <input type="text" placeholder="04/2028" />
+           </div>
+        </Col>
+
+         <Row className="mt-3">
+         <Col xs={12} lg={8} md={8}>
+           <div className="card_desc">
+             <label htmlFor="">Card Holder's Name</label>
+             <input type="text" placeholder="card holder name" />
+           </div>
+         </Col>
+         <Col xs={12} lg={4} md={4}> 
+           <div className="card_desc">
+             <label htmlFor="">CVV</label>
+             <input type="text" placeholder="347" />
+           </div>
+        </Col>
+         </Row>
+
+        </Row>
+         </Col>
+         {/* <Col xs={12} lg={6} md={6}> </Col> */}
+        </Row>
+       </Container>
+      </section>
+
+      <section className="mt-2">
+       <Container>
+        <Row>
+         <Col xs={12} lg={6} md={6} className="mx-auto bg-secondary p-3"> 
+        <Row>
+         <Col xs={12} lg={4} md={4} className="bg-white p-4">
+           HDFC Bank
+         </Col>
+         <Col xs={12} lg={4} md={4} className="bg-white p-4" style={{borderLeft:"1px solid #000", borderRight:"1px solid black"}}>
+           HDFC Bank
+         </Col>
+         <Col xs={12} lg={4} md={4} className="bg-white p-4">
+           HDFC Bank
          </Col>
         </Row>
-        <Row>
-         <Col xs={12} lg={8} md={8}> 
-           <input type="number"/>
+
+        <Row className="" style={{borderTop:"1px solid #000"}}>
+         <Col xs={12} lg={4} md={4} className="bg-white p-4">
+           HDFC Bank
          </Col>
-         <Col xs={12} lg={4} md={4}>
-            <input type="number"/>
+         <Col xs={12} lg={4} md={4} className="bg-white p-4" style={{borderLeft:"1px solid #000", borderRight:"1px solid black"}}>
+           HDFC Bank
+         </Col>
+         <Col xs={12} lg={4} md={4} className="bg-white p-4">
+           HDFC Bank
          </Col>
         </Row>
+        <Row className="mt-2">
+         <Col xs={12} lg={12} md={12}> 
+         <Form.Select aria-label="Default select example">
+          <option>Open this select menu</option>
+          <option value="1">One</option>
+          <option value="2">Two</option>
+          <option value="3">Three</option>
+        </Form.Select>
+         </Col>
+        </Row>
+
+
+         </Col>
+        </Row>
+       
+
        </Container>
       </section>
 

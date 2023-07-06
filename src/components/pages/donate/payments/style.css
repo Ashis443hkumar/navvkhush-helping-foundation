@@ -107,3 +107,13 @@
   border-radius: 5px;
   padding: 10px 90px;
 }
+
+/* debit card  */
+.card_desc{
+  display: flex;
+  flex-direction: column;
+
+}
+.card_desc::placeholder{
+  padding: 10px;
+}
