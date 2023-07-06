@@ -9,7 +9,6 @@ import Model from "./model/Model";
 import DonateBillAddress from "./model/DonateBillAddress";
 import HeroButton from "../../common/heroButton/HeroButton";
 import { Link , useNavigate} from "react-router-dom";
-import Button from 'react-bootstrap/Button';
 
 export default function Donate() {
 
@@ -22,7 +21,7 @@ export default function Donate() {
        <Container>
         <Row>
          <Col xs={12} lg={12} md={12} className="donate_content">
-         <Tabs defaultActiveKey="profile" id="justify-tab-example" className="mb-0 main_donate_title" fill >
+         <Tabs defaultActiveKey="home" id="justify-tab-example" className="mb-0 main_donate_title" fill >
           <Tab eventKey="home" title="SPONSOR A CHILD" className="home_title">
           <Row>
            <Col xs={12} lg={6} md={6}> 

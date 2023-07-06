@@ -6,6 +6,7 @@ import Row from 'react-bootstrap/Row';
 
 
 import Form from 'react-bootstrap/Form';
+import SelectOption from "./SelectOption";
 
 export default function DebitCard(){
 
@@ -124,7 +125,7 @@ export default function DebitCard(){
             <p>Phonepe</p>
           </div>
          <div className="ddddd">
-          <i class="fa-solid fa-check"></i>
+           <SelectOption/>
          </div>
          </Col>
 
@@ -134,7 +135,7 @@ export default function DebitCard(){
             <p>Google pay</p>
           </div>
          <div className="ddddd">
-          <i class="fa-solid fa-check"></i>
+            <SelectOption/>
          </div>
          </Col>
          <Col xs={12} lg={12} md={12} className="d_flex_center bg-white "  style={{borderTop:"1px solid #eee"}}> 
@@ -143,7 +144,7 @@ export default function DebitCard(){
             <p>Airtel payments banks</p>
           </div>
          <div className="ddddd">
-          <i class="fa-solid fa-check"></i>
+           <SelectOption/>
          </div>
          </Col>
 
@@ -153,7 +154,7 @@ export default function DebitCard(){
             <p>Jiomoney</p>
           </div>
          <div className="ddddd">
-          <i class="fa-solid fa-check"></i>
+           <SelectOption/>
          </div>
          </Col>
          <Col xs={12} lg={12} md={12} className="d_flex_center bg-white "  style={{borderTop:"1px solid #eee"}}> 
@@ -162,7 +163,7 @@ export default function DebitCard(){
             <p>Phonepey</p>
           </div>
          <div className="ddddd">
-          <i class="fa-solid fa-check"></i>
+           <SelectOption/>
          </div>
          </Col>
          <Col xs={12} lg={12} md={12} className="d_flex_center bg-white "  style={{borderTop:"1px solid #eee"}}> 
@@ -171,7 +172,7 @@ export default function DebitCard(){
             <p>Phonepey</p>
           </div>
          <div className="ddddd">
-          <i class="fa-solid fa-check"></i>
+           <SelectOption/>
          </div>
          </Col>
          <Col xs={12} lg={12} md={12} className="d_flex_center bg-white "  style={{borderTop:"1px solid #eee"}}> 
@@ -180,7 +181,7 @@ export default function DebitCard(){
             <p>Phonepey</p>
           </div>
          <div className="ddddd">
-          <i class="fa-solid fa-check"></i>
+           <SelectOption/>
          </div>
          </Col>
 

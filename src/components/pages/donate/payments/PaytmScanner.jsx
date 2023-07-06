@@ -10,6 +10,7 @@ import Modal from 'react-bootstrap/Modal';
 import "./style.css"
 import HeroButton from '../../../common/heroButton/HeroButton';
 import { useNavigate } from 'react-router-dom';
+import SelectOption from './SelectOption';
 
 
 export default function PaytmScanner() {
@@ -70,7 +71,7 @@ export default function PaytmScanner() {
                        <span>Wallet-mibikiwi</span>
                       </div>
                       <div>
-                      <i class="fa-solid fa-check"></i>
+                      <SelectOption/>
                       </div>
                     </div>
                   </Col>
